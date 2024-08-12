@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia';
 import axios from 'axios';
-const customerKey = import.meta.env.VITE_CUSTOMER_KEY;
-const customerSecret = import.meta.env.VITE_CUSTOMER_SECRET;
+const customerKey = process.env.VITE_CUSTOMER_KEY;
+const customerSecret = process.env.VITE_CUSTOMER_SECRET;
 export const useProductsStore = defineStore({
   id: 'products',
   state: () => ({

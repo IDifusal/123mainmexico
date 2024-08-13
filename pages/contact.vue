@@ -33,13 +33,13 @@
     <!-- contact-us-->
     <section class="contact-us overflow-hidden">
         <div class="contact-us__map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14600.157880481716!2d90.35107202273903!3d23.81719545680701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c12c1b289e39%3A0x8d3bdfb80d3ebe88!2sRd%20No.%204%2C%20Dhaka%201216!5e0!3m2!1sen!2sbd!4v1701837409513!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3264.8731184750504!2d-80.89024528797697!3d35.08490287267207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569c85f6128783%3A0x267453ed13abda94!2s123%20Main%20St%2C%20Pineville%2C%20NC%2028134%2C%20USA!5e0!3m2!1sen!2spe!4v1723576628802!5m2!1sen!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div class="container">
             <div class="contact-us__information-wrapper wow clip-a-z">
-            <h5 class="text-uppercase mb-10">Office Information</h5>
-            <p>Completely recapitalize 24/7 communities via standards compliant metrics whereas.</p>
+            <h5 class="text-uppercase mb-10">Restaurant Information</h5>
+            <p>Essential details about our restaurant, including location, hours, and contact information.</p>
 
             <div class="contact-us__information__item">
                 <div class="icon">

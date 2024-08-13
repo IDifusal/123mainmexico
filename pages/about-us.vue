@@ -37,8 +37,7 @@
                         <div class="about-2__content">
                             <div class="section__title-wrapper text-start mb-35 mb-xs-40">
                                 <span
-                                    class="section__subtitle section__subtitle-line-height justify-content-start mb-15 mb-xs-5 wow clip-a-z">About
-                                    Delish</span>
+                                    class="section__subtitle section__subtitle-line-height justify-content-start mb-15 mb-xs-5 wow clip-a-z">About 123 Main Mexico</span>
                                 <h2 class="section__title mb-0 title-animation">Delicious Food For Healthy Life</h2>
                             </div>
 

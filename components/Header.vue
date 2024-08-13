@@ -195,7 +195,7 @@
                                             <nuxt-link to="/shop">Menu</nuxt-link>
                                             <ul class="submenu">
                                                 <li>
-                                                    <nuxt-link to="/shop">Cart</nuxt-link>
+                                                    <nuxt-link to="/shop">Shop</nuxt-link>
                                                 </li>                                                
                                                 <li>
                                                     <nuxt-link to="/shop/cart">Cart</nuxt-link>

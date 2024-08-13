@@ -120,7 +120,7 @@
 
                         <div class="book-a-table__content-right">
                             <div class="book-a-table__content-media wow clip-a-z">
-                                <img class="img-fluid" src="http://123mainmexico.com/wp-content/uploads/2024/08/DSC06657-1.jpg" alt="image not found">
+                                <img class="img-fluid" src="http://123mainmexico.com/wp-content/uploads/2024/08/123-Main-Mexico-Mexican-Restaurant.png" alt="image not found">
                             </div>
                         </div>
                     </div>

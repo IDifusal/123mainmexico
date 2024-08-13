@@ -33,9 +33,9 @@
                             <div v-for="(item, index) in filteredMenu" :key="index"
                                 :class="['col-lg-4 col-sm-6 grid-item', item.category]">
                                 <div class="food-menu__item">
-                                    <a href="#" class="food-menu__item-media">
+                                    <nuxt-link :to="`/shop/${item.slug}`" class="food-menu__item-media">
                                         <img :src="item.image" class="img-fluid" :alt="item.name">
-                                    </a>
+                                    </nuxt-link>
 
                                     <div class="food-menu__item-text">
                                         <ul class="rating">
@@ -97,32 +97,36 @@ import { ref, computed } from 'vue';
 // Menu Data with Real Descriptions
 const menuItems = ref([
   {
-    name: 'Empanadas de camarón',
+    name: 'Fried Fish Red',
     category: 'appetizers',
+    slug: 'fried-fish-red',
     price: '$12.99',
-    description: 'Shrimp empanadas with sautéed onions and peppers.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    description: null,
+    image: 'https://123mainmexico.com/wp-content/uploads/2024/08/Fried-Fish-Red-Snapper-123-300x300.jpg'
   },
   {
-    name: 'Tostadas',
+    name: 'Huachinango House',
     category: 'appetizers',
+    slug: 'huachinango-house',
     price: '$16.99',
-    description: 'Corn tortilla crisp topped with seafood cooked in lime juice.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    description: null,
+    image: 'https://123mainmexico.com/wp-content/uploads/2024/08/Huachimango-House.jpg'
   },
   {
-    name: 'Cheese dip',
+    name: 'Camarones Botaneros',
     category: 'appetizers',
     price: '$9.99',
-    description: 'Melted cheese with fresh ingredients.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    slug: 'camarones-botaneros',
+    description: null,
+    image: 'https://123mainmexico.com/wp-content/uploads/2024/08/Camarones-Botaneros.png'
   },
   {
-    name: 'GUACAMOLE',
+    name: 'Las costillas del patron',
     category: 'appetizers',
+    slug: 'las-costillas-del-patron',
     price: '$12.99',
-    description: 'Fresh guacamole made with avocados, lime, and cilantro.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    description: null,
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/Las-Costillas-del-Patron.jpg'
   },
   {
     name: 'Grilled Octopus',
@@ -252,7 +256,7 @@ const filterMenu = (category) => {
 
 const filteredMenu = computed(() => {
     if (selectedCategory.value === 'all') {
-        return menuItems.value.slice(0, 9);
+        return menuItems.value.slice(0, 6);
     }
     return menuItems.value.filter(item => item.category === selectedCategory.value);
 });

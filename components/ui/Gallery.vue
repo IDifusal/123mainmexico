@@ -49,29 +49,33 @@
   
   const projects = ref([
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/DSC08067.png',
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-1.jpeg',
       altText: 'Project 1',
     },
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/DSC08041123.png',
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-2.jpeg',
       altText: 'Project 2',
     },
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/DSC08046123.png',
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-3.jpeg',
       altText: 'Project 3',
     },
     {
-      image: 'https://html.rrdevs.net/delish/assets/imgs/our-project/our-project__item-4.jpg',
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-4.jpeg',
       altText: 'Project 4',
     },
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/DSC08067.png',
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/galery-5.jpeg',
       altText: 'Project 1',
     },    
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/DSC08041123.png',
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-6.jpeg',
       altText: 'Project 2',
     },    
+    {
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-7.jpeg',
+      altText: 'Project 2',
+    },      
   ]);
   
   const lightboxVisible = ref(false);

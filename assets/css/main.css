@@ -33,3 +33,8 @@ color: var(--rr-theme-secondary);
 background-color: var(--rr-common-white);
 
 }
+.food-menu__item-media img{
+    height: 270px;
+    width: 270px;
+    object-fit: cover;
+}

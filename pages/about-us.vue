@@ -102,78 +102,13 @@
                 </div>
 
                 <div class="row g-24 mb-minus-24">
-                    <div class="col-lg-4 col-md-6">
+                    <div v-for="item in projects" class="col-lg-4 col-md-6">
                         <div class="food-gallery__item mb-24">
                             <div class="food-gallery__item-media">
-                                <img src="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-1.jpg" alt="image not found">
+                                <img :src="item.image" alt="image not found">
                             </div>
                             <div class="food-gallery__item-hover">
-                                <a href="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-1.jpg"
-                                    class="food-gallery__item-hover-icon popup-image">
-                                    <i class="fa-regular fa-eye"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="food-gallery__item mb-24">
-                            <div class="food-gallery__item-media">
-                                <img src="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-2.jpg" alt="image not found">
-                            </div>
-                            <div class="food-gallery__item-hover">
-                                <a href="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-2.jpg"
-                                    class="food-gallery__item-hover-icon popup-image">
-                                    <i class="fa-regular fa-eye"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="food-gallery__item mb-24">
-                            <div class="food-gallery__item-media">
-                                <img src="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-3.jpg" alt="image not found">
-                            </div>
-                            <div class="food-gallery__item-hover">
-                                <a href="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-3.jpg"
-                                    class="food-gallery__item-hover-icon popup-image">
-                                    <i class="fa-regular fa-eye"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="food-gallery__item mb-24">
-                            <div class="food-gallery__item-media">
-                                <img src="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-4.jpg" alt="image not found">
-                            </div>
-                            <div class="food-gallery__item-hover">
-                                <a href="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-4.jpg"
-                                    class="food-gallery__item-hover-icon popup-image">
-                                    <i class="fa-regular fa-eye"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="food-gallery__item mb-24">
-                            <div class="food-gallery__item-media">
-                                <img src="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-5.jpg" alt="image not found">
-                            </div>
-                            <div class="food-gallery__item-hover">
-                                <a href="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-5.jpg"
-                                    class="food-gallery__item-hover-icon popup-image">
-                                    <i class="fa-regular fa-eye"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="food-gallery__item mb-24">
-                            <div class="food-gallery__item-media">
-                                <img src="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-6.jpg" alt="image not found">
-                            </div>
-                            <div class="food-gallery__item-hover">
-                                <a href="https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-6.jpg"
+                                <a 
                                     class="food-gallery__item-hover-icon popup-image">
                                     <i class="fa-regular fa-eye"></i>
                                 </a>
@@ -185,64 +120,38 @@
         </section>
         <!--  food-gallery-->
 
-        <!--  discover-food-->
-        <section class="discover-food section-space">
-            <div class="container">
-                <div class="row g-24">
-                    <div class="col-12">
-                        <div class="section__title-wrapper text-center mb-70 mb-sm-50 mb-xs-40">
-                            <span class="section__subtitle justify-content-center mb-10 mb-xs-5 wow clip-a-z">Discover
-                                Food</span>
-                            <h2 class="section__title mb-10 mb-xs-5 title-animation">Discover Our Category</h2>
-                            <div class="dot-shpae wow clip-a-z"><img class="img-fluid"
-                                    src="https://html.rrdevs.net/delish/assets/imgs/section-title/dot-shape.svg" alt="not found"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row g-24 mb-minus-40">
-                    <div class="col-xl-4 col-sm-6">
-                        <div class="discover-food__item discover-food__item-left mb-40">
-                            <a href="shop.html" class="discover-food__item-media d-block mb-25">
-                                <img src="https://html.rrdevs.net/delish/assets/imgs/discover-food/discover-food__item-1.jpg" class="img-fluid"
-                                    alt="image not found">
-                            </a>
-                            <h5 class="discover-food__item-title text-center mb-10"><a href="shop.html">Quality
-                                    Chees</a></h5>
-                            <p>Consectetur adipiscing elit quisque eget maximus velit, non eleifend libero curabitur
-                                dapibus mauris sed leo cursus</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-sm-6">
-                        <div class="discover-food__item mb-40">
-                            <a href="shop.html" class="discover-food__item-media d-block mb-25">
-                                <img src="https://html.rrdevs.net/delish/assets/imgs/discover-food/discover-food__item-2.jpg" class="img-fluid"
-                                    alt="image not found">
-                            </a>
-                            <h5 class="discover-food__item-title text-center mb-10"><a href="shop.html">Crunchi French
-                                    Fry</a></h5>
-                            <p>Consectetur adipiscing elit quisque eget maximus velit, non eleifend libero curabitur
-                                dapibus mauris sed leo cursus</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-sm-6">
-                        <div class="discover-food__item discover-food__item-right mb-40">
-                            <a href="shop.html" class="discover-food__item-media d-block mb-25">
-                                <img src="https://html.rrdevs.net/delish/assets/imgs/discover-food/discover-food__item-3.jpg" class="img-fluid"
-                                    alt="image not found">
-                            </a>
-                            <h5 class="discover-food__item-title text-center mb-10"><a href="shop.html">100% Halal
-                                    Meat</a></h5>
-                            <p>Consectetur adipiscing elit quisque eget maximus velit, non eleifend libero curabitur
-                                dapibus mauris sed leo cursus</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 </template>
 
 <script setup>
-
+  const projects = ref([
+    {
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-1.jpeg',
+      altText: 'Project 1',
+    },
+    {
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-2.jpeg',
+      altText: 'Project 2',
+    },
+    {
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-3.jpeg',
+      altText: 'Project 3',
+    },
+    {
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-4.jpeg',
+      altText: 'Project 4',
+    },
+    {
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/galery-5.jpeg',
+      altText: 'Project 1',
+    },    
+    {
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-6.jpeg',
+      altText: 'Project 2',
+    },    
+    {
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-7.jpeg',
+      altText: 'Project 2',
+    },      
+  ]);
 </script>

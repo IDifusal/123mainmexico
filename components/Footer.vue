@@ -82,7 +82,7 @@
 
                             <div class="footer-2__link footer-2__link-16">
                                 <ul>
-                                    <li style="color:white">Mon-Sun: 9a-10p</li>
+                                    <li style="color:white">Mon-Sun: 9:00 am -10:00 pm</li>
                                 </ul>
                             </div>
                         </div>

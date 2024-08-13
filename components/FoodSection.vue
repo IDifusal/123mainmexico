@@ -15,12 +15,12 @@
                         <div class="food-menu__tab masonary-menu">
                             <button @click="filterMenu('all')" :class="{ active: selectedCategory === 'all' }">All
                                 Food</button>
-                            <button @click="filterMenu('breakfast')"
-                                :class="{ active: selectedCategory === 'breakfast' }">Breakfast</button>
+                            <button @click="filterMenu('appetizers')"
+                                :class="{ active: selectedCategory === 'appetizers' }">Appetizers</button>
                             <button @click="filterMenu('lunch')"
                                 :class="{ active: selectedCategory === 'lunch' }">Lunch</button>
-                            <button @click="filterMenu('dinner')"
-                                :class="{ active: selectedCategory === 'dinner' }">Dinner</button>
+                            <button @click="filterMenu('bar')"
+                                :class="{ active: selectedCategory === 'bar' }">Bar</button>
                         </div>
                     </div>
                 </div>
@@ -96,49 +96,120 @@ import { ref, computed } from 'vue';
 
 // Menu Data with Real Descriptions
 const menuItems = ref([
-    {
-        name: 'Grilled Octopus',
-        category: 'dinner',
-        price: '$29.99',
-        description: 'Grilled with butter house, potato, salad, and chef house adobo.',
-        image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
-    },
-    {
-        name: 'Aguachiles',
-        category: 'lunch',
-        price: '$19.99',
-        description: 'Shrimp cooked in lime juice and your choice of sauce: Traditional green, Mango, Red, Mixed.',
-        image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
-    },
-    {
-        name: 'Molcajete del Mar',
-        category: 'dinner',
-        price: '$48.00',
-        description: 'Grilled shrimp, tilapia, and mojarra frita topped with chef sauce.',
-        image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
-    },
-    {
-        name: 'Paella',
-        category: 'breakfast',
-        price: '$39.99',
-        description: 'Yellow rice in paella style with a mix of seafood.',
-        image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
-    },
-    {
-        name: 'Fried Fish',
-        category: 'lunch',
-        price: '$22.99',
-        description: 'Fried whole fish with your choice of house spicy sauce.',
-        image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
-    },
-    {
-        name: 'Pasta Alfredo con Camarón',
-        category: 'dinner',
-        price: '$35.00',
-        description: 'Pasta in Alfredo cream sauce with shrimp.',
-        image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
-    }
+  {
+    name: 'Empanadas de camarón',
+    category: 'appetizers',
+    price: '$12.99',
+    description: 'Shrimp empanadas with sautéed onions and peppers.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Tostadas',
+    category: 'appetizers',
+    price: '$16.99',
+    description: 'Corn tortilla crisp topped with seafood cooked in lime juice.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Cheese dip',
+    category: 'appetizers',
+    price: '$9.99',
+    description: 'Melted cheese with fresh ingredients.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'GUACAMOLE',
+    category: 'appetizers',
+    price: '$12.99',
+    description: 'Fresh guacamole made with avocados, lime, and cilantro.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Grilled Octopus',
+    category: 'lunch',
+    price: '$29.99',
+    description: 'Grilled with butter house, potato, salad, and chef house adobo.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Aguachiles',
+    category: 'lunch',
+    price: '$19.99',
+    description: 'Shrimp cooked in lime juice with your choice of sauce.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Paella',
+    category: 'lunch',
+    price: '$48.00',
+    description: 'Traditional Spanish dish with a mix of seafood and yellow rice.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Molcajete del mar',
+    category: 'lunch',
+    price: '$39.99',
+    description: 'Grilled shrimp, tilapia, and mojarra frita topped with chef sauce.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Filete fish 123',
+    category: 'lunch',
+    price: '$22.00',
+    description: 'Grilled fish filet served with a house sauce.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Arrachera',
+    category: 'lunch',
+    price: '$24.00',
+    description: 'Grilled skirt steak served with house sides.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Hartford Court Chardonnay Rrv',
+    category: 'bar',
+    price: '$60.00',
+    description: 'Elegant wine with rich flavors.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Jordan Cabernet Sauvignon',
+    category: 'bar',
+    price: '$105.00',
+    description: 'A full-bodied wine with notes of dark fruit.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'La Crema Pinot Noir Willamette',
+    category: 'bar',
+    price: '$35.00',
+    description: 'Delicate and smooth, perfect for any occasion.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Long Island iced tea',
+    category: 'bar',
+    price: '$13.99',
+    description: 'Rum, tequila, vodka, gin, triple sec, sour mix, and splash of coke.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Mojito',
+    category: 'bar',
+    price: '$12.99',
+    description: 'White rum, leaves of mint, club soda, lime juice, and sugar.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  },
+  {
+    name: 'Skinny Margarita',
+    category: 'bar',
+    price: '$14.99',
+    description: 'Low-calorie margarita made with fresh lime juice and agave nectar.',
+    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+  }
 ]);
+
 
 const sideDishes = ref([
     {
@@ -158,13 +229,13 @@ const sideDishes = ref([
     },
     {
         name: 'Cheese Dip (Melted Cheese)',
-        description: 'Shrimps $12.99 or Beans $9.99',
-        price: null
+        description: 'Shrimps or Beans ',
+        price: "$12.99"
     },
     {
         name: 'Guacamole (Fresh Made)',
-        description: 'Shrimp $16.99 or Chicharron $21.99',
-        price: null,
+        description: 'Shrimp or Chicharron',
+        price: '$21.99',
     },
     {
         name: 'Chicharron Lonja',
@@ -181,7 +252,7 @@ const filterMenu = (category) => {
 
 const filteredMenu = computed(() => {
     if (selectedCategory.value === 'all') {
-        return menuItems.value;
+        return menuItems.value.slice(0, 9);
     }
     return menuItems.value.filter(item => item.category === selectedCategory.value);
 });

@@ -3,7 +3,7 @@
 <main>
     <!-- Breadcrumb area start  -->
     <div class="breadcrumb__area breadcrumb-space overly theme-bg-secondary overflow-hidden">
-        <div class="breadcrumb__background" data-background="https://html.rrdevs.net/delish/assets/imgs/breadcrumb/page-header-1.png"></div>
+        <div class="breadcrumb__background" v-background data-background="https://html.rrdevs.net/delish/assets/imgs/breadcrumb/page-header-1.png"></div>
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
@@ -47,8 +47,8 @@
                 </div>
                 <div class="text">
                     <span>Phone Number & Email</span>
-                    <a href="tel:+310259121563">+(310) 2591 21563</a>
-                    <a href="mailto:help-delish@gmail.com">help-delish@gmail.com</a>
+                    <a href="tel:(704) 889-1236">(704) 889-1236</a>
+                    <a href="mailto:reservations@123mainmexico.com">reservations@123mainmexico.com</a>
                 </div>
             </div>
             <div class="contact-us__information__item">
@@ -57,7 +57,9 @@
                 </div>
                 <div class="text">
                     <span>Our Office Address</span>
-                    <a href="https://maps.app.goo.gl/1N77c8d8zieLRaot7">258 Dancing Street, Miland Line, <br>HUYI 21563, NewYork</a>
+                    <a href="https://maps.app.goo.gl/1N77c8d8zieLRaot7">
+                        123 Main St, Pineville, NC 28134
+                    </a>
                 </div>
             </div>
             <div class="contact-us__information__item">
@@ -148,21 +150,6 @@
 <!-- Body main wrapper end -->
 
 <!-- cta area start -->
-<section class="cta-2" data-background="https://html.rrdevs.net/delish/assets/imgs/cta-2/cta.jpg">
-    <div class="container">
-        <div class="row g-24">
-            <div class="col-12">
-                <div class="cta-2__content">
-                    <div class="cta-2__content-text">
-                        <span class="text-uppercase">Book A Table For Your and Family Members</span>
-                        <h3 class="text-uppercase title-animation"><a href="reservation.html">Need A Table On Coffee House</a></h3>
-                    </div>
-                    <a class="btn-book" href="blog-details.html">Book A Table</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 </template>
 
 <script setup>

@@ -1,0 +1,35 @@
+#how-many-person{
+    -webkit-box-sizing: border-box;
+box-sizing: border-box;
+clear: both;
+cursor: pointer;
+display: block;
+float: left;
+outline: none;
+position: relative;
+text-align: left;
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+white-space: nowrap;
+width: 100%;
+z-index: inherit;
+padding-left: 25px;
+padding-right: 45px;
+padding-top: 14px;
+padding-bottom: 14px;
+border: none;
+height: 50px;
+font-family: var(--rr-ff-jost);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+border-radius: 0px;
+color: var(--rr-theme-secondary);
+background-color: var(--rr-common-white);
+
+}

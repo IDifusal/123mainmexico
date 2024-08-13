@@ -19,7 +19,7 @@ export const useProductsStore = defineStore({
     addToCart(product) {
       const cartItem = this.cart.find(item => item.id === product.id);
       if (cartItem) {
-        cartItem.quantity += product.quantity; // Assuming product has a quantity property
+        cartItem.quantity += product.quantity; 
       } else {
         this.cart.push({ ...product, quantity: product.quantity || 1 });
       }
@@ -30,7 +30,7 @@ export const useProductsStore = defineStore({
     },
     async fetchProducts() {
         if (this.products.length > 0) {
-            return; // Exit if blogs array already has content
+            return; 
           }
         this.loading = true;
         try {

@@ -6,11 +6,14 @@ export default defineNuxtConfig({
     '~/assets/css/icones.css',
     '~/assets/css/bootstrap.css',
     '~/assets/css/spacing.css',
+    '~/assets/css/main.css'
   ],
   plugins: [
     '~/plugins/script',
+    '~/plugins/backgroundImage'
   ],
   modules:[
     '@pinia/nuxt',
+    'nuxt-swiper'
   ]
 })

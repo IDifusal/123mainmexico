@@ -69,17 +69,17 @@
   
   const slides = [
     {
-      background: 'http://123mainmexico.com/wp-content/uploads/2024/08/DSC08067.png',
+      background: 'http://123mainmexico.com/wp-content/uploads/2024/08/Mexican-Food-01-123-Main-Mexico.png',
       title: ['Fresh Coastal Flavors Authentic', ' Mexican Experience'],
       subtitle: '123 Main Mexico',
     },
     {
-      background: 'http://123mainmexico.com/wp-content/uploads/2024/08/DSC08041123.png',
+      background: 'http://123mainmexico.com/wp-content/uploads/2024/08/Mexican-Food-02-123-Main-Mexico.png',
       title: ["Taste Mexico's", 'Best in Town'],
       subtitle: '123 Main Mexico',
     },
     {
-      background: 'http://123mainmexico.com/wp-content/uploads/2024/08/DSC08046123.png',
+      background: 'http://123mainmexico.com/wp-content/uploads/2024/08/Mexican-Food-03-123-Main-Mexico.png',
       title: ["⁠Discover Delicious", 'Mexican Flavors'],
       subtitle: '123 Main Mexico',
     }    
@@ -120,7 +120,8 @@
     border: 2px solid #ff6347; /* Example border color for active thumbnail */
   }
   .center-controlls{
-    margin:0px
+    margin:0px;
+    bottom:107px;
   }
   </style>
   

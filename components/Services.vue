@@ -28,8 +28,8 @@
                         </nuxt-link>
 
                         <div class="our-service__item-content">
-                            <h5 class="mb-15 text-uppercase">
-                                <nuxt-link :to="service.link" v-html="service.title"></nuxt-link>
+                            <h5 class="mb-15 text-uppercase title-services">
+                                <nuxt-link :to="service.link" >{{ service.title }}</nuxt-link>
                             </h5>
                             <p class="mb-30">{{ service.description }}</p>
 
@@ -69,18 +69,23 @@ const services = ref([
         link: '',
     },
     {
-        title: 'Party<br> Reservations',
+        title: 'Party  Reservations',
         description: 'Celebrate in Style at 123 Main Mexico: Your Premier Event Venue in Pineville, NC',
         image: 'http://123mainmexico.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-12-at-16.20.13.jpeg',
         alt: 'Buffet Service Image',
         link: '',
     },
     {
-        title: 'Buffet <br>Service',
+        title: 'Buffet Service',
         description: 'At 123 Main Mexico, we believe that dining should be an experience that satisfies',
-        image: 'https://html.rrdevs.net/delish/assets/imgs/service/our-service__item-3.jpg',
+        image: 'http://123mainmexico.com/wp-content/uploads/2024/08/seafood-spread-luxury-buffet-perfect-gourmet-dining-1.jpg',
         alt: 'Party Service Image',
         link: '',
     },
 ]);
 </script>
+<style scoped>
+.title-services{
+    min-height: 60px;
+}
+</style>

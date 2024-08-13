@@ -6,7 +6,7 @@
                     <div class="section__title-wrapper text-center text-xl-start">
                         <span class="section__subtitle justify-content-start mb-10 mb-xs-5 wow clip-a-z">Food
                             Menu</span>
-                        <h2 class="section__title mb-0 title-animation">Our Delicious Foods</h2>
+                        <h2 class="section__title mb-0 title-animation">Our Delicious Dishes</h2>
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -47,6 +47,7 @@
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -54,7 +55,7 @@
                 <div class="col-xl-4">
                     <div class="food-menu__price-nav">
                         <div class="food-menu__price-nav__media">
-                            <img src="http://123mainmexico.com/wp-content/uploads/2024/08/DSC08067.png"
+                            <img src="http://123mainmexico.com/wp-content/uploads/2024/08/DSC08041123.png"
                                 class="img-fluid" alt="image not found">
                         </div>
 
@@ -66,12 +67,9 @@
                                 </div>
                                 <span class="price">{{ item.price }}</span>
                             </li>
-                        </ul>
+                        </ul>                        
                     </div>
-                </div>
-            </div>
-
-            <nuxt-link to="/shop" class="rr-btn rr-btn__red">
+                    <nuxt-link to="/shop" class="rr-btn rr-btn__red">
                                 <span class="hover-rl"></span>
                                 <span class="fake_hover"></span>
                                 <span class="btn-wrap">
@@ -86,7 +84,9 @@
                                             alt="not found" />
                                     </span>
                                 </span>
-                            </nuxt-link>            
+                            </nuxt-link>                       
+                </div>
+            </div>         
         </div>
     </section>
 </template>
@@ -142,34 +142,34 @@ const menuItems = ref([
 
 const sideDishes = ref([
     {
-        name: 'Braised Short Ribs',
-        description: 'Grilled ribs cooked to perfection with a savory sauce.',
-        price: '$15.00',
+        name: 'Fritura Marina ',
+        description: 'Fried shrimp, calamari and octopus.',
+        price: '$16.99',
     },
     {
-        name: 'Roasted Vegetable Platter',
-        description: 'A variety of roasted vegetables served with a light seasoning.',
-        price: '$22.00',
+        name: 'Empanadas de Camarón',
+        description: 'Empanada dough filled with shrimp sauteed onions and pepper.',
+        price: '$12.99',
     },
     {
-        name: 'Classic Caesar Salad',
-        description: 'Crisp romaine lettuce, parmesan, and house-made Caesar dressing.',
-        price: '$58.00',
+        name: 'Roca Shrimp',
+        description: 'Tempurized and covered in sweet and sour sauce',
+        price: '$12.99',
     },
     {
-        name: 'Szechuan Beef Stir-Fry',
-        description: 'Beef stir-fried with Szechuan spices and vegetables.',
-        price: '$78.00',
+        name: 'Cheese Dip (Melted Cheese)',
+        description: 'Shrimps $12.99 or Beans $9.99',
+        price: null
     },
     {
-        name: 'Vegan Buddha Bowl',
-        description: 'A colorful mix of fresh vegetables, grains, and a light dressing.',
-        price: '$63.00',
+        name: 'Guacamole (Fresh Made)',
+        description: 'Shrimp $16.99 or Chicharron $21.99',
+        price: null,
     },
     {
-        name: 'Herb-Crusted Salmon',
-        description: 'Salmon fillet crusted with fresh herbs, served with a lemon butter sauce.',
-        price: '$18.00',
+        name: 'Chicharron Lonja',
+        description: 'Fried Robalo pieces with chef sauce.',
+        price: '$12.99',
     }
 ]);
 

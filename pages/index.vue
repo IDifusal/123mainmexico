@@ -14,14 +14,14 @@
             <div class="row g-24 align-items-center">
                 <div class="col-lg-6">
                     <div class="about-our-company__media wow clip-a-z">
-                        <img class="img-fluid" src="http://123mainmexico.com/wp-content/uploads/2024/08/DSC01115.jpg" alt="About 123 Main Mexic">
+                        <img class="img-fluid" src="http://123mainmexico.com/wp-content/uploads/2024/08/Best-Mexican-Restoruant-in-Pineville.png" alt="About 123 Main Mexic">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="section__title-wrapper about-our-company__content">
                         <span class="section__subtitle justify-content-center mb-20 mb-xs-15 wow clip-a-z">About 123 Main Mexico</span>
                         <h2 class="section__title section__title-line-height-50 mb-35 mb-xs-30 title-animation">Welcome to the Best Mexican Restaurant</h2>
-                        <p class="mb-40 mb-xs-30 section__p-18">Located in the heart of Panville, just 18 minutes from Charlotte, 123 offers a delicious variety of coastal Mexican dishes and chef specialties like ribs. Enjoy refreshing drinks and a cozy atmosphere, perfect for family, couples, or solo dining. The restaurant features indoor seating and charming terraces for a memorable dining experience.</p>
+                        <p class="mb-40 mb-xs-30 section__p-18">Located in the heart of Pineville, just 18 minutes from Charlotte, 123 Main Mexico offers a delicious variety of coastal Mexican dishes and chef specialties like ribs. Enjoy refreshing drinks and a cozy atmosphere, perfect for family, couples, or solo dining. The restaurant features indoor seating and charming terraces for a memorable dining experience.</p>
 
                         <div class="about-our-company__content-btn">
                             <div class="about-our-company__content-btn-icon">

@@ -18,7 +18,7 @@
   
       <Swiper
         :modules="[SwiperAutoplay]"
-        :slides-per-view="4"
+        :slides-per-view="5"
         :space-between="24"
         loop
         class="our-project__slider"
@@ -67,6 +67,10 @@
     {
       image: 'http://123mainmexico.com/wp-content/uploads/2024/08/DSC08067.png',
       altText: 'Project 1',
+    },    
+    {
+      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/DSC08041123.png',
+      altText: 'Project 2',
     },    
   ]);
   

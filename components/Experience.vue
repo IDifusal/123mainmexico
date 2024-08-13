@@ -21,7 +21,7 @@
               </div>
   
               <div class="experience__item" ref="teamMembersRef">
-                <p><span class="odometer">{{ teamMembers }} + </span> <span>Satisfied<br>Customers </span></p>
+                <p><span class="odometer">+{{ teamMembers }} </span> <span>Satisfied<br>Customers </span></p>
               </div>
             </div>
           </div>

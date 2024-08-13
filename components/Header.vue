@@ -143,7 +143,7 @@
                         <div class="col-xxl-6 col-4">
                             <div class="last_no_bullet">
                                 <ul class="header__top-menu d-flex">
-                                    <li>Mon-Sun: 9a-10p</li>
+                                    <li>Mon-Sun: 9:00 am - 10:00 pm</li>
                                     <!-- <li>Thurs-Sat: 11a-10p</li> -->
                                 </ul>
                             </div>

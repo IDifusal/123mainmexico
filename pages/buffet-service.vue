@@ -130,71 +130,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="sidebar__widget section-bg-2">
-                  <h4 class="sidebar__widget-title">Recent Posts</h4>
-                  <div class="sidebar-post__wrapper">
-                    <div class="sidebar__widget-post">
-                      <a href="blog-details.html" class="sidebar__widget-post__thum">
-                        <img src="https://html.rrdevs.net/delish/assets/imgs/sidebar/popular-post-1.png"
-                          class="img-fluid" alt="image not found">
-                      </a>
-                      <div class="sidebar__widget-post__content">
-                        <ul class="sidebar__widget-post__content-meta">
-                          <li>
-                            <a href="blog-details.html">
-                              <i class="fa-light fa-circle-user"></i>
-                              by David Smith
-                            </a>
-                          </li>
-                        </ul>
-                        <a href="blog-details.html">
-                          <h5 class="sidebar__widget-post__content-title">Craftsmanship of Artisanal Foods in
-                            Restaurants</h5>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="sidebar__widget-post">
-                      <a href="blog-details.html" class="sidebar__widget-post__thum">
-                        <img src="https://html.rrdevs.net/delish/assets/imgs/sidebar/popular-post-2.png"
-                          class="img-fluid" alt="image not found">
-                      </a>
-                      <div class="sidebar__widget-post__content">
-                        <ul class="sidebar__widget-post__content-meta">
-                          <li>
-                            <a href="blog-details.html">
-                              <i class="fa-light fa-circle-user"></i>
-                              by David Smith
-                            </a>
-                          </li>
-                        </ul>
-                        <a href="blog-details.html">
-                          <h5 class="sidebar__widget-post__content-title">Restaurants Are Adapting to Changing Dietary
-                            Trends</h5>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="sidebar__widget-post">
-                      <a href="blog-details.html" class="sidebar__widget-post__thum">
-                        <img src="https://html.rrdevs.net/delish/assets/imgs/sidebar/popular-post-3.png"
-                          class="img-fluid" alt="image not found">
-                      </a>
-                      <div class="sidebar__widget-post__content">
-                        <ul class="sidebar__widget-post__content-meta">
-                          <li>
-                            <a href="blog-details.html">
-                              <i class="fa-light fa-circle-user"></i>
-                              by David Smith
-                            </a>
-                          </li>
-                        </ul>
-                        <a href="blog-details.html">
-                          <h5 class="sidebar__widget-post__content-title">Passion and Perseverance from Renowned Chefs
-                          </h5>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+<recent-posts/>
                 <div class="sidebar__widget section-bg-2">
                   <h4 class="sidebar__widget-title">Gallery</h4>
                   <div class="sidebar__widget-gallery">

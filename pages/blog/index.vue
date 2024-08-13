@@ -76,24 +76,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="sidebar__widget section-bg-2">
-                                    <h4 class="sidebar__widget-title">Recent Posts</h4>
-                                    <div class="sidebar-post__wrapper">
-                                        <div v-for="recentPost in posts" :key="recentPost.id"
-                                            class="sidebar__widget-post">
-                                            <a :href="'/blog/' + recentPost.slug" class="sidebar__widget-post__thum">
-                                                <img :src="recentPost.featured_image_src" class="img-fluid"
-                                                    alt="image not found">
-                                            </a>
-                                            <div class="sidebar__widget-post__content">
-                                                <a :href="'/blog/' + recentPost.slug">
-                                                    <h5 class="sidebar__widget-post__content-title">{{
-                                                        recentPost.title.rendered }}</h5>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <recent-posts/>
                             </div>
                         </div>
                     </div>

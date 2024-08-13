@@ -61,6 +61,30 @@ export const useProductsStore = defineStore({
           }
         ]
       },
+      {
+        name:"Molcajete del mar",
+        category:"appetizers",
+        slug:"molcajete-del-mar",
+        price:"$39.99",
+        image:"http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg",
+        images:[
+          {
+            src: 'http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg',
+          }
+        ]
+      },
+      {
+        name:"Molcajete House",
+        slug:"molcajete-house",
+        category:"appetizers",
+        price:"$39.99",
+        image:"http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png",
+        images:[
+          {
+            src: 'http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png',
+          }
+        ] 
+      }
     ]
     
   }),

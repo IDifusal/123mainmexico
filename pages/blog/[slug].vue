@@ -43,14 +43,14 @@
 
                 <div v-html="post.content.rendered"></div>
 
-                <blockquote>
+                <!-- <blockquote>
                   <span class="icon"><img src="https://html.rrdevs.net/delish/assets/imgs/blog-details/quote.png"
                       alt="image not found"></span>
                   <p>“We offer competitive pricing and deliver exceptional value for your investment our goal is to help
                     you achieve the highest”</p>
                   <h5>William Benjamin</h5>
                   <span>Top Author</span>
-                </blockquote>
+                </blockquote> -->
               </div>
 
               <div

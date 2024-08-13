@@ -87,7 +87,7 @@
 <p>In light of ongoing health concerns, 123 Main Mexico adheres to stringent safety measures to ensure the well-being of all guests. Regular sanitization, staff health checks, and flexible seating to allow for social distancing are part of our commitment to a safe celebration environment.</p>
 
 <h3>Get in Touch</h3>
-<p>Ready to host an unforgettable event? Contact 123 Main Mexico today to begin planning. Call us at [Phone Number] or email [Email Address]. Let us provide the perfect backdrop for your next celebration in Pineville, NC.</p>
+<p>Ready to host an unforgettable event? Contact 123 Main Mexico today to begin planning. Call us at (704) 889-1236 or email Reservations@123mainmexico.com. Let us provide the perfect backdrop for your next celebration in Pineville, NC.</p>
 
          </div>
 <!-- 

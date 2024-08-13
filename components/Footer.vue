@@ -16,6 +16,10 @@
                             <div class="footer-2__content mb-30 mb-xs-25">
                                 <p class="mb-0">123 Main St, Pineville, NC
                                     28134</p>
+                                    <br>
+                                    <p class="mb-0"> (704) 889-1236</p>
+                                    <br>
+                                    <p class="mb-0">reservations@123mainmexico.com </p>
                             </div>
 
                             <div class="footer-2__social">
@@ -44,12 +48,28 @@
 
                             <div class="footer-2__link">
                                 <ul>
-                                    <li><a href="about-us.html"><i class="fa-regular fa-arrow-right"></i>About Us</a></li>
-                                    <li><a href="team.html"><i class="fa-regular fa-arrow-right"></i>Meet our team</a></li>
-                                    <li><a href="blog-details.html"><i class="fa-regular fa-arrow-right"></i>Case stories</a></li>
-                                    <li><a href="blog.html"><i class="fa-regular fa-arrow-right"></i>Latest News</a></li>
-                                    <li><a href="contact-us.html"><i class="fa-regular fa-arrow-right"></i>Contact</a></li>
-                                </ul>
+                                        <li class="has-mega-menu active">
+                                            <nuxt-link to="/">Home</nuxt-link>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <ul class="submenu">
+                                                <li>
+                                                    <nuxt-link to="/about-us">About Us</nuxt-link>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <nuxt-link to="/shop">Menu</nuxt-link>
+                                        </li>
+                                        <li class="">
+                                            <nuxt-link to="/blog">Blog</nuxt-link>
+                                        </li>
+                                        <li>
+                                            <nuxt-link to="/contact">
+                                                contact
+                                            </nuxt-link>
+                                        </li>
+                                    </ul>
                             </div>
                         </div>
                     </div>
@@ -57,16 +77,12 @@
                     <div class="col-lg-3 col-6">
                         <div class="footer-2__widget footer-2__widget-item-3">
                             <div class="footer-2__widget-title">
-                                <h4>BEST FOOD MENU</h4>
+                                <h4>Working Hours</h4>
                             </div>
 
                             <div class="footer-2__link footer-2__link-16">
                                 <ul>
-                                    <li><a href="menu.html"><i class="fa-regular fa-arrow-right"></i>White Castle</a></li>
-                                    <li><a href="menu.html"><i class="fa-regular fa-arrow-right"></i>Beef Sandwich</a></li>
-                                    <li><a href="menu.html"><i class="fa-regular fa-arrow-right"></i>Cherry Limeade</a></li>
-                                    <li><a href="menu.html"><i class="fa-regular fa-arrow-right"></i>Wendy’s Frosty</a></li>
-                                    <li><a href="menu.html"><i class="fa-regular fa-arrow-right"></i>Pumpkin Spice</a></li>
+                                    <li style="color:white">Mon-Sun: 9a-10p</li>
                                 </ul>
                             </div>
                         </div>
@@ -83,7 +99,7 @@
 
                                 <div class="footer-2__subscribe d-flex mt-30 mt-xs-25">
                                     <input type="text" placeholder="Email Address">
-                                    <button type="submit" class="footer-2__subscribe-btn"><img src="https://html.rrdevs.net/delish/imgs/icon/plane.svg" alt="not found"></button>
+                                    <button type="submit" class="footer-2__subscribe-btn"><img src="https://html.rrdevs.net/delish/assets/imgs/icon/plane.svg" alt="not found"></button>
                                 </div>
                             </div>
                         </div>
@@ -98,7 +114,7 @@
                     <div class="row g-24">
                         <div class="col-lg-6">
                             <div class="footer-2__copyright text-lg-start text-center">
-                                <p class="mb-0">All rights received 2024. <a href="index.html">Delish</a> Restaurant</p>
+                                <p class="mb-0">All rights received 2024.</p>
                             </div>
                         </div>
 

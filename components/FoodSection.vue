@@ -70,6 +70,23 @@
                     </div>
                 </div>
             </div>
+
+            <nuxt-link to="/shop" class="rr-btn rr-btn__red">
+                                <span class="hover-rl"></span>
+                                <span class="fake_hover"></span>
+                                <span class="btn-wrap">
+                                    <span class="text-one">
+                                        View Full Menu
+                                        <img src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right-2.svg"
+                                            alt="not found" />
+                                    </span>
+                                    <span class="text-two">
+                                        View Full Menu
+                                        <img src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right-2.svg"
+                                            alt="not found" />
+                                    </span>
+                                </span>
+                            </nuxt-link>            
         </div>
     </section>
 </template>

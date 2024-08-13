@@ -68,8 +68,7 @@
                 </div>
                 <div class="text">
                     <span>Official Work Time</span>
-                    <div>7:00am - 6:00pm ( Mon - Fri )</div>
-                    <div class="holiday">Sat, Sun & <span>Holiday Closed</span></div>
+                    <div>Mon-Sun: 9:00 am -10:00 pm</div>
                 </div>
             </div>
         </div>

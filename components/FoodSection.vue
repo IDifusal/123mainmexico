@@ -69,7 +69,7 @@
                             </li>
                         </ul>                        
                     </div>
-                    <nuxt-link to="/shop" class="rr-btn rr-btn__red">
+                    <a href="https://www.clover.com/online-ordering/123-main-mexico-pineville" class="rr-btn rr-btn__red">
                                 <span class="hover-rl"></span>
                                 <span class="fake_hover"></span>
                                 <span class="btn-wrap">
@@ -84,7 +84,7 @@
                                             alt="not found" />
                                     </span>
                                 </span>
-                            </nuxt-link>                       
+                              </a>                       
                 </div>
             </div>         
         </div>

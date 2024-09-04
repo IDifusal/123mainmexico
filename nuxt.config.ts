@@ -15,5 +15,6 @@ export default defineNuxtConfig({
   modules:[
     '@pinia/nuxt',
     'nuxt-swiper'
-  ]
+  ],
+  ssr: true,
 })

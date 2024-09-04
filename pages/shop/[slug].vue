@@ -42,7 +42,7 @@
                     <div class="col-lg-6">
                         <div class="shop-details__thumb">
                             <img class="img-fluid"
-                                :src="product?.images[0]?.src || 'https://html.rrdevs.net/delish/assets/imgs/shop-details/shop-details-1.jpg'"
+                                :src="product?.images[0]?.src || 'https://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'"
                                 alt="not found">
                             <span class="sale">Sale</span>
                         </div>
@@ -100,10 +100,6 @@
                                         </router-link>
                                     </button>                                    
                                 </div>
-
-                                <nuxt-link to="/shop/cart">
-                                        View Cart
-                                        </nuxt-link>
                                 <!-- <ul class="shop-details__list">
                                     <li>SKU:17</li>
                                     <li>Categories: <a href="blog-details.html">Light Bulb</a>, <a
@@ -311,8 +307,9 @@ const updateQuantity = (type) => {
   }
 }
 const addToCart = (product) => {
-    productAdded.value = true;
-  productsStore.addToCart({ ...product, quantity: quantity.value })
+    window.href="https://www.clover.com/online-ordering/123-main-mexico-pineville"
+    // productAdded.value = true;
+//   productsStore.addToCart({ ...product, quantity: quantity.value })
 }
 
 onMounted(() => {

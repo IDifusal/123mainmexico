@@ -2,7 +2,7 @@
   <main>
     <div class="breadcrumb__area breadcrumb-space overly theme-bg-secondary overflow-hidden">
       <div class="breadcrumb__background" v-background
-        data-background="https://123mainmexico.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-12-at-16.20.13.jpeg">
+        data-background="https://api.123mainmexico.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-12-at-16.20.13.jpeg">
       </div>
       <div class="container">
         <div class="row align-items-center justify-content-between">
@@ -30,7 +30,7 @@
             <div class="blog__details">
               <div class="blog__details-thumb mb-35">
                 <img
-                  src="https://123mainmexico.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-12-at-16.20.13.jpeg"
+                  src="https://api.123mainmexico.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-12-at-16.20.13.jpeg"
                   class="img-fluid" alt="image not found">
               </div>
 
@@ -87,7 +87,7 @@
 <p>In light of ongoing health concerns, 123 Main Mexico adheres to stringent safety measures to ensure the well-being of all guests. Regular sanitization, staff health checks, and flexible seating to allow for social distancing are part of our commitment to a safe celebration environment.</p>
 
 <h3>Get in Touch</h3>
-<p>Ready to host an unforgettable event? Contact 123 Main Mexico today to begin planning. Call us at (704) 889-1236 or email Reservations@123mainmexico.com. Let us provide the perfect backdrop for your next celebration in Pineville, NC.</p>
+<p>Ready to host an unforgettable event? Contact 123 Main Mexico today to begin planning. Call us at (704) 889-1236 or email Reservations@mainmexico.com. Let us provide the perfect backdrop for your next celebration in Pineville, NC.</p>
 
          </div>
 <!-- 

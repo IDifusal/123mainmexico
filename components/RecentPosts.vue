@@ -7,14 +7,6 @@
             <img :src="blog.featured_image_src" class="img-fluid" alt="image not found">
           </a>
           <div class="sidebar__widget-post__content">
-            <ul class="sidebar__widget-post__content-meta">
-              <li>
-                <a :href="'/blog/' + blog.slug">
-                  <i class="fa-light fa-circle-user"></i>
-                  by {{ blog.author }}
-                </a>
-              </li>
-            </ul>
             <a :href="'/blog/' + blog.slug">
               <h5 class="sidebar__widget-post__content-title">{{ blog.title.rendered }}</h5>
             </a>

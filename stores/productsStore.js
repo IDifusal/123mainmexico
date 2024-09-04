@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia';
 import axios from 'axios';
-const customerKey = "ck_de595b1c5cc4f0f302e4938fd70e7a3879b49c2a";
-const customerSecret = "cs_6880ab65c9638275d1da495ea98596cd048a5cf7";
+const customerKey = "ck_622d1f051ab98a1ec869d2e9aa4a666dab340076";
+const customerSecret = "cs_b90ab687c558829dea4273a1c0d12f0221d83b53";
 export const useProductsStore = defineStore({
   id: 'products',
   state: () => ({
@@ -15,10 +15,10 @@ export const useProductsStore = defineStore({
         slug: 'fried-fish-red',
         price: '$12.99',
         description: null,
-        image: 'https://123mainmexico.com/wp-content/uploads/2024/08/Fried-Fish-Red-Snapper-123-300x300.jpg',
+        image: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Fried-Fish-Red-Snapper-123-300x300.jpg',
         images:[
           {
-            src: 'https://123mainmexico.com/wp-content/uploads/2024/08/Fried-Fish-Red-Snapper-123-300x300.jpg',
+            src: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Fried-Fish-Red-Snapper-123-300x300.jpg',
           }
         ]
       },
@@ -28,10 +28,10 @@ export const useProductsStore = defineStore({
         slug: 'huachinango-house',
         price: '$16.99',
         description: null,
-        image: 'https://123mainmexico.com/wp-content/uploads/2024/08/Huachimango-House.jpg',
+        image: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Huachimango-House.jpg',
         images:[
           {
-            src: 'https://123mainmexico.com/wp-content/uploads/2024/08/Huachimango-House.jpg',
+            src: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Huachimango-House.jpg',
           }
         ]
       },
@@ -41,10 +41,10 @@ export const useProductsStore = defineStore({
         price: '$9.99',
         slug: 'camarones-botaneros',
         description: null,
-        image: 'https://123mainmexico.com/wp-content/uploads/2024/08/Camarones-Botaneros.png',
+        image: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Camarones-Botaneros.png',
         images:[
           {
-            src: 'https://123mainmexico.com/wp-content/uploads/2024/08/Camarones-Botaneros.png',
+            src: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Camarones-Botaneros.png',
           }
         ]
       },
@@ -54,10 +54,10 @@ export const useProductsStore = defineStore({
         slug: 'las-costillas-del-patron',
         price: '$12.99',
         description: null,
-        image: 'http://123mainmexico.com/wp-content/uploads/2024/08/Las-Costillas-del-Patron.jpg',
+        image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Las-Costillas-del-Patron.jpg',
         images:[
           {
-            src: 'http://123mainmexico.com/wp-content/uploads/2024/08/Las-Costillas-del-Patron.jpg',
+            src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Las-Costillas-del-Patron.jpg',
           }
         ]
       },
@@ -66,10 +66,10 @@ export const useProductsStore = defineStore({
         category:"appetizers",
         slug:"molcajete-del-mar",
         price:"$39.99",
-        image:"http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg",
+        image:"http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg",
         images:[
           {
-            src: 'http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg',
+            src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg',
           }
         ]
       },
@@ -78,10 +78,10 @@ export const useProductsStore = defineStore({
         slug:"molcajete-house",
         category:"appetizers",
         price:"$39.99",
-        image:"http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png",
+        image:"http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png",
         images:[
           {
-            src: 'http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png',
+            src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png',
           }
         ] 
       }
@@ -108,13 +108,14 @@ export const useProductsStore = defineStore({
         return productFound
     },
     async fetchProducts() {
+      if (this.products.length > 0) {
+        return; 
+      }      
       this.products = this.staticItems;
-        if (this.products.length > 0) {
-            return; 
-          }
+     
         this.loading = true;
         try {
-          const response = await axios.get('https://123mainmexico.com/wp-json/wc/v3/products?_embed&filter[limit]=-1', {
+          const response = await axios.get('https://api.123mainmexico.com/wp-json/wc/v3/products?_embed&filter[limit]=-1', {
             auth: {
               username: customerKey,
               password: customerSecret,

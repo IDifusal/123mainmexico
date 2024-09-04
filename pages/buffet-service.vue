@@ -2,7 +2,7 @@
   <main>
     <div class="breadcrumb__area breadcrumb-space overly theme-bg-secondary overflow-hidden">
       <div class="breadcrumb__background" v-background
-        data-background="https://123mainmexico.com/wp-content/uploads/2024/08/seafood-spread-luxury-buffet-perfect-gourmet-dining-1.jpg">
+        data-background="https://api.123mainmexico.com/wp-content/uploads/2024/08/seafood-spread-luxury-buffet-perfect-gourmet-dining-1.jpg">
       </div>
       <div class="container">
         <div class="row align-items-center justify-content-between">
@@ -30,7 +30,7 @@
             <div class="blog__details">
               <div class="blog__details-thumb mb-35">
                 <img
-                  src="https://123mainmexico.com/wp-content/uploads/2024/08/seafood-spread-luxury-buffet-perfect-gourmet-dining-1.jpg"
+                  src="https://api.123mainmexico.com/wp-content/uploads/2024/08/seafood-spread-luxury-buffet-perfect-gourmet-dining-1.jpg"
                   class="img-fluid" alt="image not found">
               </div>
 

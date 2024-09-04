@@ -3,7 +3,7 @@
 <main>
     <!-- Breadcrumb area start  -->
     <div class="breadcrumb__area breadcrumb-space overly theme-bg-secondary overflow-hidden">
-        <div class="breadcrumb__background"  v-background data-background="http://123mainmexico.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-12-at-15.29.01.jpeg"></div>
+        <div class="breadcrumb__background"  v-background data-background="http://api.123mainmexico.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-12-at-15.29.01.jpeg"></div>
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">

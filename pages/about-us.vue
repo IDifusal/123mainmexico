@@ -78,7 +78,7 @@
 
                     <div class="col-xl-6">
                         <div class="about-2__media wow clip-a-z">
-                            <img src="http://123mainmexico.com/wp-content/uploads/2024/08/gallery-4.jpeg" class="img-fluid" alt="image not found">
+                            <img src="http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-4.jpeg" class="img-fluid" alt="image not found">
                         </div>
                     </div>
                 </div>
@@ -126,31 +126,31 @@
 <script setup>
   const projects = ref([
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-1.jpeg',
+      image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-1.jpeg',
       altText: 'Project 1',
     },
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-2.jpeg',
+      image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-2.jpeg',
       altText: 'Project 2',
     },
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-3.jpeg',
+      image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-3.jpeg',
       altText: 'Project 3',
     },
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-4.jpeg',
+      image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-4.jpeg',
       altText: 'Project 4',
     },
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/galery-5.jpeg',
+      image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/galery-5.jpeg',
       altText: 'Project 1',
     },    
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-6.jpeg',
+      image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-6.jpeg',
       altText: 'Project 2',
     },    
     {
-      image: 'http://123mainmexico.com/wp-content/uploads/2024/08/gallery-7.jpeg',
+      image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-7.jpeg',
       altText: 'Project 2',
     },      
   ]);

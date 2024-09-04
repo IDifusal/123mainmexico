@@ -1,5 +1,5 @@
 <template>
-    <div id="preloader" style="display:none">
+    <div id="preloader"  v-if="isLoading">
         <div class="preloader-close">x</div>
         <div class="rr-restaurant">
             <div class="loading-wrapper">
@@ -167,7 +167,7 @@
                         <div class="header__logo">
                             <nuxt-link to="/">
                                 <div class="logo">
-                                    <img src="http://123mainmexico.com/wp-content/uploads/2024/08/123-MAIN-MEXICO-logo-transparente.png"
+                                    <img src="http://api.123mainmexico.com/wp-content/uploads/2024/08/123-MAIN-MEXICO-logo-transparente.png"
                                         alt="123 Main Mexico" width="150">
                                 </div>
                             </nuxt-link>
@@ -177,7 +177,7 @@
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li class="has-mega-menu active">
+                                        <li class="has-mega-menu">
                                             <nuxt-link to="/">Home</nuxt-link>
                                         </li>
                                         <li class="has-dropdown">
@@ -252,10 +252,8 @@
 </template>
 
 <script setup>
-const preloaderClose = () => {
-    document.getElementById('preloader').style.display = 'none';
-}
-// setTimeout(preloaderClose, 500);
+import { useUiStore } from '~/stores/uiStore';
+import { storeToRefs } from 'pinia';
+const uiStore = useUiStore();
+const {isLoading} = storeToRefs(uiStore);
 </script>
-
-<style lang="scss" scoped></style>

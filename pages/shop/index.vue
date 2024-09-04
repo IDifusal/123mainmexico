@@ -36,7 +36,7 @@
                     <div class="food-menu-tab__item mb-24">
                         <nuxt-link :to="`/shop/${product.slug}`"
                         class="food-menu-tab__item-media">
-                            <img :src="product.images[0]? product.images[0].src : 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'" class="img-fluid" :alt="product.name">
+                            <img :src="product.images[0]? product.images[0].src : 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'" class="img-fluid" :alt="product.name">
                         </nuxt-link>
                         <div class="food-menu-tab__item-text">
                             <ul class="rating">

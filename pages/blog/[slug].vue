@@ -34,8 +34,7 @@
 
               <ul class="blog__details-meta mb-15">
                 <li><i class="fa-regular fa-calendar"></i>{{ new Date(post.date).toLocaleDateString() }}</li>
-                <li><a :href="'/author/' + post.author_slug"><i class="fa-regular fa-user"></i>by {{ post.author_name
-                    }}</a></li>
+                <li><a><i class="fa-regular fa-user"></i>by 123MainMexico</a></li>
               </ul>
 
               <div class="blog__details-content">
@@ -164,6 +163,8 @@
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import { useBlogStore } from '@/stores/blogStore';
+import { useUiStore } from '~/stores/uiStore';
+const uiStore = useUiStore();
 import { storeToRefs } from 'pinia';
 
 const route = useRoute();
@@ -171,7 +172,9 @@ const blogStore = useBlogStore();
 const { currentPost: post, loading } = storeToRefs(blogStore);
 
 onMounted(() => {
+  uiStore.setLoading(true);
   const slug = route.params.slug;
   blogStore.fetchPost(slug);
+  uiStore.setLoading(false);
 });
 </script>

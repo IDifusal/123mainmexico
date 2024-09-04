@@ -2,7 +2,7 @@
   <div>
     <Header />
     <NuxtPage />
-    <section class="cta-2" v-background data-background="http://123mainmexico.com/wp-content/uploads/2024/08/DSC06413-1-2.jpg">
+    <section class="cta-2" v-background data-background="http://api.123mainmexico.com/wp-content/uploads/2024/08/DSC06413-1-2.jpg">
       <div class="container">
         <div class="row g-24">
           <div class="col-12">

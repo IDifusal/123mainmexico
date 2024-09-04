@@ -55,7 +55,7 @@
                 <div class="col-xl-4">
                     <div class="food-menu__price-nav">
                         <div class="food-menu__price-nav__media">
-                            <img src="http://123mainmexico.com/wp-content/uploads/2024/08/DSC08041123.png"
+                            <img src="http://api.123mainmexico.com/wp-content/uploads/2024/08/DSC08041123.png"
                                 class="img-fluid" alt="image not found">
                         </div>
 
@@ -102,7 +102,7 @@ const menuItems = ref([
     slug: 'fried-fish-red',
     price: '$12.99',
     description: null,
-    image: 'https://123mainmexico.com/wp-content/uploads/2024/08/Fried-Fish-Red-Snapper-123-300x300.jpg'
+    image: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Fried-Fish-Red-Snapper-123-300x300.jpg'
   },
   {
     name: 'Huachinango House',
@@ -110,7 +110,7 @@ const menuItems = ref([
     slug: 'huachinango-house',
     price: '$16.99',
     description: null,
-    image: 'https://123mainmexico.com/wp-content/uploads/2024/08/Huachimango-House.jpg'
+    image: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Huachimango-House.jpg'
   },
   {
     name: 'Camarones Botaneros',
@@ -118,7 +118,7 @@ const menuItems = ref([
     price: '$9.99',
     slug: 'camarones-botaneros',
     description: null,
-    image: 'https://123mainmexico.com/wp-content/uploads/2024/08/Camarones-Botaneros.png'
+    image: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Camarones-Botaneros.png'
   },
   {
     name: 'Las costillas del patron',
@@ -126,17 +126,17 @@ const menuItems = ref([
     slug: 'las-costillas-del-patron',
     price: '$12.99',
     description: null,
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/Las-Costillas-del-Patron.jpg'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Las-Costillas-del-Patron.jpg'
   },
   {
         name:"Molcajete del mar",
         category:"appetizers",
         slug:"molcajete-del-mar",
         price:"$39.99",
-        image:"http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg",
+        image:"http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg",
         images:[
           {
-            src: 'http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg',
+            src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg',
           }
         ]
       },
@@ -145,10 +145,10 @@ const menuItems = ref([
         slug:"molcajete-house",
         category:"appetizers",
         price:"$39.99",
-        image:"http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png",
+        image:"http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png",
         images:[
           {
-            src: 'http://123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png',
+            src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png',
           }
         ] 
       },
@@ -157,77 +157,77 @@ const menuItems = ref([
     category: 'lunch',
     price: '$19.99',
     description: 'Shrimp cooked in lime juice with your choice of sauce.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   },
   {
     name: 'Paella',
     category: 'lunch',
     price: '$48.00',
     description: 'Traditional Spanish dish with a mix of seafood and yellow rice.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   },
   {
     name: 'Molcajete del mar',
     category: 'lunch',
     price: '$39.99',
     description: 'Grilled shrimp, tilapia, and mojarra frita topped with chef sauce.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   },
   {
     name: 'Filete fish 123',
     category: 'lunch',
     price: '$22.00',
     description: 'Grilled fish filet served with a house sauce.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   },
   {
     name: 'Arrachera',
     category: 'lunch',
     price: '$24.00',
     description: 'Grilled skirt steak served with house sides.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   },
   {
     name: 'Hartford Court Chardonnay Rrv',
     category: 'bar',
     price: '$60.00',
     description: 'Elegant wine with rich flavors.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   },
   {
     name: 'Jordan Cabernet Sauvignon',
     category: 'bar',
     price: '$105.00',
     description: 'A full-bodied wine with notes of dark fruit.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   },
   {
     name: 'La Crema Pinot Noir Willamette',
     category: 'bar',
     price: '$35.00',
     description: 'Delicate and smooth, perfect for any occasion.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   },
   {
     name: 'Long Island iced tea',
     category: 'bar',
     price: '$13.99',
     description: 'Rum, tequila, vodka, gin, triple sec, sour mix, and splash of coke.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   },
   {
     name: 'Mojito',
     category: 'bar',
     price: '$12.99',
     description: 'White rum, leaves of mint, club soda, lime juice, and sugar.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   },
   {
     name: 'Skinny Margarita',
     category: 'bar',
     price: '$14.99',
     description: 'Low-calorie margarita made with fresh lime juice and agave nectar.',
-    image: 'http://123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
+    image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'
   }
 ]);
 

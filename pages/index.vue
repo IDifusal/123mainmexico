@@ -14,7 +14,7 @@
             <div class="row g-24 align-items-center">
                 <div class="col-lg-6">
                     <div class="about-our-company__media wow clip-a-z">
-                        <img class="img-fluid" src="http://123mainmexico.com/wp-content/uploads/2024/08/Best-Mexican-Restoruant-in-Pineville.png" alt="About 123 Main Mexic">
+                        <img class="img-fluid" src="http://api.123mainmexico.com/wp-content/uploads/2024/08/Best-Mexican-Restoruant-in-Pineville.png" alt="About 123 Main Mexic">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -120,7 +120,7 @@
 
                         <div class="book-a-table__content-right">
                             <div class="book-a-table__content-media wow clip-a-z">
-                                <img class="img-fluid" src="http://123mainmexico.com/wp-content/uploads/2024/08/123-Main-Mexico-Mexican-Restaurant.png" alt="image not found">
+                                <img class="img-fluid" src="http://api.123mainmexico.com/wp-content/uploads/2024/08/123-Main-Mexico-Mexican-Restaurant.png" alt="image not found">
                             </div>
                         </div>
                     </div>

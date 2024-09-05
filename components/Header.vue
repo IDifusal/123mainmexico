@@ -1,5 +1,5 @@
 <template>
-    <div id="preloader"  v-if="isLoading">
+    <div id="preloader" v-if="isLoading">
         <div class="preloader-close">x</div>
         <div class="rr-restaurant">
             <div class="loading-wrapper">
@@ -65,17 +65,18 @@
 
     <!-- Offcanvas area start -->
     <div class="fix">
-        <div class="offcanvas__area">
+        <div class="offcanvas__area" id="mobile-popup">
             <div class="offcanvas__wrapper">
                 <div class="offcanvas__content">
                     <div class="offcanvas__top d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
                             <nuxt-link to="/">
-                                <img src="https://html.rrdevs.net/delish/assets/imgs/logo/logo.svg"
-                                    alt="logo not found">
+                                <img src="/images/123-MAIN-MEXICO-logo-transparente.png" width="130"
+                                    alt="123 Main Mexico">
                             </nuxt-link>
                         </div>
-                        <div class="offcanvas__close">
+
+                        <div class="offcanvas__close" @click="openMenu">
                             <button class="offcanvas-close-icon animation--flip">
                                 <span class="offcanvas-m-lines">
                                     <span class="offcanvas-m-line line--1"></span><span
@@ -86,21 +87,28 @@
                         </div>
                     </div>
                     <div class="mobile-menu fix"></div>
-                    <div class="offcanvas__social">
-                        <h4 class="offcanvas__title mb-20">Subscribe & Follow</h4>
-                        <p class="mb-30">The scallops were perfectly cooked, tender, and flavorful, paired beautifully
-                            with a creamy risotto and seasonal vegetables. The presentation was artful, showcasing the
-                            chef's attention to detail.</p>
-                        <ul class="header-top-socail-menu d-flex">
-                            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                            <li><a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                            <li><a href="https://vimeo.com/"><i class="fa-brands fa-vimeo-v"></i></a></li>
-                        </ul>
-                    </div>
+                    <ul class="mobile-list">
+                        <li class="has-mega-menu">
+                            <a @click="goToView('/')">Home</a>
+                        </li>
+                        <li class="has-dropdown">
+                            <a @click="goToView('/shop')">Menu</a>
+                        </li>
+                        <li class="has-dropdown">
+                            <a @click="goToView('/about-us')">About Us</a>
+                        </li>                        
+                        <li class="">
+                            <a @click="goToView('/blog')">Blog</a>
+                        </li>
+                        <li>
+                            <a @click="goToView('contact')">
+                                contact
+                            </a>
+                        </li>
+                    </ul>
                     <div class="offcanvas__btn">
                         <div class="header__btn-wrap">
-                            <nuxt-link to="/reservation" class="rr-btn__header d-sm-none mb-10 w-100">
+                            <a  @click="goToView('/reservation')" class="rr-btn__header d-sm-none mb-10 w-100">
                                 <span class="hover-rl"></span>
                                 <span class="fake_hover"></span>
                                 <span class="btn-wrap">
@@ -108,18 +116,6 @@
                                             src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right.svg"
                                             alt="not found"></span>
                                     <span class="text-two">Book A Table <img
-                                            src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right.svg"
-                                            alt="not found"></span>
-                                </span>
-                            </nuxt-link>
-                            <a href="https://themeforest.net/user/rrdevs/portfolio" class="rr-btn__header w-100">
-                                <span class="hover-rl"></span>
-                                <span class="fake_hover"></span>
-                                <span class="btn-wrap">
-                                    <span class="text-one">Purchase Now <img
-                                            src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right.svg"
-                                            alt="not found"></span>
-                                    <span class="text-two">Purchase Now <img
                                             src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right.svg"
                                             alt="not found"></span>
                                 </span>
@@ -167,8 +163,8 @@
                         <div class="header__logo">
                             <nuxt-link to="/">
                                 <div class="logo">
-                                    <img src="/images/123-MAIN-MEXICO-logo-transparente.png"
-                                        alt="123 Main Mexico" width="150">
+                                    <img src="/images/123-MAIN-MEXICO-logo-transparente.png" alt="123 Main Mexico"
+                                        width="150">
                                 </div>
                             </nuxt-link>
                         </div>
@@ -181,7 +177,7 @@
                                             <nuxt-link to="/">Home</nuxt-link>
                                         </li>
                                         <li class="has-dropdown">
-                                            <nuxt-link >Restaurant</nuxt-link>
+                                            <nuxt-link>Restaurant</nuxt-link>
                                             <ul class="submenu">
                                                 <li>
                                                     <nuxt-link to="/about-us">About Us</nuxt-link>
@@ -196,7 +192,7 @@
                                             <ul class="submenu">
                                                 <li>
                                                     <nuxt-link to="/shop">Shop</nuxt-link>
-                                                </li>                                                
+                                                </li>
                                                 <li>
                                                     <nuxt-link to="/shop/cart">Cart</nuxt-link>
                                                 </li>
@@ -235,7 +231,7 @@
 
                                 <div class="header__hamburger ml-20 d-xl-none">
                                     <div class="sidebar__toggle">
-                                        <a class="bar-icon" href="javascript:void(0)">
+                                        <a class="bar-icon" @click="openMenu">
                                             <span></span>
                                             <span></span>
                                             <span></span>
@@ -255,5 +251,23 @@
 import { useUiStore } from '~/stores/uiStore';
 import { storeToRefs } from 'pinia';
 const uiStore = useUiStore();
-const {isLoading} = storeToRefs(uiStore);
+const { isLoading } = storeToRefs(uiStore);
+const isOpen = ref(false);
+const router = useRouter();
+const openMenu = () => {
+    isOpen.value = !isOpen.value;
+    const offcanvas = document.getElementById('mobile-popup');
+    if (isOpen.value) {
+        offcanvas.classList.add('info-open');
+    } else {
+        offcanvas.classList.remove('info-open');
+    }
+}
+const goToView = (path) => {
+    router.push(path);
+
+    setTimeout(() => {
+        openMenu();
+    }, 300);
+}
 </script>

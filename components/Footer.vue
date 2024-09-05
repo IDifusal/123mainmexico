@@ -9,7 +9,7 @@
                         <div class="footer-2__widget footer-2__widget-item-1">
                             <div class="footer-2__logo mb-30 mb-xs-25">
                                 <a href="index.html">
-                                    <img class="img-fluid" src="http://api.123mainmexico.com/wp-content/uploads/2024/08/123-MAIN-MEXICO-logo-transparente.png" alt="logo not found">
+                                    <img class="img-fluid" src="/images/123-MAIN-MEXICO-logo-transparente.png" alt="logo not found">
                                 </a>
                             </div>
 

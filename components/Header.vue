@@ -167,7 +167,7 @@
                         <div class="header__logo">
                             <nuxt-link to="/">
                                 <div class="logo">
-                                    <img src="http://api.123mainmexico.com/wp-content/uploads/2024/08/123-MAIN-MEXICO-logo-transparente.png"
+                                    <img src="/images/123-MAIN-MEXICO-logo-transparente.png"
                                         alt="123 Main Mexico" width="150">
                                 </div>
                             </nuxt-link>

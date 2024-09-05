@@ -30,7 +30,7 @@
             <div class="blog__details">
               <div class="blog__details-thumb mb-35">
                 <img
-                  src="https://api.123mainmexico.com/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-12-at-16.09.06.jpeg"
+                  src="/images/WhatsApp-Image-2024-08-12-at-16.09.06.jpeg"
                   class="img-fluid" alt="image not found">
               </div>
 

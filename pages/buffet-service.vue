@@ -30,7 +30,7 @@
             <div class="blog__details">
               <div class="blog__details-thumb mb-35">
                 <img
-                  src="https://api.123mainmexico.com/wp-content/uploads/2024/08/seafood-spread-luxury-buffet-perfect-gourmet-dining-1.jpg"
+                  src="/images/seafood-spread-luxury-buffet-perfect-gourmet-dining-1.jpg"
                   class="img-fluid" alt="image not found">
               </div>
 

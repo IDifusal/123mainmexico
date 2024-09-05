@@ -78,7 +78,7 @@
 
                     <div class="col-xl-6">
                         <div class="about-2__media wow clip-a-z">
-                            <img src="http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-4.jpeg" class="img-fluid" alt="image not found">
+                            <img src="/images/gallery-4.jpeg" class="img-fluid" alt="image not found">
                         </div>
                     </div>
                 </div>

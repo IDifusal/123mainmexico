@@ -15,10 +15,10 @@ export const useProductsStore = defineStore({
         slug: 'fried-fish-red',
         price: '$12.99',
         description: null,
-        image: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Fried-Fish-Red-Snapper-123-300x300.jpg',
+        image: ' /Fried-Fish-Red-Snapper-123-300x300.jpg',
         images:[
           {
-            src: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Fried-Fish-Red-Snapper-123-300x300.jpg',
+            src: ' /Fried-Fish-Red-Snapper-123-300x300.jpg',
           }
         ]
       },
@@ -28,10 +28,10 @@ export const useProductsStore = defineStore({
         slug: 'huachinango-house',
         price: '$16.99',
         description: null,
-        image: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Huachimango-House.jpg',
+        image: ' /Huachimango-House.jpg',
         images:[
           {
-            src: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Huachimango-House.jpg',
+            src: ' /Huachimango-House.jpg',
           }
         ]
       },
@@ -41,10 +41,10 @@ export const useProductsStore = defineStore({
         price: '$9.99',
         slug: 'camarones-botaneros',
         description: null,
-        image: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Camarones-Botaneros.png',
+        image: ' /Camarones-Botaneros.png',
         images:[
           {
-            src: 'https://api.123mainmexico.com/wp-content/uploads/2024/08/Camarones-Botaneros.png',
+            src: ' /Camarones-Botaneros.png',
           }
         ]
       },

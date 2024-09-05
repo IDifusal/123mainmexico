@@ -14,7 +14,11 @@ export default defineNuxtConfig({
   ],
   modules:[
     '@pinia/nuxt',
-    'nuxt-swiper'
+    'nuxt-swiper',
+    'nuxt-gtag'
   ],
   ssr: true,
+  gtag: {
+    id: 'G-R7WKZHKB4Q'
+  }
 })

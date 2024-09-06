@@ -65,10 +65,10 @@
                   <span>Social Icon</span>
 
                   <div class="share-social-media">
-                    <a href="http://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="http://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://dribbble.com"><i class="fa-brands fa-dribbble"></i></a>
+                    <a href="http://www.facebook.com/123mainmexico"><i class="fa-brands fa-facebook-f"></i></a>
+                     
+                    <a href="https://www.instagram.com/123mainmexico/"><i class="fa-brands fa-instagram"></i></a>
+                    
                   </div>
                 </div>
               </div>

@@ -64,7 +64,7 @@
                                     </ul>
                                 </div>
                                 <h6 class="price">
-                                    <span class="old-price">$ {{ product?.price }}</span>
+                                    <!-- <span class="old-price">$ {{ product?.price }}</span> -->
                                 </h6>
                                 <p class="desc" v-html="product?.description"></p>
                                 <div class="shop-details__btn-wrap">
@@ -307,7 +307,7 @@ const updateQuantity = (type) => {
   }
 }
 const addToCart = (product) => {
-    window.href="https://www.clover.com/online-ordering/123-main-mexico-pineville"
+    window.open("https://www.clover.com/online-ordering/123-main-mexico-pineville")
     // productAdded.value = true;
 //   productsStore.addToCart({ ...product, quantity: quantity.value })
 }

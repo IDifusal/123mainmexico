@@ -53,7 +53,7 @@
                                 </nuxt-link>
                         </h6>
 
-                            <span class="price">${{ product.price }}</span>
+                            <!-- <span class="price">${{ product.price }}</span> -->
                         </div>
                     </div>
                 </div>

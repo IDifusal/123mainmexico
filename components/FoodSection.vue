@@ -43,7 +43,7 @@
                                         </ul>
                                         <h6>{{ item.name }}</h6>
                                         <p>{{ item.description }}</p>
-                                        <span class="price">{{ item.price }}</span>
+                                        <!-- <span class="price">{{ item.price }}</span> -->
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@
                                     <h6>{{ item.name }}</h6>
                                     <p class="mb-0">{{ item.description }}</p>
                                 </div>
-                                <span class="price">{{ item.price }}</span>
+                                <!-- <span class="price">{{ item.price }}</span> -->
                             </li>
                         </ul>                        
                     </div>

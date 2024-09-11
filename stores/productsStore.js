@@ -8,84 +8,6 @@ export const useProductsStore = defineStore({
     products: [],
     loading: false,
     cart:[],
-     staticItems :[
-      {
-        name: 'Fried Fish Red',
-        category: 'appetizers',
-        slug: 'fried-fish-red',
-        price: '$12.99',
-        description: null,
-        image: ' /Fried-Fish-Red-Snapper-123-300x300.jpg',
-        images:[
-          {
-            src: ' /Fried-Fish-Red-Snapper-123-300x300.jpg',
-          }
-        ]
-      },
-      {
-        name: 'Huachinango House',
-        category: 'appetizers',
-        slug: 'huachinango-house',
-        price: '$16.99',
-        description: null,
-        image: ' /Huachimango-House.jpg',
-        images:[
-          {
-            src: ' /Huachimango-House.jpg',
-          }
-        ]
-      },
-      {
-        name: 'Camarones Botaneros',
-        category: 'appetizers',
-        price: '$9.99',
-        slug: 'camarones-botaneros',
-        description: null,
-        image: ' /Camarones-Botaneros.png',
-        images:[
-          {
-            src: ' /Camarones-Botaneros.png',
-          }
-        ]
-      },
-      {
-        name: 'Las costillas del patron',
-        category: 'appetizers',
-        slug: 'las-costillas-del-patron',
-        price: '$12.99',
-        description: null,
-        image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Las-Costillas-del-Patron.jpg',
-        images:[
-          {
-            src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Las-Costillas-del-Patron.jpg',
-          }
-        ]
-      },
-      {
-        name:"Molcajete del mar",
-        category:"appetizers",
-        slug:"molcajete-del-mar",
-        price:"$39.99",
-        image:"http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg",
-        images:[
-          {
-            src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-del-mar.jpg',
-          }
-        ]
-      },
-      {
-        name:"Molcajete House",
-        slug:"molcajete-house",
-        category:"appetizers",
-        price:"$39.99",
-        image:"http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png",
-        images:[
-          {
-            src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/Molcajete-House.png',
-          }
-        ] 
-      }
-    ]
     
   }),
   actions: {
@@ -111,26 +33,34 @@ export const useProductsStore = defineStore({
       if (this.products.length > 0) {
         return; 
       }      
-      this.products = this.staticItems;
-     
-        this.loading = true;
-        try {
-          const response = await axios.get('https://api.123mainmexico.com/wp-json/wc/v3/products?_embed&filter[limit]=-1', {
+      this.loading = true;
+      try {
+        const batchSize = 10;  // Number of products per request
+        const totalBatches = 3; // Total number of requests (3 * 10 = 30)
+        
+        for (let i = 0; i < totalBatches; i++) {
+          const response = await axios.get(`https://api.123mainmexico.com/wp-json/wc/v3/products?_embed&per_page=${batchSize}&page=${i + 1}`, {
             auth: {
               username: customerKey,
               password: customerSecret,
             },
           });
-          this.products = response.data.map(product => (
-            console.log("PRODUCT DETAILS", product),
-            {
-            ...product,
-          }));
-        } catch (error) {
-          console.error('Error fetching products:', error);
-        } finally {
-          this.loading = false;
+          
+          // Logging each product's details and appending them to the products array
+          this.products = [
+            ...this.products,
+            ...response.data.map(product => (
+              console.log("PRODUCT DETAILS", product),
+              { ...product }
+            ))
+          ];
         }
-      },
+      } catch (error) {
+        console.error('Error fetching products:', error);
+      } finally {
+        this.loading = false;
+      }
+    },
+    
   },
 });

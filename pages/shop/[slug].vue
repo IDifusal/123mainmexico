@@ -4,7 +4,7 @@
         <div class="breadcrumb__area breadcrumb-space overly theme-bg-secondary overflow-hidden">
             <div class="breadcrumb__background"
             v-background
-                data-background="https://api.123mainmexico.com/wp-content/uploads/2024/08/DSC06581-1.jpg"></div>
+                data-background="https://123mainmexico.com/images/Mexican-Food-01-123-Main-Mexico.png"></div>
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-12">
@@ -44,14 +44,13 @@
                             <img class="img-fluid"
                                 :src="product?.images[0]?.src || 'https://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'"
                                 alt="not found">
-                            <span class="sale">Sale</span>
                         </div>
                     </div>
 
                     <div class="col-lg-6">
                         <div class="shop-details__info">
                             <div class="shop-details__inner">
-                                <h3 class="title mb-20">
+                                <h3 class="title mb-20" style="font-size: 24px;">
                                     {{ product?.name }}
                                 </h3>
                                 <div class="shop-details__rating mb-10">
@@ -64,7 +63,7 @@
                                     </ul>
                                 </div>
                                 <h6 class="price">
-                                    <!-- <span class="old-price">$ {{ product?.price }}</span> -->
+                                    <span class="old-price">$ {{ product?.price }}</span>
                                 </h6>
                                 <p class="desc" v-html="product?.description"></p>
                                 <div class="shop-details__btn-wrap">
@@ -116,167 +115,7 @@
         <!--shop-details-->
 
         <!--shop-description-->
-        <section class="shop-description section-space__bottom">
-            <div class="container">
-                <ul class="nav tab-navigation" id="product-tab-navigation" role="tablist">
-                    <li role="presentation">
-                        <button class="active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
-                            role="tab" aria-controls="home" aria-selected="true">Description</button>
-                    </li>
-                </ul>
-                <div class="tab-content" id="product-tab-content">
-                    <div class="tab-pane fade show active description" id="home" role="tabpanel"
-                        aria-labelledby="home-tab">
-                        <div class="shop-description__content" v-html="product?.description">
 
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="product-table__wrapper">
-                            <table class="table product-table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Size</th>
-                                        <th scope="col">Calories</th>
-                                        <th scope="col">Total Fat (g)</th>
-                                        <th scope="col">Protein (g)</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Small</td>
-                                        <td>150-200</td>
-                                        <td>5-8</td>
-                                        <td>3-5</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Medium</td>
-                                        <td>200-250</td>
-                                        <td>8-12</td>
-                                        <td>5-7</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Large</td>
-                                        <td>250-300</td>
-                                        <td>12-15</td>
-                                        <td>7-9</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Extra Large</td>
-                                        <td>300-350</td>
-                                        <td>15-20</td>
-                                        <td>9-12</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade review" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                        <div class="row product-review g-24">
-                            <div class="col-xl-5">
-                                <div class="review-item__wrap d-flex flex-column mb-xs-30 mb-sm-30 mb-md-30 mb-lg-30">
-                                    <div class="review-item">
-                                        <div class="review-item_thumb">
-                                            <img src="https://html.rrdevs.net/delish/assets/imgs/shop-details/review-list-1.jpg"
-                                                alt="img">
-                                        </div>
-                                        <div class="review-item_content">
-                                            <div class="review-item_content-top">
-                                                <div class="review-item_content-top-left">
-                                                    <h5 class="name">Eleanor Fant</h5>
-                                                    <span>06 March, 2023</span>
-                                                </div>
-
-                                                <ul class="review">
-                                                    <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                    <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                    <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                    <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                    <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <p class="mb-0">Designed very similarly to the nearly double priced Galaxy
-                                                tab S6, with the only removal being.</p>
-                                        </div>
-                                    </div>
-                                    <div class="review-item">
-                                        <div class="review-item_thumb">
-                                            <img src="https://html.rrdevs.net/delish/assets/imgs/shop-details/review-list-2.jpg"
-                                                alt="img">
-                                        </div>
-                                        <div class="review-item_content">
-                                            <div class="review-item_content-top">
-                                                <div class="review-item_content-top-left">
-                                                    <h5 class="name">Sabbir Dev</h5>
-                                                    <span>06 March, 2023</span>
-                                                </div>
-
-                                                <ul class="review">
-                                                    <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                    <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                    <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                    <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                    <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                            <p class="mb-0">Designed very similarly to the nearly double priced Galaxy
-                                                tab S6, with the only removal being.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-7">
-                                <div class="review-form-wrap">
-                                    <h4 class="title mb-24">Review this product</h4>
-                                    <span class="publish mb-10 d-block">Your email address will not be published.
-                                        Required fields are marked *</span>
-                                    <div class="review-box">
-                                        <span>Your ratings :</span>
-                                        <ul class="review">
-                                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                            <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                    <div class="contact-us-message__form mt-40">
-                                        <div class="row g-20">
-                                            <div class="col-xl-12">
-                                                <div class="contact-us-message__form-input">
-                                                    <input name="text" id="text" type="text" placeholder="Your name">
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-12">
-                                                <div class="contact-us-message__form-input">
-                                                    <input name="email" id="email1" type="email"
-                                                        placeholder="Email Address">
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-12">
-                                                <div class="contact-us-message__form-input">
-                                                    <textarea name="comment" id="comment" cols="30" rows="10"
-                                                        placeholder="Comment"></textarea>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-12">
-                                                <button class="rr-btn-solid">
-                                                    <span class="btn-wrap">
-                                                        <span class="text-one">Submit</span>
-                                                        <span class="text-two">Submit</span>
-                                                    </span>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!--shop-description-->
     </main>
 </template>

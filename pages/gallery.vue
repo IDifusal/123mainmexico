@@ -2,7 +2,7 @@
     <main>
       <!-- Breadcrumb area start  -->
       <div class="breadcrumb__area breadcrumb-space overly theme-bg-secondary overflow-hidden">
-        <div class="breadcrumb__background" v-background data-background="https://html.rrdevs.net/delish/assets/imgs/breadcrumb/page-header-1.png"></div>
+        <div class="breadcrumb__background" v-background data-background="https://api.123mainmexico.com/wp-content/uploads/2024/08/DSC06581-1.jpg"></div>
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-12">

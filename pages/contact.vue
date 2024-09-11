@@ -84,7 +84,7 @@
                     <div class="col-12">
                         <div class="section__title-wrapper text-center mb-35">
                             <h3 class="text-uppercase fw-bold mb-1">Leave a Message</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit curae quis libero erat, justo in habitasse aliquet mi. Condimentum inceptos euismod eu nunc ad nisl fermentum erat gravida</p>
+                            <p>Got a question? Leave us a message anytime! Whether it's about our menu, reservations, or anything else, we're here to help and will get back to you as soon as possible.</p>
                         </div>
                     </div>
                 </div>

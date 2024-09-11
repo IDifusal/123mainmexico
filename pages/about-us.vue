@@ -78,7 +78,7 @@
 
                     <div class="col-xl-6">
                         <div class="about-2__media wow clip-a-z">
-                            <img src="/images/gallery-4.jpeg" class="img-fluid" alt="image not found">
+                            <img src="/images/Best-Mexican-Restoruant-in-Pineville.png" class="img-fluid" alt="image not found">
                         </div>
                     </div>
                 </div>

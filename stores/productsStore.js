@@ -36,7 +36,7 @@ export const useProductsStore = defineStore({
       this.loading = true;
       try {
         const batchSize = 10;  // Number of products per request
-        const totalBatches = 3; // Total number of requests (3 * 10 = 30)
+        const totalBatches = 10; // Total number of requests (3 * 10 = 30)
         
         for (let i = 0; i < totalBatches; i++) {
           const response = await axios.get(`https://api.123mainmexico.com/wp-json/wc/v3/products?_embed&per_page=${batchSize}&page=${i + 1}`, {

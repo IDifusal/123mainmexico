@@ -13,14 +13,7 @@
                     <div
                         class="d-flex justify-content-xl-end mt-xs-10 mt-sm-10 mt-md-10 mt-lg-10 justify-content-center">
                         <div class="food-menu__tab masonary-menu">
-                            <button @click="filterMenu('all')" :class="{ active: selectedCategory === 'all' }">All
-                                Food</button>
-                            <button @click="filterMenu('appetizers')"
-                                :class="{ active: selectedCategory === 'appetizers' }">Appetizers</button>
-                            <button @click="filterMenu('lunch')"
-                                :class="{ active: selectedCategory === 'lunch' }">Lunch</button>
-                            <button @click="filterMenu('bar')"
-                                :class="{ active: selectedCategory === 'bar' }">Bar</button>
+                            
                         </div>
                     </div>
                 </div>
@@ -99,7 +92,7 @@ const productsStore = useProductsStore();
 const { products, loading } = storeToRefs(productsStore);
 
 onMounted(() => {
-  productsStore.fetchProducts();
+//   productsStore.fetchProducts();
 });
 
 const featuredProducts = computed(() => {

@@ -10,7 +10,6 @@
                 <div class="col-12">
                     <div class="breadcrumb__content text-center">
                         <h2 class="breadcrumb__title color-white title-animation">Shop Page</h2>
-
                         <div class="breadcrumb__menu">
                             <nav>
                                 <ul>
@@ -36,7 +35,7 @@
                     <div class="food-menu-tab__item mb-24">
                         <nuxt-link :to="`/shop/${product.slug}`"
                         class="food-menu-tab__item-media">
-                            <img :src="product.images[0]? product.images[0].src : 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'" class="img-fluid" :alt="product.name">
+                            <img :src="product.images[0]? product.images[0].src : 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'" class="img-fluid img-shop" :alt="product.name">
                         </nuxt-link>
                         <div class="food-menu-tab__item-text">
                             <ul class="rating">
@@ -52,8 +51,7 @@
                                 {{ product.name }}
                                 </nuxt-link>
                         </h6>
-
-                            <!-- <span class="price">${{ product.price }}</span> -->
+                            <span class="price">${{ product.price }}</span>
                         </div>
                     </div>
                 </div>
@@ -81,3 +79,11 @@ onMounted(() => {
   productsStore.fetchProducts();
 });
 </script>
+<style>
+.img-shop {
+ 
+    height: 315px !important;
+    width: 315px !important;
+    object-fit: cover;
+}
+</style>

@@ -38,13 +38,13 @@
         </div>
     </section>
     <!-- about-our-company area start -->
-
+    <FoodSection/>
     <!-- our-service area start -->
 <Services/>
     <!-- our-service area start -->
 
     <!-- food-menu area start -->
-<FoodSection/>
+
     <!-- food-menu area start -->
 
     <!-- experience area start -->

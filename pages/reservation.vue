@@ -111,8 +111,9 @@
                         <div class="book-a-table-3-bottom__item">
                             <h6 class="text-uppercase mb-15">Opening Hours</h6>
                             <ul>
-                                <li>Lunch: 12Pm – 3Pm</li>
-                                <li>Diner: 7Pm – 2Am (Last Order At 11:30Pm)</li>
+                                <li>
+Sunday - Thursday 10:00 am - 10:00 pm</li>
+                                <li>Friday - Saturday 10:00 am - 12:00 pm</li>
                             </ul>
                         </div>
                         <div class="book-a-table-3-bottom__item">

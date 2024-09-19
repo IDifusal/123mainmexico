@@ -193,10 +193,6 @@
                                                 <li>
                                                     <nuxt-link to="/shop">Shop</nuxt-link>
                                                 </li>
-                                                <li>
-                                                    <nuxt-link to="/shop/cart">Cart</nuxt-link>
-                                                </li>
-                                                <li><a href="checkout.html">Checkout</a></li>
                                             </ul>
                                         </li>
                                         <li class="">

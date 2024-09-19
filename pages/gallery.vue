@@ -59,32 +59,38 @@
   <script setup>
   import { ref } from 'vue';
   
+
   const images = ref([
     {
-      src: 'https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-1.jpg',
-      alt: 'Food Gallery Image 1',
+      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-1.jpeg',
+      altText: 'Project 1',
     },
     {
-      src: 'https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-2.jpg',
-      alt: 'Food Gallery Image 2',
+      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-2.jpeg',
+      altText: 'Project 2',
     },
     {
-      src: 'https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-3.jpg',
-      alt: 'Food Gallery Image 3',
+      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-3.jpeg',
+      altText: 'Project 3',
     },
     {
-      src: 'https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-4.jpg',
-      alt: 'Food Gallery Image 4',
+      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-4.jpeg',
+      altText: 'Project 4',
     },
     {
-      src: 'https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-5.jpg',
-      alt: 'Food Gallery Image 5',
-    },
+      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/galery-5.jpeg',
+      altText: 'Project 1',
+    },    
     {
-      src: 'https://html.rrdevs.net/delish/assets/imgs/food-gallery/food-gallery__item-6.jpg',
-      alt: 'Food Gallery Image 6',
-    },
+      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-6.jpeg',
+      altText: 'Project 2',
+    },    
+    {
+      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-7.jpeg',
+      altText: 'Project 2',
+    },      
   ]);
+  
   
   const lightboxOpen = ref(false);
   const lightboxImage = ref('');

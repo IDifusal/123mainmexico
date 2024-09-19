@@ -19,7 +19,9 @@
                                     <br>
                                     <p class="mb-0"> (704) 889-1236</p>
                                     <br>
-                                    <p class="mb-0">reservations@123mainmexico.com </p>
+                                    <p class="mb-0">
+                                    <a href="mailto:reservations@123mainmexico.com">    reservations@123mainmexico.com </a>
+                                    </p>
                             </div>
 
                             <div class="footer-2__social">
@@ -60,7 +62,7 @@
                                         </li>
                                         <li>
                                             <nuxt-link to="/contact">
-                                                contact
+                                                Contact
                                             </nuxt-link>
                                         </li>
                                     </ul>

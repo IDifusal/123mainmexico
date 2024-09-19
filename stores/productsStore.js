@@ -49,10 +49,13 @@ export const useProductsStore = defineStore({
           // Logging each product's details and appending them to the products array
           this.products = [
             ...this.products,
-            ...response.data.map(product => (
-              console.log("PRODUCT DETAILS", product),
-              { ...product }
-            ))
+            ...response.data.map(product => {
+              console.log("PRODUCT DETAILS", product);
+              return {
+                ...product,
+                price: parseFloat(product.price).toFixed(2), // Ensure price has two decimal places
+              };
+            })
           ];
         }
       } catch (error) {
@@ -60,7 +63,8 @@ export const useProductsStore = defineStore({
       } finally {
         this.loading = false;
       }
-    },
+    }
+    
     
   },
 });

@@ -7,13 +7,13 @@
           <div class="row align-items-center justify-content-between">
             <div class="col-12">
               <div class="breadcrumb__content text-center">
-                <h2 class="breadcrumb__title color-white title-animation">Gallery Page</h2>
+                <h2 class="breadcrumb__title color-white title-animation">Gallery</h2>
   
                 <div class="breadcrumb__menu">
                   <nav>
                     <ul>
                       <li><span><a href="index.html">Home</a></span></li>
-                      <li class="active"><span>Gallery Page</span></li>
+                      <li class="active"><span>Gallery</span></li>
                     </ul>
                   </nav>
                 </div>

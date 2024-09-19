@@ -96,7 +96,7 @@
                         </li>
                         <li class="has-dropdown">
                             <a @click="goToView('/about-us')">About Us</a>
-                        </li>                        
+                        </li>
                         <li class="">
                             <a @click="goToView('/blog')">Blog</a>
                         </li>
@@ -108,7 +108,7 @@
                     </ul>
                     <div class="offcanvas__btn">
                         <div class="header__btn-wrap">
-                            <a  @click="goToView('/reservation')" class="rr-btn__header d-sm-none mb-10 w-100">
+                            <a @click="goToView('/reservation')" class="rr-btn__header d-sm-none mb-10 w-100">
                                 <span class="hover-rl"></span>
                                 <span class="fake_hover"></span>
                                 <span class="btn-wrap">
@@ -173,8 +173,16 @@
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li class="has-mega-menu">
+                                        <li class="submenu">
                                             <nuxt-link to="/">Home</nuxt-link>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <nuxt-link to="/shop">Menu</nuxt-link>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <!-- <nuxt-link to="/about-us">About Us</nuxt-link> -->
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li class="has-dropdown">
                                             <nuxt-link>Restaurant</nuxt-link>
@@ -184,14 +192,6 @@
                                                 </li>
                                                 <li>
                                                     <nuxt-link to="/gallery">Gallery</nuxt-link>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown">
-                                            <nuxt-link to="/shop">Menu</nuxt-link>
-                                            <ul class="submenu">
-                                                <li>
-                                                    <nuxt-link to="/shop">Shop</nuxt-link>
                                                 </li>
                                             </ul>
                                         </li>

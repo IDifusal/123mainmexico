@@ -1,5 +1,5 @@
 <template>
-    <section class="our-service section-space section-bg-1" v-background
+    <section class="our-service section-space " v-background
         data-background="https://html.rrdevs.net/delish/assets/imgs/service/service-bg.png">
         <div class="container">
             <div class="row g-24">

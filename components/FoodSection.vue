@@ -1,5 +1,5 @@
 <template>
-    <section id="food-menu" class="food-menu section-space">
+    <section id="food-menu" class="food-menu section-space section-bg-1">
         <div class="container">
             <div class="row g-24 mb-55 mb-sm-50 mb-xs-40 align-items-lg-end align-items-center">
                 <div class="col-xl-6">

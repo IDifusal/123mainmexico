@@ -118,9 +118,9 @@
                         <div class="book-a-table-3-bottom__item">
                             <h6 class="text-uppercase mb-15">Visit Hour Restaurant</h6>
                             <ul>
-                                <li><a href="https://maps.app.goo.gl/1N77c8d8zieLRaot7">Eight avenue 487, NY,</a></li>
-                                <li><a href="tel:123440567899">T. +12 344 0567899</a></li>
-                                <li><a href="mailto:fidalgo@example.com">M. fidalgo@example.com</a></li>
+                                <li><a href="https://maps.app.goo.gl/1N77c8d8zieLRaot7">123 Main St, Pineville, NC 28134</a></li>
+                                <li><a href="tel:(704) 889-1236">(704) 889-1236</a></li>
+                                <li><a href="mailto:reservations@123mainmexico.com">reservations@123mainmexico.com</a></li>
                             </ul>
                         </div>
                     </div>

@@ -5535,7 +5535,6 @@ body .ui-tooltip {
 }
 .header__top-menu li:after {
   content: "";
-  position: absolute;
   width: 6px;
   height: 6px;
   background: #484848;

@@ -68,7 +68,7 @@ onMounted(() => {
 
 const restaurant = {
   name: '123 Main Mexico',
-  description: 'We bring the flavors of Mexico’s coast to Charlotte in a space that’s all about good vibes and great food',
+  description: "We bring the flavors of Mexico's coast to Charlotte in a space that's all about good vibes and great food",
   url: 'https://www.123mainmexico.com',
   logo: 'https://www.123mainmexico.com/images/123-MAIN-MEXICO-logo-transparente.png',
   address: {

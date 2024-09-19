@@ -15,7 +15,8 @@ export default defineNuxtConfig({
   modules:[
     '@pinia/nuxt',
     'nuxt-swiper',
-    'nuxt-gtag'
+    'nuxt-gtag',
+    'nuxt-jsonld'
   ],
   ssr: true,
   gtag: {

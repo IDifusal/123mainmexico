@@ -78,7 +78,8 @@
 
                             <div class="footer-2__link footer-2__link-16">
                                 <ul>
-                                    <li style="color:white">Mon-Sun: 9:00 am -10:00 pm</li>
+                                    <li style="color:white">Sunday - Thursday: 10:00 AM - 10:00 PM</li>
+                                    <li style="color:white">Friday - Saturday: 10:00 AM - 12:00 AM</li>
                                 </ul>
                             </div>
                         </div>

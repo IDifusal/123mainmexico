@@ -69,17 +69,17 @@
   
   const slides = [
     {
-      background: '/images/Mexican-Food-01-123-Main-Mexico.png',
+      background: '/images/slide-1-mainmexico.jpg',
       title: ['Fresh Coastal Flavors Authentic', ' Mexican Experience'],
       subtitle: '123 Main Mexico',
     },
     {
-      background: '/images/Mexican-Food-02-123-Main-Mexico.png',
+      background: '/images/slide-2-mainmexico.jpg',
       title: ["Taste Mexico's", 'Best in Town'],
       subtitle: '123 Main Mexico',
     },
     {
-      background: '/images/Mexican-Food-03-123-Main-Mexico.png',
+      background: '/images/slide-3-mainmexico.jpg',
       title: ["⁠Discover Delicious", 'Mexican Flavors'],
       subtitle: '123 Main Mexico',
     }    

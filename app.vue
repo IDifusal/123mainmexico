@@ -38,7 +38,7 @@ useHead({
     {
       rel: 'icon',
       type: 'image/x-icon',
-      href: '/favicon.ico',
+      href: '/fav-cion.png',
     },
     {
       rel: 'canonical',

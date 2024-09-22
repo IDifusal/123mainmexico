@@ -8,7 +8,7 @@
         :effect="'creative'"
         :autoplay="{
           delay: 8000,
-          disableOnInteraction: true,
+          disableOnInteraction: false,
         }"
         :creative-effect="{
           prev: {

@@ -22,7 +22,7 @@
               :loop="true"
               :autoplay="{
                 delay: 2000,
-                disableOnInteraction: true,
+                disableOnInteraction: false,
               }"
               class="client-testimonial__slider"
             >

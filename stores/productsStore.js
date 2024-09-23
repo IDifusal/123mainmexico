@@ -2,8 +2,8 @@
 import { defineStore } from 'pinia';
 import axios from 'axios';
 
-const customerKey = "ck_622d1f051ab98a1ec869d2e9aa4a666dab340076";
-const customerSecret = "cs_b90ab687c558829dea4273a1c0d12f0221d83b53";
+const customerKey = "ck_71358c45f6c31fcda764870e5ce08f3f78074f44";
+const customerSecret = "cs_9b111592732b3c5500d567240eee4727688d9dd1";
 
 export const useProductsStore = defineStore({
   id: 'products',
@@ -128,7 +128,7 @@ export const useProductsStore = defineStore({
         // Create an array of promises to fetch all pages at once
         const requests = [];
         for (let i = 0; i < totalBatches; i++) {
-          const request = axios.get(`https://api.123mainmexico.com/wp-json/wc/v3/products?_embed&per_page=${batchSize}&page=${i + 1}`, {
+          const request = axios.get(`https://123.espanglishmarketing.com/wp-json/wc/v3/products?_embed&per_page=${batchSize}&page=${i + 1}`, {
             auth: {
               username: customerKey,
               password: customerSecret,

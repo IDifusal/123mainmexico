@@ -14,7 +14,7 @@ export const useBlogStore = defineStore({
         return; 
       }
       try {
-        const response = await axios.get('https://api.123mainmexico.com/wp-json/wp/v2/posts?_embed');
+        const response = await axios.get('https://123.espanglishmarketing.com/wp-json/wp/v2/posts?_embed');
         this.blogs = response.data.map(post => ({
           ...post,
           featured_image_src: post._embedded['wp:featuredmedia'] ? post._embedded['wp:featuredmedia'][0].source_url : 'https://via.placeholder.com/600',
@@ -41,7 +41,7 @@ export const useBlogStore = defineStore({
         }
     
         // If not found, fetch from the API
-        const response = await axios.get(`https://api.123mainmexico.com/wp-json/wp/v2/posts?search=${query}&_embed`);
+        const response = await axios.get(`https://123.espanglishmarketing.com/wp-json/wp/v2/posts?search=${query}&_embed`);
         if (response.data.length > 0) {
           this.blogs = response.data.map(post => ({
             ...post,
@@ -65,7 +65,7 @@ export const useBlogStore = defineStore({
     },    
     async fetchRecentPosts() {
       try {
-        const response = await axios.get('https://api.123mainmexico.com/wp-json/wp/v2/posts?per_page=5');
+        const response = await axios.get('https://123.espanglishmarketing.com/wp-json/wp/v2/posts?per_page=5');
         this.recentPosts = response.data.map(post => ({
           ...post,
           featured_image_src: post.featured_media ? post._embedded['wp:featuredmedia'][0].source_url : 'https://via.placeholder.com/150',
@@ -78,7 +78,7 @@ export const useBlogStore = defineStore({
     },
     async fetchPost(slug) {
       try {
-        const response = await axios.get(`https://api.123mainmexico.com/wp-json/wp/v2/posts?slug=${slug}&_embed`);
+        const response = await axios.get(`https://123.espanglishmarketing.com/wp-json/wp/v2/posts?slug=${slug}&_embed`);
         const postData = response.data[0];
         this.currentPost = {
           ...postData,

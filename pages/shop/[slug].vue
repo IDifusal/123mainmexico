@@ -41,13 +41,13 @@
                     <div class="col-lg-6" @mousemove="handleMouseMove" @mouseleave="resetZoom" @click="openLightbox">
                         <div class="shop-details__thumb">
                             <img class="img-fluid"
-                                :src="product?.images[0]?.src || 'https://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'"
+                                :src="product?.images[0]?.src || 'https://123.espanglishmarketing.com/wp-content/uploads/2024/08/placeholder.png'"
                                 :alt="product?.name" @mouseover="zoomIn" @mouseleave="zoomOut" :style="thumbStyle" />
                         </div>
 
                         <div v-if="isLightboxOpen" class="lightbox" @click="closeLightbox">
                             <button class="close-button" @click.stop="closeLightbox">✖</button>
-                            <img :src="product?.images[0]?.src || 'https://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'"
+                            <img :src="product?.images[0]?.src || 'https://123.espanglishmarketing.com/wp-content/uploads/2024/08/placeholder.png'"
                                 :alt="product?.name" />
                         </div>
                     </div>

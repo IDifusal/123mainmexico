@@ -98,7 +98,7 @@
                 <div class="col-md-6">
                     <div class="book-a-table-3-bottom__media">
                         <div class="book-a-table-3-bottom__media-thumb-1">
-                            <img src="https://api.123mainmexico.com/wp-content/uploads/2024/09/Molcajete-House.png" class="img-fluid" alt="not found">
+                            <img src="https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Molcajete-House.png" class="img-fluid" alt="not found">
                         </div>
                     </div>
                 </div>

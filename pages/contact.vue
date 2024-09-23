@@ -68,7 +68,8 @@
                 </div>
                 <div class="text">
                     <span>Official Work Time</span>
-                    <div>Mon-Sun: 9:00 am -10:00 pm</div>
+                    <div>Sunday - Thursday: 10:00 AM - 10:00 PM</div>
+                    <div>Friday - Saturday: 10:00 AM - 12:00 AM</div>
                 </div>
             </div>
         </div>

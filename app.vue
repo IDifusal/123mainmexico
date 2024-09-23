@@ -2,7 +2,8 @@
   <div>
     <Header />
     <NuxtPage />
-    <section class="cta-2" v-background data-background="http://api.123mainmexico.com/wp-content/uploads/2024/08/DSC06413-1-2.jpg">
+    <section class="cta-2" v-background
+      data-background="http://api.123mainmexico.com/wp-content/uploads/2024/08/DSC06413-1-2.jpg">
       <div class="container">
         <div class="row g-24">
           <div class="col-12">
@@ -27,13 +28,14 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue';
+import { useBlogStore } from '@/stores/blogStore';
 import { useProductsStore } from '@/stores/productsStore';
 import { useAsyncData } from 'nuxt/app';
 
 const productsStore = useProductsStore();
-
-const { data: productsData, pending, error } = await useAsyncData('products', async () => {
+onMounted(() => {
+  blogStore.fetchPosts();
   productsStore.fetchProducts();
-  return productsStore.products;
 });
 </script>

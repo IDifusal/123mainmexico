@@ -21,6 +21,10 @@
         :slides-per-view="5"
         :space-between="24"
         loop
+        :autoplay="{
+                delay: 2000,
+                disableOnInteraction: false,
+              }"
         class="our-project__slider"
       >
         <SwiperSlide v-for="(project, index) in projects" :key="index">

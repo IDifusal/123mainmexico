@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     'nuxt-jsonld'
   ],
-  ssr: true,
+  ssr: false,
   gtag: {
     id: 'G-R7WKZHKB4Q'
   }

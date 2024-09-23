@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     'nuxt-swiper',
     'nuxt-gtag'
   ],
-  ssr: true,
+  ssr: false,
   gtag: {
     id: 'G-R7WKZHKB4Q'
   }

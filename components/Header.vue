@@ -179,8 +179,12 @@
                                         <li class="has-dropdown">
                                             <nuxt-link to="/shop">Menu</nuxt-link>
                                             <ul class="submenu">
-                                                <li>
-                                                    <!-- <nuxt-link to="/about-us">About Us</nuxt-link> -->
+                                                <li v-for="category in categories">
+                                                    <nuxt-link
+                                                        :to="{ path: `/shop/`, query: { category: category.path } }"
+                                                        class="food-menu__item-media">
+                                                        {{ category.category }}
+                                                    </nuxt-link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -247,7 +251,9 @@
 import { useUiStore } from '~/stores/uiStore';
 import { storeToRefs } from 'pinia';
 const uiStore = useUiStore();
+const productsStore = useProductsStore();
 const { isLoading } = storeToRefs(uiStore);
+const { categories } = storeToRefs(productsStore);
 const isOpen = ref(false);
 const router = useRouter();
 const openMenu = () => {

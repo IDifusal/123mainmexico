@@ -34,8 +34,7 @@ background-color: var(--rr-common-white);
 
 }
 .food-menu__item-media img{
-    height: 270px;
-    width: 270px;
+    min-height: 270px;
     object-fit: cover;
 }
 .mobile-list  a{

@@ -9,13 +9,14 @@
             <div class="cta-2__content">
               <div class="cta-2__content-text">
                 <span class="text-uppercase">Stay connected with us for the latest updates</span>
-                <h3 class="text-uppercase title-animation">
-                  Keep up with our latest news and events</h3>
+                <h3 class="text-uppercase title-animation">Keep up with our latest news and events</h3>
               </div>
               <div class="footer-2__subscribe d-flex mt-30 mt-xs-25">
-                                    <input type="text" placeholder="Email Address">
-                                    <button type="submit" class="footer-2__subscribe-btn"><img src="https://html.rrdevs.net/delish/assets/imgs/icon/plane.svg" alt="not found"></button>
-                                </div>
+                <input type="text" placeholder="Email Address">
+                <button type="submit" class="footer-2__subscribe-btn">
+                  <img src="https://html.rrdevs.net/delish/assets/imgs/icon/plane.svg" alt="not found">
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -24,14 +25,15 @@
     <Footer />
   </div>
 </template>
+
 <script setup>
-import { onMounted } from 'vue';
-import { useBlogStore } from '@/stores/blogStore';
 import { useProductsStore } from '@/stores/productsStore';
-const blogStore = useBlogStore();
+import { useAsyncData } from 'nuxt/app';
+
 const productsStore = useProductsStore();
-onMounted(() => {
-  blogStore.fetchPosts();
+
+const { data: productsData, pending, error } = await useAsyncData('products', async () => {
   productsStore.fetchProducts();
+  return productsStore.products;
 });
 </script>

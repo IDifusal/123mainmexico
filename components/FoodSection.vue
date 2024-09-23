@@ -13,7 +13,7 @@
                     <div
                         class="d-flex justify-content-xl-end mt-xs-10 mt-sm-10 mt-md-10 mt-lg-10 justify-content-center">
                         <div class="food-menu__tab masonary-menu">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -23,24 +23,28 @@
                 <div class="col-xl-8">
                     <div class="food-menu__item-wrapper">
                         <div class="row g-10 grid">
-                            <div v-for="(item, index) in featuredProducts" :key="index"
+                            <div v-for="(item, index) in categories" :key="index"
                                 :class="['col-lg-4 col-sm-6 grid-item', item.category]">
                                 <div class="food-menu__item">
-                                    <nuxt-link :to="`/shop/${item.slug}`" class="food-menu__item-media">
-                                        <img :src="item.images[0]? item.images[0].src : 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'" class="img-fluid" :alt="item.name">
+                                    <nuxt-link
+                                        :to="{ path: `/shop/`, query: { category: item.path } }"
+                                        class="food-menu__item-media">
+                                        <img :src="item.image ? item.image : 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'"
+                                            class="img-fluid image-categorie" :alt="item.category">
                                     </nuxt-link>
-
                                     <div class="food-menu__item-text">
-                                        <ul class="rating">
-                                            <li v-for="i in 5" :key="i"><i class="fa-solid fa-star"></i></li>
-                                        </ul>
-                                        <h6>{{ item.name }}</h6>
-                                        <!-- <p>{{ item.description }}</p> -->
-                                        <span class="price">${{ item.price }}</span>
+                                        <h6>
+                                            <nuxt-link
+                                        :to="{ path: `/shop/`, query: { category: item.path } }"
+                                        class="">
+                                            {{ item.category }}
+                                        </nuxt-link>    
+                                        
+                                        </h6>
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -48,8 +52,7 @@
                 <div class="col-xl-4">
                     <div class="food-menu__price-nav">
                         <div class="food-menu__price-nav__media">
-                            <img src="/images/DSC08041123.png"
-                                class="img-fluid" alt="image not found">
+                            <img src="/images/DSC08041123.png" class="img-fluid" alt="image not found">
                         </div>
 
                         <ul class="food-menu__price-nav__list">
@@ -60,43 +63,39 @@
                                 </div>
                                 <!-- <span class="price">{{ item.price }}</span> -->
                             </li>
-                        </ul>                        
+                        </ul>
                     </div>
                     <nuxt-link to="shop" class="rr-btn rr-btn__red">
-                                <span class="hover-rl"></span>
-                                <span class="fake_hover"></span>
-                                <span class="btn-wrap">
-                                    <span class="text-one">
-                                        View Full Menu
-                                        <img src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right-2.svg"
-                                            alt="not found" />
-                                    </span>
-                                    <span class="text-two">
-                                        View Full Menu
-                                        <img src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right-2.svg"
-                                            alt="not found" />
-                                    </span>
-                                </span>
-                    </nuxt-link>                       
+                        <span class="hover-rl"></span>
+                        <span class="fake_hover"></span>
+                        <span class="btn-wrap">
+                            <span class="text-one">
+                                View Full Menu
+                                <img src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right-2.svg"
+                                    alt="not found" />
+                            </span>
+                            <span class="text-two">
+                                View Full Menu
+                                <img src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right-2.svg"
+                                    alt="not found" />
+                            </span>
+                        </span>
+                    </nuxt-link>
                 </div>
-            </div>         
+            </div>
         </div>
     </section>
 </template>
 
 <script setup>
-import { ref, onMounted,computed } from 'vue';
+import { ref, onMounted, computed } from 'vue';
 import { useProductsStore } from '@/stores/productsStore';
 import { storeToRefs } from 'pinia';
 const productsStore = useProductsStore();
-const { products, loading } = storeToRefs(productsStore);
-
-onMounted(() => {
-//   productsStore.fetchProducts();
-});
+const { products, loading, categories } = storeToRefs(productsStore);
 
 const featuredProducts = computed(() => {
-  return products.value.filter(product => product.featured).slice(0, 6);
+    return products.value.filter(product => product.featured).slice(0, 6);
 });
 
 const sideDishes = ref([
@@ -145,3 +144,9 @@ const filteredMenu = computed(() => {
     return menuItems.value.filter(item => item.category === selectedCategory.value);
 });
 </script>
+<style scoped>
+.image-categorie {
+    min-height: 100px !important;
+    max-height: 100px !important;
+}
+</style>

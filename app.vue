@@ -62,15 +62,15 @@ import { useAsyncData } from 'nuxt/app';
 
 const productsStore = useProductsStore();
 const blogStore = useBlogStore();
-onMounted(() => {
-  productsStore.fetchProducts();
-  blogStore.fetchPosts();
-});
-
-// const { data: productsData, pending: productsLoading, error: productsError } = await useAsyncData('products', async () => {
-//   await productsStore.fetchProducts();
-//   return productsStore.products;
+// onMounted(() => {
+//   productsStore.fetchProducts();
+//   blogStore.fetchPosts();
 // });
+
+const { data: productsData, pending: productsLoading, error: productsError } = await useAsyncData('products', async () => {
+  await productsStore.fetchProducts();
+  return productsStore.products;
+});
 
 // // Fetch blog posts using useAsyncData
 // const { data: blogData, pending: blogLoading, error: blogError } = await useAsyncData('blog', async () => {

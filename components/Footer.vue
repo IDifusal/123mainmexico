@@ -1,6 +1,6 @@
 <template>
     <section class="footer-2__area-common footer-2__overlay theme-bg-secondary overflow-hidden">
-        <div class="footer-2__background leftRight" v-background data-background="https://html.rrdevs.net/delish/assets/imgs/footer/bg-main.png"></div>
+        <div class="footer-2__background leftRight" ></div>
 
         <div class="footer-2__main-wrapper footer-2__bottom-border position-relative z-2 pb-100 pb-xs-80">
             <div class="container">

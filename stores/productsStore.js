@@ -122,20 +122,16 @@ export const useProductsStore = defineStore({
       }
       this.loading = true;
       try {
-        const batchSize = 10;  // Number of products per request
-        const totalBatches = 10; // Total requests (10 * 10 = 100 products)
-
-        // Create an array of promises to fetch all pages at once
         const requests = [];
-        for (let i = 0; i < totalBatches; i++) {
-          const request = axios.get(`https://123.espanglishmarketing.com/wp-json/wc/v3/products?_embed&per_page=${batchSize}&page=${i + 1}`, {
+      
+          const request = axios.get(`https://123.espanglishmarketing.com/wp-json/custom-api/v1/products`, {
             auth: {
               username: customerKey,
               password: customerSecret,
             },
           });
           requests.push(request); // Add each request to the array
-        }
+    
 
         // Wait for all requests to complete
         const responses = await Promise.all(requests);

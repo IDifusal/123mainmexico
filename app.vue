@@ -72,11 +72,11 @@ const { data: productsData, pending: productsLoading, error: productsError } = a
   return productsStore.products;
 });
 
-// // Fetch blog posts using useAsyncData
-// const { data: blogData, pending: blogLoading, error: blogError } = await useAsyncData('blog', async () => {
-//   await blogStore.fetchPosts();
-//   return blogStore.posts;
-// });
+// Fetch blog posts using useAsyncData
+const { data: blogData, pending: blogLoading, error: blogError } = await useAsyncData('blog', async () => {
+  await blogStore.fetchPosts();
+  return blogStore.posts;
+});
 
 const restaurant = {
   name: '123 Main Mexico',

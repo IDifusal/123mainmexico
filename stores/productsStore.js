@@ -138,7 +138,6 @@ export const useProductsStore = defineStore({
 
         // Process all responses
         responses.forEach(response => {
-          console.log('Fetched products:', response.data);
           this.products.push(...response.data.map(product => {
             return {
               ...product,

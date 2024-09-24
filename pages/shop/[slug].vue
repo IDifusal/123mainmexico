@@ -46,9 +46,12 @@
                         </div>
 
                         <div v-if="isLightboxOpen" class="lightbox" @click="closeLightbox">
-                            <button class="close-button" @click.stop="closeLightbox">✖</button>
+                            
                             <img :src="product?.images[0]?.src || 'https://123.espanglishmarketing.com/wp-content/uploads/2024/08/placeholder.png'"
                                 :alt="product?.name" />
+                                <button class="close-button" @click.stop="closeLightbox">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="white" d="M13.46 12L19 17.54V19h-1.46L12 13.46L6.46 19H5v-1.46L10.54 12L5 6.46V5h1.46L12 10.54L17.54 5H19v1.46L13.46 12Z"/></svg>
+                                </button>
                         </div>
                     </div>
 
@@ -289,6 +292,11 @@ onBeforeUnmount(() => {
 .lightbox img {
     max-width: 90%;
     max-height: 90%;
+}
+.close-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 </style>

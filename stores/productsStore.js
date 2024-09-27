@@ -1,14 +1,21 @@
 // stores/productsStore.js
 import { defineStore } from 'pinia';
 import axios from 'axios';
-
+import data from './products.json';
 const customerKey = "ck_71358c45f6c31fcda764870e5ce08f3f78074f44";
 const customerSecret = "cs_9b111592732b3c5500d567240eee4727688d9dd1";
 
 export const useProductsStore = defineStore({
   id: 'products',
   state: () => ({
-    products: [],
+    products: [
+      ...data.map(product => {
+        return {
+          ...product,
+          price: parseFloat(product.price).toFixed(2),
+        };
+      }).reverse()
+    ],
     loading: false,
     cart: [],
     categories: [

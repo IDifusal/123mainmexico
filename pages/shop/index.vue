@@ -35,7 +35,7 @@
                         <h3 class="display-2" style="font-weight: 500;">Categories </h3>
                         <ul>
                             <li>
-                                <nuxt-link to="/shop">
+                                <nuxt-link :to="{ path: '/shop/', query: { category: 'all' } }">
                                     All Products
                                 </nuxt-link>
                             </li>
@@ -48,6 +48,12 @@
                         </ul>
                     </div>
                     <div class="col-sm-12 col-lg-9 flex row">
+                        <div>
+                            
+                            <h2 v-if="categoryFiltered !== '' " class="text-capitalize">
+                                Category: {{categoryFiltered  }}
+                            </h2>
+                        </div>
                         <div v-for="product in filteredProducts" class=" col-md-4 col-sm-6">
                             <div class="food-menu-tab__item mb-24">
                                 <nuxt-link :to="`/shop/${product.slug}`" class="food-menu-tab__item-media">
@@ -95,11 +101,17 @@ const productsStore = useProductsStore();
 const { products, loading, categories } = storeToRefs(productsStore);
 const route = useRoute();
 const filteredProducts = ref([]);
-
+const categoryFiltered = ref('');
 const filterProducts = () => {
     const category = route.query.category;
-    if (category) {
+    if (category ) {
         const categoryDecoded = decodeURIComponent(category).toLowerCase();
+        if (categoryDecoded === 'all') {
+            filteredProducts.value = products.value;
+            categoryFiltered.value = '';
+            return;
+        }
+        categoryFiltered.value = categoryDecoded;
         filteredProducts.value = products.value.filter(product => product.categories[0]?.name.toLowerCase() === categoryDecoded);
     } else {
         filteredProducts.value = products.value;

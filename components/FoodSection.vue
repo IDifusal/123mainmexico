@@ -81,6 +81,23 @@
                             </span>
                         </span>
                     </nuxt-link>
+
+                    <a href="https://123.espanglishmarketing.com/wp-content/uploads/2024/09/01-MENU-GENERAL-123_compressed.pdf" download class="rr-btn rr-btn__red">
+                        <span class="hover-rl"></span>
+                        <span class="fake_hover"></span>
+                        <span class="btn-wrap">
+                            <span class="text-one">
+                                Download Menu
+                                <img src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right-2.svg"
+                                    alt="not found" />
+                            </span>
+                            <span class="text-two">
+                                Download Menu
+                                <img src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right-2.svg"
+                                    alt="not found" />
+                            </span>
+                        </span>
+                    </a>                    
                 </div>
             </div>
         </div>

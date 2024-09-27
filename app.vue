@@ -63,7 +63,7 @@ import { useAsyncData } from 'nuxt/app';
 const productsStore = useProductsStore();
 const blogStore = useBlogStore();
 onMounted(() => {
-  productsStore.fetchProducts();
+  // productsStore.fetchProducts();
   blogStore.fetchPosts();
 });
 

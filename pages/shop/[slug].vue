@@ -207,7 +207,7 @@ onMounted(() => {
 })
 
 const featuredProducts = computed(() => {
-    return products.value.filter(product => product.featured).slice(0, 4);
+    return products.value.filter(product => product.is_featured).slice(0, 4);
 });
 
 watch(() => route.params.slug, async (newSlug, oldSlug) => {

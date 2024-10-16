@@ -41,23 +41,34 @@ export const useProductsStore = defineStore({
     async filterProductsByCategory(category) {
       return this.products.filter(product => product.categories.some(cat => cat.slug === category));
     },
-    async fetchCategories() { 
+    async fetchCategories() {
       this.loading = true;
+      this.categories = []; 
       try {
-        const response = await axios.get(`https://123.espanglishmarketing.com/wp-json/wc/v2/products/categories?_embed`, 
-          {
-            auth: {
-              username: customerKey,
-              password: customerSecret,
-            },
-          }
-        );
-        console.log('Categories:', response.data);
-        this.categories = response.data
-      }catch(error) {
+        const pagesToFetch = 2; 
+        const perPage = 10; 
+    
+        for (let page = 1; page <= pagesToFetch; page++) {
+          const response = await axios.get(`https://123.espanglishmarketing.com/wp-json/wc/v2/products/categories?_embed&page=${page}&per_page=${perPage}`, 
+            {
+              auth: {
+                username: customerKey,
+                password: customerSecret,
+              },
+            }
+          );
+    
+          const filteredCategories = response.data.filter(category => category.name !== 'Uncategorized');
+          
+          this.categories = [...this.categories, ...filteredCategories]; 
+        }
+      } catch (error) {
         console.error('Error fetching categories:', error);
+      } finally {
+        this.loading = false; 
       }
     },
+      
     async fetchProducts() {
       console.log('Fetching products...');
       if (this.products.length > 0) {

@@ -20,11 +20,11 @@
             </div>
 
             <div class="row g-24 flex-row flex-xl-row-reverse">
-                <div class="col-xl-8">
+                <div class="col-xl-12">
                     <div class="food-menu__item-wrapper">
                         <div class="row g-10 grid">
                             <div v-for="(item, index) in categories" :key="index"
-                                :class="['col-lg-4 col-sm-6 grid-item', item.category]">
+                                :class="['col-lg-2 col-sm-4 grid-item', item.category]">
                                 <div class="food-menu__item">
                                     <nuxt-link
                                         :to="{ path: `/shop/`, query: { category: item.slug } }"
@@ -46,26 +46,7 @@
                             </div>
 
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4">
-                    <div class="food-menu__price-nav">
-                        <div class="food-menu__price-nav__media">
-                            <img src="/images/DSC08041123.png" class="img-fluid" alt="image not found">
-                        </div>
-
-                        <ul class="food-menu__price-nav__list">
-                            <li v-for="(item, index) in sideDishes" :key="index">
-                                <div class="text">
-                                    <h6>{{ item.name }}</h6>
-                                    <p class="mb-0">{{ item.description }}</p>
-                                </div>
-                                <!-- <span class="price">{{ item.price }}</span> -->
-                            </li>
-                        </ul>
-                    </div>
-                    <nuxt-link to="shop" class="rr-btn rr-btn__red">
+                        <nuxt-link to="shop" class="rr-btn rr-btn__red">
                         <span class="hover-rl"></span>
                         <span class="fake_hover"></span>
                         <span class="btn-wrap">
@@ -82,10 +63,10 @@
                         </span>
                     </nuxt-link>
 
-                    <a href="https://123.espanglishmarketing.com/wp-content/uploads/2024/09/01-MENU-GENERAL-123_compressed.pdf" download class="rr-btn rr-btn__red">
+                    <a href="https://123.espanglishmarketing.com/wp-content/uploads/2024/09/01-MENU-GENERAL-123_compressed.pdf" download class="rr-btn rr-btn__red" style="margin-left: 1rem;">
                         <span class="hover-rl"></span>
                         <span class="fake_hover"></span>
-                        <span class="btn-wrap">
+                        <span class="btn-wrap" >
                             <span class="text-one">
                                 Download Menu
                                 <img src="https://html.rrdevs.net/delish/assets/imgs/icon/arrow-right-2.svg"
@@ -97,7 +78,8 @@
                                     alt="not found" />
                             </span>
                         </span>
-                    </a>                    
+                    </a>                            
+                    </div>
                 </div>
             </div>
         </div>

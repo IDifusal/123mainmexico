@@ -176,17 +176,8 @@
                                         <li class="submenu">
                                             <nuxt-link to="/">Home</nuxt-link>
                                         </li>
-                                        <li class="has-dropdown">
+                                        <li class="">
                                             <nuxt-link to="/shop">Menu</nuxt-link>
-                                            <ul class="submenu">
-                                                <li v-for="category in categories">
-                                                    <nuxt-link
-                                                        :to="{ path: `/shop/`, query: { category: category.path } }"
-                                                        class="food-menu__item-media">
-                                                        {{ category.category }}
-                                                    </nuxt-link>
-                                                </li>
-                                            </ul>
                                         </li>
                                         <li class="has-dropdown">
                                             <nuxt-link>Restaurant</nuxt-link>

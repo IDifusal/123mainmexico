@@ -27,17 +27,17 @@
                                 :class="['col-lg-4 col-sm-6 grid-item', item.category]">
                                 <div class="food-menu__item">
                                     <nuxt-link
-                                        :to="{ path: `/shop/`, query: { category: item.path } }"
+                                        :to="{ path: `/shop/`, query: { category: item.slug } }"
                                         class="food-menu__item-media">
-                                        <img :src="item.image ? item.image : 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'"
-                                            class="img-fluid image-categorie" :alt="item.category">
+                                        <img :src="item.image ? item.image.src : 'http://api.123mainmexico.com/wp-content/uploads/2024/08/placeholder.png'"
+                                            class="img-fluid image-categorie" :alt="item.name">
                                     </nuxt-link>
                                     <div class="food-menu__item-text">
                                         <h6>
                                             <nuxt-link
-                                        :to="{ path: `/shop/`, query: { category: item.path } }"
+                                        :to="{ path: `/shop/`, query: { category: item.slug } }"
                                         class="">
-                                            {{ item.category }}
+                                            {{ item.name }}
                                         </nuxt-link>    
                                         
                                         </h6>

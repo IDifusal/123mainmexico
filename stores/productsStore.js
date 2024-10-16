@@ -18,88 +18,7 @@ export const useProductsStore = defineStore({
     ],
     loading: false,
     cart: [],
-    categories: [
-      {
-        category: "Soups",
-        path: "soups",
-        image: ""
-      },
-      {
-        category: "Appetizer",
-        path: "appetizer",
-        image: ""
-      },
-      {
-        category: "Seafood",
-        path: "seafood",
-        image: ""
-      },
-      {
-        category: "Mexican Classics",
-        path: "mexican%20classics",
-        image: ""
-      },
-      {
-        category: "Steaks",
-        path: "steaks",
-        image: ""
-      },
-      {
-        category: "Chicken",
-        path: "chicken",
-        image: ""
-      },
-      {
-        category: "Pasta",
-        path: "pasta",
-        image: ""
-      },
-      {
-        category: "Oysters",
-        path: "oysters",
-        image: ""
-      },
-      {
-        category: "Ceviche",
-        path: "ceviche",
-        image: ""
-      },
-      {
-        category: "Cocketels",
-        path: "cocketels",
-        image: ""
-      },
-      {
-        category: "Shrimps",
-        path: "shrimps",
-        image: ""
-      },
-      {
-        category: "Fish",
-        path: "fish",
-        image: ""
-      },
-      {
-        category: "House Specials",
-        path: "house%20specials",
-        image: ""
-      },
-      {
-        category: "Sides",
-        path: "sides",
-        image: ""
-      },
-      {
-        category: "Kids Menu",
-        path: "kids%20menu",
-        image: ""
-      },
-      {
-        category: "Drinks - Nonalcoholic Beverage",
-        path: "drinks%20-%20nonalcoholic%20beverage",
-        image: ""
-      }
-    ]
+    categories:[]
   }),
   actions: {
     removeFromCart(index) {
@@ -121,6 +40,23 @@ export const useProductsStore = defineStore({
     },
     async filterProductsByCategory(category) {
       return this.products.filter(product => product.categories.some(cat => cat.slug === category));
+    },
+    async fetchCategories() { 
+      this.loading = true;
+      try {
+        const response = await axios.get(`https://123.espanglishmarketing.com/wp-json/wc/v2/products/categories?_embed`, 
+          {
+            auth: {
+              username: customerKey,
+              password: customerSecret,
+            },
+          }
+        );
+        console.log('Categories:', response.data);
+        this.categories = response.data
+      }catch(error) {
+        console.error('Error fetching categories:', error);
+      }
     },
     async fetchProducts() {
       console.log('Fetching products...');

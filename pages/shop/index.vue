@@ -40,9 +40,9 @@
                                 </nuxt-link>
                             </li>
                             <li v-for="category in categories">
-                                <nuxt-link :to="{ path: `/shop/`, query: { category: category.path } }"
+                                <nuxt-link :to="{ path: `/shop/`, query: { category: category.slug } }"
                                     class="food-menu__item-media">
-                                    {{ category.category }}
+                                    {{ category.name }}
                                 </nuxt-link>
                             </li>
                         </ul>
@@ -104,15 +104,24 @@ const filteredProducts = ref([]);
 const categoryFiltered = ref('');
 const filterProducts = () => {
     const category = route.query.category;
-    if (category ) {
+
+    if (category) {
         const categoryDecoded = decodeURIComponent(category).toLowerCase();
+
         if (categoryDecoded === 'all') {
             filteredProducts.value = products.value;
             categoryFiltered.value = '';
             return;
         }
+
         categoryFiltered.value = categoryDecoded;
-        filteredProducts.value = products.value.filter(product => product.categories[0]?.name.toLowerCase() === categoryDecoded);
+        filteredProducts.value = products.value.filter(product => {
+            const matches = product.categories.some(cat => {
+                const catNameNormalized = cat.name.toLowerCase().replace(/\s+/g, '-'); 
+                return catNameNormalized === categoryDecoded;
+            });
+            return matches;
+        });
     } else {
         filteredProducts.value = products.value;
     }

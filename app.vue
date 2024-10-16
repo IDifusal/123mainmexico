@@ -70,6 +70,7 @@ onMounted(() => {
 // Fetch blog posts using useAsyncData
 const { data: blogData, pending: blogLoading, error: blogError } = await useAsyncData('blog', async () => {
   await blogStore.fetchPosts();
+  await productsStore.fetchCategories();
   return blogStore.posts;
 });
 

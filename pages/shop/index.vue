@@ -13,7 +13,7 @@
                             <div class="breadcrumb__menu">
                                 <nav>
                                     <ul>
-                                        <li><span><a href="index.html">Home</a></span></li>
+                                        <li><span><nuxt-link to="/">Home</nuxt-link></span></li>
                                         <li class="active"><span>Shop Page</span></li>
                                     </ul>
                                 </nav>

@@ -12,7 +12,7 @@
                 <div class="breadcrumb__menu">
                   <nav>
                     <ul>
-                      <li><span><a href="index.html">Home</a></span></li>
+                      <li><span><a href="/">Home</a></span></li>
                       <li class="active"><span>Gallery</span></li>
                     </ul>
                   </nav>
@@ -85,10 +85,7 @@
       src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-6.jpeg',
       altText: 'Project 2',
     },    
-    {
-      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-7.jpeg',
-      altText: 'Project 2',
-    },      
+  
   ]);
   
   

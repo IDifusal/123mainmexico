@@ -182,22 +182,6 @@
                     </div>
                   </div>
                 </div>
-                <div class="sidebar__widget section-bg-2">
-                  <h4 class="sidebar__widget-title">Popular Tags</h4>
-                  <div class="sidebar__widget-tags">
-                    <div class="tags">
-                      <a href="blog-details.html">Advice</a>
-                      <a href="blog-details.html">Author</a>
-                      <a href="blog-details.html">Consulting</a>
-                      <a href="blog-details.html">Delish</a>
-                      <a href="blog-details.html">Family</a>
-                      <a href="blog-details.html">Health</a>
-                      <a href="blog-details.html">Tip</a>
-                      <a href="blog-details.html">Judge</a>
-                      <a href="blog-details.html">Solution</a>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

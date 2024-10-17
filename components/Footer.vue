@@ -8,9 +8,9 @@
                     <div class="col-lg-3 col-6">
                         <div class="footer-2__widget footer-2__widget-item-1">
                             <div class="footer-2__logo mb-30 mb-xs-25">
-                                <a href="index.html">
+                                <nuxt-link to="/">
                                     <img class="img-fluid" src="/images/123-MAIN-MEXICO-logo-transparente.png" alt="logo not found">
-                                </a>
+                                </nuxt-link>
                             </div>
 
                             <div class="footer-2__content mb-30 mb-xs-25">
@@ -118,8 +118,11 @@
                         <div class="col-lg-6">
                             <div class="footer-2__copyright-menu">
                                 <ul>
-                                    <li><a href="about-us.html">Terms of use</a></li>
-                                    <li><a href="about-us.html">Privacy Policy</a></li>
+                                    <!-- <li><a href="about-us.html">Terms of use</a></li>
+                                    <li><a href="about-us.html">Privacy Policy</a></li> -->
+                                    <a href="https://espanglishmarketing.com/" class="copy-espan">
+                                        Website by Espanglish Marketing
+                                    </a>
                                 </ul>
                             </div>
                         </div>
@@ -133,3 +136,11 @@
 <script setup>
 
 </script>
+<style>
+.copy-espan{
+    color:#ffffff !important
+}
+a.copy-espan:hover{
+    color: #f00 !important;
+}
+</style>

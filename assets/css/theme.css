@@ -11027,6 +11027,9 @@ body .ui-tooltip {
      object-fit: cover;
 }
 .food-menu__item-text {
+  font-family: var(--rr-ff-jost);
+}
+.food-menu__item-text {
   text-align: center;
   padding-top: 24px;
   padding-bottom: 26px;

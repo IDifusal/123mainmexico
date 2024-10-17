@@ -25,6 +25,7 @@
                 delay: 2000,
                 disableOnInteraction: false,
               }"
+        :breakpoints="breakpoints"
         class="our-project__slider"
       >
         <SwiperSlide v-for="(project, index) in projects" :key="index">
@@ -50,7 +51,28 @@
   
   <script setup>
   import { ref } from 'vue';
-  
+  const breakpoints = {
+  320: {
+    slidesPerView: 2,
+    spaceBetween: 10,
+  },
+  480: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+  },
+  640: {
+    slidesPerView: 3,
+    spaceBetween: 20,
+  },
+  768: {
+    slidesPerView: 4,
+    spaceBetween: 24,
+  },
+  1024: {
+    slidesPerView: 5,
+    spaceBetween: 24,
+  },
+}
   const projects = ref([
     {
       image: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-1.jpeg',

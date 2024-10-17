@@ -46,7 +46,7 @@
                                         <li><i class="fa-regular fa-calendar"></i>{{ new
                                             Date(post.date).toLocaleDateString() }}</li>
                                         <li><a :href="'/author/' + post.author_slug"><i
-                                                    class="fa-regular fa-user"></i>by {{ post.author_name }}</a></li>
+                                                    class="fa-regular fa-user"></i>by 123MainMexico</a></li>
                                     </ul>
                                     <h4 class="blog-4__item-content-title text-uppercase fw-bold mb-15">
                                         <nuxt-link :to="'/blog/' + post.slug">{{ post.title.rendered }}</nuxt-link>

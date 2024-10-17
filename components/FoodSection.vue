@@ -166,4 +166,9 @@ const slicedCategories = computed(() => {
   font-size: 1.2rem;
   text-align: center;
 }
+@media(min-width: 768px) {
+  .md-ml-3{
+    margin-left: 1rem;
+  }
+}
 </style>

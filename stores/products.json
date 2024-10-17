@@ -1,2134 +1,2374 @@
 [
     {
-        "name": "Lemonade",
-        "slug": "lemonade",
-        "description": "",
-        "price": "3.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Dr. Pepper",
-        "slug": "dr-pepper",
-        "description": "",
-        "price": "3.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Fanta",
-        "slug": "fanta",
-        "description": "",
-        "price": "3.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Sprite",
-        "slug": "sprite",
-        "description": "",
-        "price": "3.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Cherry Coke",
-        "slug": "cherry-coke",
-        "description": "",
-        "price": "3.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Coke Zero",
-        "slug": "coke-zero",
-        "description": "",
-        "price": "3.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Diet Coke",
-        "slug": "diet-coke",
-        "description": "",
-        "price": "3.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Coke",
-        "slug": "coke",
-        "description": "",
-        "price": "3.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Unsweet Tea",
-        "slug": "unsweet-tea",
-        "description": "",
-        "price": "6.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Sweet Tea",
-        "slug": "sweet-tea",
-        "description": "",
-        "price": "6.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Peac",
-        "slug": "peac",
-        "description": "",
-        "price": "6.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Papaya",
-        "slug": "papaya",
-        "description": "",
-        "price": "6.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Melon",
-        "slug": "melon",
-        "description": "",
-        "price": "6.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Berry",
-        "slug": "berry",
-        "description": "",
-        "price": "6.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Mango",
-        "slug": "mango",
-        "description": "",
-        "price": "6.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Hibiscus",
-        "slug": "hibiscus",
-        "description": "",
-        "price": "6.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Horchata",
-        "slug": "horchata",
-        "description": "",
-        "price": "6.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Pineapple",
-        "slug": "pineapple",
-        "description": "",
-        "price": "6.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 37,
-                "name": "Drinks - Nonalcoholic Beverage",
-                "slug": "drinks-nonalcoholic-beverage"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Pizza Mexicana - Steak",
-        "slug": "pizza-mexicana-steak",
-        "description": "Flour tortilla topped with cheese and tomato sauce. Served with steak.",
-        "price": "8.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 36,
-                "name": "Kids Menu",
-                "slug": "kids-menu"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Pizza Mexicana - Chicken",
-        "slug": "pizza-mexicana-chicken",
-        "description": "Flour tortilla topped with cheese and tomato sauce. Served with chicken.",
-        "price": "7.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 36,
-                "name": "Kids Menu",
-                "slug": "kids-menu"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Chicken Tenders & Fries",
-        "slug": "chicken-tenders-fries",
-        "description": "Crispy chicken tenders served with fries.",
-        "price": "8.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 36,
-                "name": "Kids Menu",
-                "slug": "kids-menu"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Cheese Quesadilla & Fries",
-        "slug": "cheese-quesadilla-fries-2",
-        "description": "A classic cheese quesadilla served with crispy fries.",
-        "price": "8.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 36,
-                "name": "Kids Menu",
-                "slug": "kids-menu"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Guacamole",
-        "slug": "guacamole",
-        "description": "Additional sides",
-        "price": "4.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 35,
-                "name": "Sides",
-                "slug": "sides"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Mar Y Tierra",
-        "slug": "mar-y-tierra",
-        "description": "Grilled steak topped with your choice of shrimp pr lobster tail.",
-        "price": "41.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 20,
-                "name": "House Specials",
-                "slug": "house-specials"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Crab Legs",
-        "slug": "crab-legs",
-        "description": "Succulent crab legs served with you choice of butter garlic, ajillo, kora sauce, or cajun seasoning. ",
-        "price": "60.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 27,
-                "name": "Seafood",
-                "slug": "seafood"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Langostino",
-        "slug": "langostino",
-        "description": "Langostino prepared in you choice of ajillo or garlic butter sauce.",
-        "price": "40.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 27,
-                "name": "Seafood",
-                "slug": "seafood"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Octopus",
-        "slug": "octopus-2",
-        "description": "Grilled octopus with house butter, potato, salad, and chef's adobo, served with one side; you can upgrade the sauce to Kora or Ajillo.",
-        "price": "30.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 27,
-                "name": "Seafood",
-                "slug": "seafood"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Paella No Paella",
-        "slug": "paella-no-paella",
-        "description": "Yellow rice in paella style with seafood.",
-        "price": "23.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 27,
-                "name": "Seafood",
-                "slug": "seafood"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Aguachile",
-        "slug": "aguachile",
-        "description": "Shrimp cooked in lime juice with your choice of sauce:\n*Traditional Green \n*Mango\n*Red\n*Mixed",
-        "price": "20.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 27,
-                "name": "Seafood",
-                "slug": "seafood"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Salmon A La Carta",
-        "slug": "salmon-a-la-carta-2",
-        "description": "Grilled salmon filet covered with you choice of sauce or ajillo (garlic) sauce.",
-        "price": "25.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 23,
-                "name": "Fish",
-                "slug": "fish"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Filete A La Carta - Ajillo",
-        "slug": "filete-a-la-carta-ajillo",
-        "description": "Filet sauteed with garlic.",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 23,
-                "name": "Fish",
-                "slug": "fish"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Filete A La Carta - Empanizado",
-        "slug": "filete-a-la-carta-empanizado",
-        "description": "Breaded and fried filete.",
-        "price": "18.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 23,
-                "name": "Fish",
-                "slug": "fish"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "FIlete 123",
-        "slug": "filete-123",
-        "description": "Fish fillet grilled and filled with mixed seafood, covered in a chipotle and cheese sauce.",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 23,
-                "name": "Fish",
-                "slug": "fish"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Filete Agave",
-        "slug": "filete-agave",
-        "description": "Fish fillet grilled and filled with shrimp, onions, and mushrooms, then covered in a cheese sauce.",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 23,
-                "name": "Fish",
-                "slug": "fish"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Filete Poblano",
-        "slug": "filete-poblano",
-        "description": "Fish fillet cooked with butter and covered in a poblano pepper cream sauce. ",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 23,
-                "name": "Fish",
-                "slug": "fish"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Red Snapper",
-        "slug": "red-snapper",
-        "description": "Fried red snapper includes two sides and upgrade with house spicy sauce.",
-        "price": "35.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 23,
-                "name": "Fish",
-                "slug": "fish"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Mojarra",
-        "slug": "mojarra",
-        "description": "Fried mojarra includes two sides and upgrade with house spicy sauce.",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 23,
-                "name": "Fish",
-                "slug": "fish"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Bacon Bomb Shrimps",
-        "slug": "bacon-bomb-shrimps",
-        "description": "Shrimp wrapped in bacon and cheese, served with chipotle mayo sauce (8 Pieces.)",
-        "price": "29.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 34,
-                "name": "Shrimps",
-                "slug": "shrimps"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Rebosados Shrimps",
-        "slug": "rebosados-shrimps",
-        "description": "Shrimp filled with Philadelphia cheese and topped with a special mango sauce. Served with mashed potatoes and pineapple salad (10 Pieces.) (sides not included)",
-        "price": "25.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 34,
-                "name": "Shrimps",
-                "slug": "shrimps"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Ajillo Shrimps",
-        "slug": "ajillo-shrimps",
-        "description": "Shrimp sauteed in garlic.",
-        "price": "25.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 34,
-                "name": "Shrimps",
-                "slug": "shrimps"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Main Mexico Shrimps",
-        "slug": "main-mexico-shrimps",
-        "description": "Shrimp cooked in butter with mushrooms, cram, and chipotle, covered with gratin cheese. (10 Pieces)",
-        "price": "24.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 34,
-                "name": "Shrimps",
-                "slug": "shrimps"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Zarandeados Shrimps",
-        "slug": "zarandeados-shrimps",
-        "description": "Butterfly shrimp with shell, grilled with house adobo, served with potatoes, and salad. (10 pieces)",
-        "price": "24.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 34,
-                "name": "Shrimps",
-                "slug": "shrimps"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Campechano Cocketels",
-        "slug": "campechano-cocketels",
-        "description": "Fresh seafood selection of your choice, prepared Mexican-style with lime juice, onions, tomato, cucumber, and cilantro. Served with campechano.",
-        "price": "28.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 33,
-                "name": "Cocketels",
-                "slug": "cocketels"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Octopus Cocketels",
-        "slug": "octopus-cocketels",
-        "description": "Fresh seafood selection of your choice, prepared Mexican-style with lime juice, onions, tomato, cucumber, and cilantro. Served with octopus.",
-        "price": "24.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 33,
-                "name": "Cocketels",
-                "slug": "cocketels"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Shrimp Cocketels",
-        "slug": "shrimp-cocketels",
-        "description": "Fresh seafood selection of your choice, prepared Mexican-style with lime juice, onions, tomato, cucumber, and cilantro. Served with shrimp.",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 33,
-                "name": "Cocketels",
-                "slug": "cocketels"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Torre de Mariscos Ceviche",
-        "slug": "torre-de-mariscos-ceviche",
-        "description": "Fresh seafood selection marinated in lime juice with tomato, red onion, cucumber, cilantro, and our house special sauce. Served with mixed seafood tower (octopus, calamari, shrimp, scallops, and mussels).",
-        "price": "30.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 32,
-                "name": "Ceviche",
-                "slug": "ceviche"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Playero Ceviche",
-        "slug": "playero-ceviche",
-        "description": "Fresh seafood selection marinated in lime juice with tomato, red onion, cucumber, cilantro, and our house special sauce. Served with mixed seafood (octopus, calamari, shrimp, scallops, and mussels) in a habanero sauce.",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 32,
-                "name": "Ceviche",
-                "slug": "ceviche"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Especial Ceviche",
-        "slug": "especial-ceviche",
-        "description": "Fresh seafood selection marinated in lime juice with tomato, red onion, cucumber, cilantro, and our house special sauce. Served with shrimp in a tangy clamato sauce.",
-        "price": "19.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 32,
-                "name": "Ceviche",
-                "slug": "ceviche"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Chef Ceviche",
-        "slug": "chef-ceviche",
-        "description": "Fresh seafood selection marinated in lime juice with tomato, red onion, cucumber, cilantro, and our house special sauce. Served with fish in a black sauce.",
-        "price": "18.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 32,
-                "name": "Ceviche",
-                "slug": "ceviche"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Gratinandos - 12 Pieces",
-        "slug": "gratinandos-12-pieces",
-        "description": "Grilled with garlic, butter, chef's seasoning, and melted cheese. Served with a dozen oysters.",
-        "price": "32.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 31,
-                "name": "Oysters",
-                "slug": "oysters"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Gratinandos - 6 Pieces",
-        "slug": "gratinandos-6-pieces",
-        "description": "Grilled with garlic, butter, chef's seasoning, and melted cheese. Served with half a dozen oysters.",
-        "price": "17.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 31,
-                "name": "Oysters",
-                "slug": "oysters"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Zarandeados - 12 Pieces",
-        "slug": "zarandeados-12-pieces",
-        "description": "Grilled with garlic, butter, and chef's adobo seasoning. Served with a dozen oysters.",
-        "price": "32.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 31,
-                "name": "Oysters",
-                "slug": "oysters"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Zarandeados - 6 Pieces",
-        "slug": "zarandeados-6-pieces",
-        "description": "Grilled with garlic, butter, and chef's adobo seasoning. Served with half a dozen oysters.",
-        "price": "17.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 31,
-                "name": "Oysters",
-                "slug": "oysters"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Ceviche - 12 Pieces",
-        "slug": "ceviche-12-pieces",
-        "description": "Freshly prepared ceviche served on top. Served with a dozen oysters.",
-        "price": "32.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 31,
-                "name": "Oysters",
-                "slug": "oysters"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Ceviche - 6 Pieces",
-        "slug": "ceviche-6-pieces",
-        "description": "Freshly prepared ceviche served on top. Served with half a dozen oysters.",
-        "price": "17.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 31,
-                "name": "Oysters",
-                "slug": "oysters"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Natural Oysters - 12 Pieces",
-        "slug": "natural-oysters-12-pieces",
-        "description": "Raw oysters served with lime and a special soy sauce. Served with a dozen oysters.",
-        "price": "29.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 31,
-                "name": "Oysters",
-                "slug": "oysters"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Natural Oysters - 6 Pieces",
-        "slug": "natural-oysters-6-pieces",
-        "description": "Raw oysters served with lime and a special soy sauce. Served with half a dozen oysters.",
-        "price": "16.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 31,
-                "name": "Oysters",
-                "slug": "oysters"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Shrimp Pasta",
-        "slug": "shrimp-pasta",
-        "description": "Creamy alfredo pasta with mushrooms, green peppers, and onions, topped with parmesan cheese, and a sprinkle of fresh parsley. \nServed with shrimp. ",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 30,
-                "name": "Pasta",
-                "slug": "pasta"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Chicken Pasta",
-        "slug": "chicken-pasta",
-        "description": "Creamy alfredo pasta with mushrooms, green peppers, and onions, topped with parmesan cheese, and a sprinkle of fresh parsley. \nServed with chicken.",
-        "price": "19.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 30,
-                "name": "Pasta",
-                "slug": "pasta"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Seafood Soup",
-        "slug": "seafood-soup",
-        "description": "A comforting bowl of soup, served with a slice of garlic bread.\nAssorted seafood soup with potatoes and carrots.",
-        "price": "18.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 25,
-                "name": "Soups",
-                "slug": "soups"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Shrimp Soup or Bisque Soup",
-        "slug": "shrimp-soup-or-bisque-soup",
-        "description": "A comforting bowl of soup, served with a slice of garlic bread.\nChoose between our rich and velvety shrimp bisque or a traditional coastal shrimp soup with potatoes and carrots.",
-        "price": "16.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 25,
-                "name": "Soups",
-                "slug": "soups"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Chicken Soup",
-        "slug": "chicken-soup",
-        "description": "A comforting bowl of soup, served with a slice of garlic bread. \nChicken soup blend of mushrooms, zucchini, corn, spinach, potatoes, and carrots.",
-        "price": "14.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 25,
-                "name": "Soups",
-                "slug": "soups"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Vegetable Soup",
-        "slug": "vegetable-soup",
-        "description": "A comforting bowl of soup, served with a slice of garlic bread.\nA savory blend of mushrooms, zucchini, corn, spinach, potatoes, and carrots.",
-        "price": "12.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 25,
-                "name": "Soups",
-                "slug": "soups"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Wings - 12 Piece",
-        "slug": "wings-12-piece",
-        "description": "Fried wings topped with your choice of buffalo, BBQ, or mango sauce. Served with french fries, carrots, and celery.",
-        "price": "17.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 29,
-                "name": "Chicken",
-                "slug": "chicken"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Wings - 6 Piece",
-        "slug": "wings-6-piece",
-        "description": "Fried wings topped with your choice of buffalo, BBQ, or mango sauce. Served with french fries, carrots, and celery.",
-        "price": "11.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 29,
-                "name": "Chicken",
-                "slug": "chicken"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Chori Pollo",
-        "slug": "chori-pollo",
-        "description": "Grilled chicken with chorizo and melted cheese, served with rice and beans.",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 29,
-                "name": "Chicken",
-                "slug": "chicken"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Rib Eye",
-        "slug": "rib-eye-2",
-        "description": "Juicy rib eye steak grilled (14 oz.)",
-        "price": "33.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 28,
-                "name": "Steaks",
-                "slug": "steaks"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Arrachera",
-        "slug": "arrachera-2",
-        "description": "Grilled skirt steak \n",
-        "price": "28.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 28,
-                "name": "Steaks",
-                "slug": "steaks"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Grilled Pepito Sandwich - Birria",
-        "slug": "grilled-pepito-sandwich-birria",
-        "description": "A flavorful sandwich with your choice of protein, layered with melted cheese, creamy guacamole, lettuce, onions, tomatoes, and mayo, served on a grilled bun, served with french fries. \nServed with birria, slow-cooked beef (no sides included) ",
-        "price": "21.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Grilled Pepito Sandwich - Steak",
-        "slug": "grilled-pepito-sandwich-steak",
-        "description": "A flavorful sandwich with your choice of protein, layered with melted cheese, creamy guacamole, lettuce, onions, tomatoes, and mayo, served on a grilled bun, served with french fries. \nServed with sirloin steak.",
-        "price": "18.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Grilled Pepito Sandwich - Grilled Chicken",
-        "slug": "grilled-pepito-sandwich-grilled-chicken",
-        "description": "A flavorful sandwich with your choice of protein, layered with melted cheese, creamy guacamole, lettuce, onions, tomatoes, and mayo, served on a grilled bun, served with french fries. \nServed with grilled chicken.",
-        "price": "17.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Quesadillas - Veggie",
-        "slug": "quesadillas-veggie",
-        "description": "Flour tortillas filled with melted cheese, peppers, and onions, served with rice and beans. Classics cheese quesadillas. Served with mix vegetable quesadillas. ",
-        "price": "17.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Quesadillas - Steak",
-        "slug": "quesadillas-steak",
-        "description": "Flour tortillas filled with melted cheese, peppers, and onions, served with rice and beans. Classics cheese quesadillas. Served with sirloin steak.\n",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Quesadillas - Grilled Chicken",
-        "slug": "quesadillas-grilled-chicken",
-        "description": "Flour tortillas filled with melted cheese, peppers, and onions, served with rice and beans.\n",
-        "price": "17.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Quesadillas - Cheese",
-        "slug": "quesadillas-cheese",
-        "description": "Flour tortillas filled with melted cheese, peppers, and onions, served with rice and beans. Classics cheese quesdaillas.\n",
-        "price": "13.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Fajitas - Texanas",
-        "slug": "fajitas-texanas",
-        "description": "Savory meat served on a bed of red, green peppers, and onions, accompanied by tortillas, rice, an beans. Served with chicken, steak, and shrimp.",
-        "price": "26.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Fajitas - Mixtas",
-        "slug": "fajitas-mixtas",
-        "description": "Savory meat served on a bed of red, green peppers, and onions, accompanied by tortillas, rice, an beans. Served with chicken and steak.",
-        "price": "25.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Fajitas - Steak",
-        "slug": "fajitas-steak",
-        "description": "Savory meat served on a bed of red, green peppers, and onions, accompanied by tortillas, rice, an beans. Served with sirloin steak.",
-        "price": "25.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Fajitas - Grilles Chicken",
-        "slug": "fajitas-grilles-chicken",
-        "description": "Savory meat served on a bed of red, green peppers, and onions, accompanied by tortillas, rice, an beans.",
-        "price": "25.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Birria Tacos",
-        "slug": "birria-tacos",
-        "description": "Three tacos per order, made with handmade tortillas, served with beans and rice. Topped with fresh cilantro and onions.\nSpiced slow-cooked beef (no sides included.)",
-        "price": "19.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Gobernador Tacos",
-        "slug": "gobernador-tacos",
-        "description": "Three tacos per order, made with handmade tortillas, served with beans and rice. Topped with fresh cilantro and onions.\nShrimp with cheese, peppers, and onions.",
-        "price": "19.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Asada House Tacos",
-        "slug": "asada-house-tacos",
-        "description": "Three tacos per order, made with handmade tortillas, served with beans and rice. Topped with fresh cilantro and onions.\nGrilled sirloin steak.",
-        "price": "19.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Fish Tacos",
-        "slug": "fish-tacos",
-        "description": "Three tacos per order, made with handmade tortillas, served with beans and rice. Topped with fresh cilantro and onions. \nTacos come with lettuce and tomato.",
-        "price": "18.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Grilled Chick Tacos",
-        "slug": "grilled-chick-tacos",
-        "description": "Three tacos per order, made with handmade tortillas, served with beans and rice. Topped with fresh cilantro and onions.",
-        "price": "18.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Mahi-Mahi Chicharron",
-        "slug": "mahi-mahi-chicharron",
-        "description": "Crispy fried Mahi-mahi fish pieces served with out chef's special sauce.",
-        "price": "13.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 26,
-                "name": "Appetizer",
-                "slug": "appetizer"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Cheese Dip Shrimp",
-        "slug": "cheese-dip-shrimp",
-        "description": "Our delicious melted cheese, prefect for dipping and sharing. Served with your choice of protein: \n*Beans \n*Chorizo\n*Shrimp\n",
-        "price": "13.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 26,
-                "name": "Appetizer",
-                "slug": "appetizer"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Cheese Dip Chorizo",
-        "slug": "cheese-dip-chorizo",
-        "description": "Our delicious melted cheese, prefect for dipping and sharing. Served with your choice of protein: \n*Beans \n*Chorizo\n*Shrimp\n",
-        "price": "12.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 26,
-                "name": "Appetizer",
-                "slug": "appetizer"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Cheese Dip Beans",
-        "slug": "cheese-dip-beans",
-        "description": "Our delicious melted cheese, prefect for dipping and sharing. Served with your choice of protein: \n*Beans \n*Chorizo\n*Shrimp\n",
-        "price": "13.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 26,
-                "name": "Appetizer",
-                "slug": "appetizer"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Fried Seafood Mix",
-        "slug": "fried-seafood-mix-2",
-        "description": "A crispy, golden blend of battered shrimp, calamari, and tender octopus, served with our signature chipotle sauce and tangy tartar sauce on the side.",
-        "price": "17.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 26,
-                "name": "Appetizer",
-                "slug": "appetizer"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Traditional Green Aguachile",
-        "slug": "traditional-green-aguachile",
-        "description": "Shrimp cooked in lime juice with your choice of sauce:\r\nTraditional Green / Mango / Red / Mixed",
-        "price": "20.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 27,
-                "name": "Seafood",
-                "slug": "seafood"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/aguachile2-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Seafood Tostada",
-        "slug": "seafood-tostada",
-        "description": "Crispy corn tortilla topped with fresh seafood marinated in lime juice and served with our house-made pico de gallo. Choose from:\r\n\r\n*Shrimp\r\n*Fish\r\n*Octopus\r\n*Mixed: Octopus, shrimp, fish",
-        "price": "13.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 26,
-                "name": "Appetizer",
-                "slug": "appetizer"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/TOSTADA-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Shrimp Bisque",
-        "slug": "shrimp-bisque",
-        "description": "A comforting bowl of soup, served with a slice of garlic bread.",
-        "price": "16.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 25,
-                "name": "Soups",
-                "slug": "soups"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/SOPA-DE-CAMARON-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Grilled Pepito Steak Sandwich",
-        "slug": "grilled-pepito-steak-sandwich",
-        "description": "A flavorful sandwich with your choice of protein, layered with melted cheese, creamy guacamole, lettuce, onions, tomatoes, and mayo, served on a grilled bun, served with french fries.",
-        "price": "18.5",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 24,
-                "name": "Mexican Classics",
-                "slug": "mexican-classics"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/sandwich-1-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Fried Seafood Mix",
-        "slug": "fried-seafood-mix",
-        "description": "A crispy, golden blend of battered shrimp, calamari, and tender octopus, served with our signature chipotle sauce and tangy tartar sauce on the side.",
-        "price": "17",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Fritura-Marina-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Langosta",
-        "slug": "langosta",
-        "description": "Succulent lobster topped with a seafood mix, served with rice and salad. Choose your sauce:\r\n\r\n*A la Crema: Alfredo style\r\n*Al Ajillo: Sauteed with garlic",
-        "price": "45",
-        "is_featured": true,
-        "categories": [
-            {
-                "id": 20,
-                "name": "House Specials",
-                "slug": "house-specials"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/langosta-1-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Grand Molcajete Guacamole",
-        "slug": "grand-molcajete-guacamole",
-        "description": "Fresh made guacamole with pico de gallo and mexican spices, served in a traditional molcajete.\r\nPerfect for sharing for the whole family.",
-        "price": "13",
-        "is_featured": true,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/guacamole-1-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Mexican Shrimp Tempura",
-        "slug": "mexican-shrimp-tempura",
-        "description": "Tempura-battered shrimp served with a side of sweet and sour sauce.",
-        "price": "15",
-        "is_featured": true,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/DSC08041123-1-1.png",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Molcajete House",
-        "slug": "molcajete-house",
-        "description": "Grilled steak, chicken, shrimp, nopal, cambray onions, chorizo, and panela cheese, all covered in our signature molcajete house sauce.",
-        "price": "39",
-        "is_featured": true,
-        "categories": [
-            {
-                "id": 20,
-                "name": "House Specials",
-                "slug": "house-specials"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Molcajete-House-1.png",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Huachinango House",
-        "slug": "huachinango-house-2",
-        "description": "Grilled shrimp, tilapia, mojarra frita, octopus, and seafood mix topped with chef's sauce. (Portion for two people)",
-        "price": "48.00",
-        "is_featured": true,
-        "categories": [
-            {
-                "id": 20,
-                "name": "House Specials",
-                "slug": "house-specials"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Huachimango-House-1.jpg",
-                "alt": ""
-            },
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Huachimango-House-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Fried Fish Red Snapper",
-        "slug": "fried-fish-red-snapper",
-        "description": "Choose your fish and have ut fried or upgrade with house spicy sauce.",
-        "price": "35.00",
-        "is_featured": true,
-        "categories": [
-            {
-                "id": 23,
-                "name": "Fish",
-                "slug": "fish"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Fried-Fish-Red-Snapper-123-1.jpg",
-                "alt": ""
-            },
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Fried-Fish-Red-Snapper-123-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Camarones Botaneros",
-        "slug": "camarones-botaneros",
-        "description": "Fried whole Shrimp topped with our chef's specialty spicy sauce.\r\nChoose from:\r\n*Kora: huichol sauce, butter, chile, and garlic\r\n*Huichol: huichol sauce with chef's seasoning\r\n*Salsa Negra: chilipitin sauce with chef's seasoning",
-        "price": "30",
-        "is_featured": true,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Camarones-Botaneros-1.png",
-                "alt": ""
-            },
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Camarones-Botaneros-1.png",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Pitcher",
-        "slug": "pitcher",
-        "description": "Desserts - Pitcher",
-        "price": "21.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 22,
-                "name": "Desserts",
-                "slug": "desserts"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "jalapeño margarita",
-        "slug": "jalapeno-margarita",
-        "description": "Desserts - jalapeño margarita",
-        "price": "14.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 22,
-                "name": "Desserts",
-                "slug": "desserts"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "cheese quesadilla & fries",
-        "slug": "cheese-quesadilla-fries",
-        "description": "Appetizers - cheese quesadilla & fries",
-        "price": "7.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Veggie",
-        "slug": "veggie",
-        "description": "Appetizers - Veggie",
-        "price": "17.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Mixta meat",
-        "slug": "mixta-meat",
-        "description": "Appetizers - Mixta meat",
-        "price": "21.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Mixta chicken",
-        "slug": "mixta-chicken",
-        "description": "Appetizers - Mixta chicken",
-        "price": "16.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Queso",
-        "slug": "queso",
-        "description": "Appetizers - Queso",
-        "price": "13.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "arrachera",
-        "slug": "arrachera",
-        "description": "Appetizers - arrachera",
-        "price": "32.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "rib eye",
-        "slug": "rib-eye",
-        "description": "Appetizers - rib eye",
-        "price": "31.50",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Las costillas del patron",
-        "slug": "las-costillas-del-patron",
-        "description": "Pork ribs topped with you choice of BBQ or mango sauce, served with golden potatoes.",
-        "price": "32.00",
-        "is_featured": true,
-        "categories": [
-            {
-                "id": 20,
-                "name": "House Specials",
-                "slug": "house-specials"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Las-Costillas-del-Patron-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Breaded ajo o ajillo",
-        "slug": "breaded-ajo-o-ajillo",
-        "description": "Appetizers - Breaded ajo o ajillo",
-        "price": "21.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "salmon a la carta",
-        "slug": "salmon-a-la-carta",
-        "description": "Appetizers - salmon a la carta",
-        "price": "2499",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Aguachile Ribeye",
-        "slug": "aguachile-ribeye",
-        "description": "Grilled ribeye steak covered in our chef's aguachile sauce.",
-        "price": "25",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 20,
-                "name": "House Specials",
-                "slug": "house-specials"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/DSC08046123-1-1.png",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Filete fish 123",
-        "slug": "filete-fish-123",
-        "description": "Appetizers - Filete fish 123",
-        "price": "21.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Filete Agave Grilled and filled with",
-        "slug": "filete-agave-grilled-and-filled-with",
-        "description": "Appetizers - Filete Agave Grilled and filled with",
-        "price": "2199",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Filete Puerto Cooked with butter and",
-        "slug": "filete-puerto-cooked-with-butter-and",
-        "description": "Appetizers - Filete Puerto Cooked with butter and",
-        "price": "21.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "filetes bacon bom",
-        "slug": "filetes-bacon-bom",
-        "description": "Appetizers - filetes bacon bom",
-        "price": "28.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Campechano (octopus and shrimp)",
-        "slug": "campechano-octopus-and-shrimp",
-        "description": "Appetizers - Campechano (octopus and shrimp)",
-        "price": "27.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Torre de mariscos",
-        "slug": "torre-de-mariscos",
-        "description": "Appetizers - Torre de mariscos",
-        "price": "29.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Octopus",
-        "slug": "octopus",
-        "description": "Appetizers - Octopus",
-        "price": "2400",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Shrimp",
-        "slug": "shrimp",
-        "description": "Appetizers - Shrimp",
-        "price": "22.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "cucumber and cilantro) main mexico",
-        "slug": "cucumber-and-cilantro-main-mexico",
-        "description": "Appetizers - cucumber and cilantro) main mexico",
-        "price": "24.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "zarandeados",
-        "slug": "zarandeados",
-        "description": "Appetizers - zarandeados",
-        "price": "24.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Playero (habanero sauce)",
-        "slug": "playero-habanero-sauce",
-        "description": "Appetizers - Playero (habanero sauce)",
-        "price": "21.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Chef ceviche (black sauce)",
-        "slug": "chef-ceviche-black-sauce",
-        "description": "Appetizers - Chef ceviche (black sauce)",
-        "price": "17.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Especial  (clamato sauce)",
-        "slug": "especial-clamato-sauce",
-        "description": "Appetizers - Especial  (clamato sauce)",
-        "price": "17.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Aguachile (green sauce)",
-        "slug": "aguachile-green-sauce",
-        "description": "Appetizers - Aguachile (green sauce)",
-        "price": "17.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Gratinados grilled with garlic, butter,",
-        "slug": "gratinados-grilled-with-garlic-butter",
-        "description": "Appetizers - Gratinados grilled with garlic, butter,",
-        "price": "32.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Zarandeados grilled with garlic,",
-        "slug": "zarandeados-grilled-with-garlic",
-        "description": "Appetizers - Zarandeados grilled with garlic,",
-        "price": "32.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Natural raw oyster with lime and soya",
-        "slug": "natural-raw-oyster-with-lime-and-soya",
-        "description": "Appetizers - Natural raw oyster with lime and soya",
-        "price": "29.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Prepared fresh ceviche on top",
-        "slug": "prepared-fresh-ceviche-on-top",
-        "description": "Appetizers - Prepared fresh ceviche on top",
-        "price": "32.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Corn tortilla crisp topped with seafood",
-        "slug": "corn-tortilla-crisp-topped-with-seafood",
-        "description": "Appetizers - Corn tortilla crisp topped with seafood",
-        "price": "12.99",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Huachinango house",
-        "slug": "huachinango-house",
-        "description": "Seafood - Huachinango house",
-        "price": "48.00",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 20,
-                "name": "House Specials",
-                "slug": "house-specials"
-            }
-        ],
-        "images": []
-    },
-    {
-        "name": "Shrimp Empanadas",
-        "slug": "shrimp-empanadas",
-        "description": "Cripsy empanda dough stuffed with shrimp, sauteed onions, and peppers. Served with fresh avocado, chipotle sauce, and a side of zesty green aguachile sauce.",
-        "price": "15",
-        "is_featured": false,
-        "categories": [
-            {
-                "id": 21,
-                "name": "Appetizers",
-                "slug": "appetizers"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/02-EMPANADAS-1-1.jpg",
-                "alt": ""
-            }
-        ]
-    },
-    {
-        "name": "Molcajete del mar",
-        "slug": "molcajete-del-mar",
-        "description": "Grilled shrimo, tilapia, mojarra frita, octupus, and seafood mix topped with chef's sauce. (Portions for two people)",
-        "price": "44",
-        "is_featured": true,
-        "categories": [
-            {
-                "id": 20,
-                "name": "House Specials",
-                "slug": "house-specials"
-            }
-        ],
-        "images": [
-            {
-                "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Molcajete-del-mar-1.jpg",
-                "alt": ""
-            }
-        ]
+      "name": "Lemonade",
+      "slug": "lemonade",
+      "description": "",
+      "price": "3.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Dr. Pepper",
+      "slug": "dr-pepper",
+      "description": "",
+      "price": "3.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Fanta",
+      "slug": "fanta",
+      "description": "",
+      "price": "3.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Sprite",
+      "slug": "sprite",
+      "description": "",
+      "price": "3.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Cherry Coke",
+      "slug": "cherry-coke",
+      "description": "",
+      "price": "3.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Coke Zero",
+      "slug": "coke-zero",
+      "description": "",
+      "price": "3.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Diet Coke",
+      "slug": "diet-coke",
+      "description": "",
+      "price": "3.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Coke",
+      "slug": "coke",
+      "description": "",
+      "price": "3.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Unsweet Tea",
+      "slug": "unsweet-tea",
+      "description": "",
+      "price": "6.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Sweet Tea",
+      "slug": "sweet-tea",
+      "description": "",
+      "price": "6.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Peac",
+      "slug": "peac",
+      "description": "",
+      "price": "6.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Papaya",
+      "slug": "papaya",
+      "description": "",
+      "price": "6.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Melon",
+      "slug": "melon",
+      "description": "",
+      "price": "6.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Berry",
+      "slug": "berry",
+      "description": "",
+      "price": "6.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Mango",
+      "slug": "mango",
+      "description": "",
+      "price": "6.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Hibiscus",
+      "slug": "hibiscus",
+      "description": "",
+      "price": "6.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Horchata",
+      "slug": "horchata",
+      "description": "",
+      "price": "6.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Pineapple",
+      "slug": "pineapple",
+      "description": "",
+      "price": "6.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 37,
+          "name": "Drinks",
+          "slug": "drinks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Pizza Mexicana - Steak",
+      "slug": "pizza-mexicana-steak",
+      "description": "Flour tortilla topped with cheese and tomato sauce. Served with steak.",
+      "price": "8.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 36,
+          "name": "Kids Menu",
+          "slug": "kids-menu"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Pizza Mexicana - Chicken",
+      "slug": "pizza-mexicana-chicken",
+      "description": "Flour tortilla topped with cheese and tomato sauce. Served with chicken.",
+      "price": "7.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 36,
+          "name": "Kids Menu",
+          "slug": "kids-menu"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Chicken Tenders & Fries",
+      "slug": "chicken-tenders-fries",
+      "description": "Crispy chicken tenders served with fries.",
+      "price": "8.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 36,
+          "name": "Kids Menu",
+          "slug": "kids-menu"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Cheese Quesadilla & Fries",
+      "slug": "cheese-quesadilla-fries-2",
+      "description": "A classic cheese quesadilla served with crispy fries.",
+      "price": "8.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 36,
+          "name": "Kids Menu",
+          "slug": "kids-menu"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Guacamole",
+      "slug": "guacamole",
+      "description": "Additional sides",
+      "price": "4.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 35,
+          "name": "Sides",
+          "slug": "sides"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Mar Y Tierra",
+      "slug": "mar-y-tierra",
+      "description": "Grilled steak topped with your choice of shrimp pr lobster tail.",
+      "price": "41.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 20,
+          "name": "House Specials",
+          "slug": "house-specials"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Crab Legs",
+      "slug": "crab-legs",
+      "description": "Succulent crab legs served with you choice of butter garlic, ajillo, kora sauce, or cajun seasoning. ",
+      "price": "60.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 27,
+          "name": "Seafood",
+          "slug": "seafood"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Langostino",
+      "slug": "langostino",
+      "description": "Langostino prepared in you choice of ajillo or garlic butter sauce.",
+      "price": "40.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 27,
+          "name": "Seafood",
+          "slug": "seafood"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Octopus",
+      "slug": "octopus-2",
+      "description": "Grilled octopus with house butter, potato, salad, and chef's adobo, served with one side; you can upgrade the sauce to Kora or Ajillo.",
+      "price": "30.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 27,
+          "name": "Seafood",
+          "slug": "seafood"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Paella No Paella",
+      "slug": "paella-no-paella",
+      "description": "Yellow rice in paella style with seafood.",
+      "price": "23.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 27,
+          "name": "Seafood",
+          "slug": "seafood"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Aguachile",
+      "slug": "aguachile",
+      "description": "Shrimp cooked in lime juice with your choice of sauce:\n*Traditional Green \n*Mango\n*Red\n*Mixed",
+      "price": "20.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 27,
+          "name": "Seafood",
+          "slug": "seafood"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Salmon A La Carta",
+      "slug": "salmon-a-la-carta-2",
+      "description": "Grilled salmon filet covered with you choice of sauce or ajillo (garlic) sauce.",
+      "price": "25.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 23,
+          "name": "Fish",
+          "slug": "fish"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Filete A La Carta - Ajillo",
+      "slug": "filete-a-la-carta-ajillo",
+      "description": "Filet sauteed with garlic.",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 23,
+          "name": "Fish",
+          "slug": "fish"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Filete A La Carta - Empanizado",
+      "slug": "filete-a-la-carta-empanizado",
+      "description": "Breaded and fried filete.",
+      "price": "18.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 23,
+          "name": "Fish",
+          "slug": "fish"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "FIlete 123",
+      "slug": "filete-123",
+      "description": "Fish fillet grilled and filled with mixed seafood, covered in a chipotle and cheese sauce.",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 23,
+          "name": "Fish",
+          "slug": "fish"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Filete Agave",
+      "slug": "filete-agave",
+      "description": "Fish fillet grilled and filled with shrimp, onions, and mushrooms, then covered in a cheese sauce.",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 23,
+          "name": "Fish",
+          "slug": "fish"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Filete Poblano",
+      "slug": "filete-poblano",
+      "description": "Fish fillet cooked with butter and covered in a poblano pepper cream sauce. ",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 23,
+          "name": "Fish",
+          "slug": "fish"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Red Snapper",
+      "slug": "red-snapper",
+      "description": "Fried red snapper includes two sides and upgrade with house spicy sauce.",
+      "price": "35.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 23,
+          "name": "Fish",
+          "slug": "fish"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Mojarra",
+      "slug": "mojarra",
+      "description": "Fried mojarra includes two sides and upgrade with house spicy sauce.",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 23,
+          "name": "Fish",
+          "slug": "fish"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Bacon Bomb Shrimps",
+      "slug": "bacon-bomb-shrimps",
+      "description": "Shrimp wrapped in bacon and cheese, served with chipotle mayo sauce (8 Pieces.)",
+      "price": "29.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 34,
+          "name": "Shrimps",
+          "slug": "shrimps"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Rebosados Shrimps",
+      "slug": "rebosados-shrimps",
+      "description": "Shrimp filled with Philadelphia cheese and topped with a special mango sauce. Served with mashed potatoes and pineapple salad (10 Pieces.) (sides not included)",
+      "price": "25.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 34,
+          "name": "Shrimps",
+          "slug": "shrimps"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Ajillo Shrimps",
+      "slug": "ajillo-shrimps",
+      "description": "Shrimp sauteed in garlic.",
+      "price": "25.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 34,
+          "name": "Shrimps",
+          "slug": "shrimps"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Main Mexico Shrimps",
+      "slug": "main-mexico-shrimps",
+      "description": "Shrimp cooked in butter with mushrooms, cram, and chipotle, covered with gratin cheese. (10 Pieces)",
+      "price": "24.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 34,
+          "name": "Shrimps",
+          "slug": "shrimps"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Zarandeados Shrimps",
+      "slug": "zarandeados-shrimps",
+      "description": "Butterfly shrimp with shell, grilled with house adobo, served with potatoes, and salad. (10 pieces)",
+      "price": "24.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 34,
+          "name": "Shrimps",
+          "slug": "shrimps"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Campechano Cocketels",
+      "slug": "campechano-cocketels",
+      "description": "Fresh seafood selection of your choice, prepared Mexican-style with lime juice, onions, tomato, cucumber, and cilantro. Served with campechano.",
+      "price": "28.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 33,
+          "name": "Cocketels",
+          "slug": "cocketels"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Octopus Cocketels",
+      "slug": "octopus-cocketels",
+      "description": "Fresh seafood selection of your choice, prepared Mexican-style with lime juice, onions, tomato, cucumber, and cilantro. Served with octopus.",
+      "price": "24.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 33,
+          "name": "Cocketels",
+          "slug": "cocketels"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Shrimp Cocketels",
+      "slug": "shrimp-cocketels",
+      "description": "Fresh seafood selection of your choice, prepared Mexican-style with lime juice, onions, tomato, cucumber, and cilantro. Served with shrimp.",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 33,
+          "name": "Cocketels",
+          "slug": "cocketels"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Torre de Mariscos Ceviche",
+      "slug": "torre-de-mariscos-ceviche",
+      "description": "Fresh seafood selection marinated in lime juice with tomato, red onion, cucumber, cilantro, and our house special sauce. Served with mixed seafood tower (octopus, calamari, shrimp, scallops, and mussels).",
+      "price": "30.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 32,
+          "name": "Ceviche",
+          "slug": "ceviche"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Playero Ceviche",
+      "slug": "playero-ceviche",
+      "description": "Fresh seafood selection marinated in lime juice with tomato, red onion, cucumber, cilantro, and our house special sauce. Served with mixed seafood (octopus, calamari, shrimp, scallops, and mussels) in a habanero sauce.",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 32,
+          "name": "Ceviche",
+          "slug": "ceviche"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Especial Ceviche",
+      "slug": "especial-ceviche",
+      "description": "Fresh seafood selection marinated in lime juice with tomato, red onion, cucumber, cilantro, and our house special sauce. Served with shrimp in a tangy clamato sauce.",
+      "price": "19.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 32,
+          "name": "Ceviche",
+          "slug": "ceviche"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Chef Ceviche",
+      "slug": "chef-ceviche",
+      "description": "Fresh seafood selection marinated in lime juice with tomato, red onion, cucumber, cilantro, and our house special sauce. Served with fish in a black sauce.",
+      "price": "18.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 32,
+          "name": "Ceviche",
+          "slug": "ceviche"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Gratinandos - 12 Pieces",
+      "slug": "gratinandos-12-pieces",
+      "description": "Grilled with garlic, butter, chef's seasoning, and melted cheese. Served with a dozen oysters.",
+      "price": "32.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 31,
+          "name": "Oysters",
+          "slug": "oysters"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Gratinandos - 6 Pieces",
+      "slug": "gratinandos-6-pieces",
+      "description": "Grilled with garlic, butter, chef's seasoning, and melted cheese. Served with half a dozen oysters.",
+      "price": "17.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 31,
+          "name": "Oysters",
+          "slug": "oysters"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Zarandeados - 12 Pieces",
+      "slug": "zarandeados-12-pieces",
+      "description": "Grilled with garlic, butter, and chef's adobo seasoning. Served with a dozen oysters.",
+      "price": "32.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 31,
+          "name": "Oysters",
+          "slug": "oysters"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Zarandeados - 6 Pieces",
+      "slug": "zarandeados-6-pieces",
+      "description": "Grilled with garlic, butter, and chef's adobo seasoning. Served with half a dozen oysters.",
+      "price": "17.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 31,
+          "name": "Oysters",
+          "slug": "oysters"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Ceviche - 12 Pieces",
+      "slug": "ceviche-12-pieces",
+      "description": "Freshly prepared ceviche served on top. Served with a dozen oysters.",
+      "price": "32.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 31,
+          "name": "Oysters",
+          "slug": "oysters"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Ceviche - 6 Pieces",
+      "slug": "ceviche-6-pieces",
+      "description": "Freshly prepared ceviche served on top. Served with half a dozen oysters.",
+      "price": "17.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 31,
+          "name": "Oysters",
+          "slug": "oysters"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Natural Oysters - 12 Pieces",
+      "slug": "natural-oysters-12-pieces",
+      "description": "Raw oysters served with lime and a special soy sauce. Served with a dozen oysters.",
+      "price": "29.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 31,
+          "name": "Oysters",
+          "slug": "oysters"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Natural Oysters - 6 Pieces",
+      "slug": "natural-oysters-6-pieces",
+      "description": "Raw oysters served with lime and a special soy sauce. Served with half a dozen oysters.",
+      "price": "16.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 31,
+          "name": "Oysters",
+          "slug": "oysters"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Shrimp Pasta",
+      "slug": "shrimp-pasta",
+      "description": "Creamy alfredo pasta with mushrooms, green peppers, and onions, topped with parmesan cheese, and a sprinkle of fresh parsley. \nServed with shrimp. ",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 30,
+          "name": "Pasta",
+          "slug": "pasta"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Chicken Pasta",
+      "slug": "chicken-pasta",
+      "description": "Creamy alfredo pasta with mushrooms, green peppers, and onions, topped with parmesan cheese, and a sprinkle of fresh parsley. \nServed with chicken.",
+      "price": "19.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 30,
+          "name": "Pasta",
+          "slug": "pasta"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Seafood Soup",
+      "slug": "seafood-soup",
+      "description": "A comforting bowl of soup, served with a slice of garlic bread.\nAssorted seafood soup with potatoes and carrots.",
+      "price": "18.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 25,
+          "name": "Soups",
+          "slug": "soups"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Shrimp Soup or Bisque Soup",
+      "slug": "shrimp-soup-or-bisque-soup",
+      "description": "A comforting bowl of soup, served with a slice of garlic bread.\nChoose between our rich and velvety shrimp bisque or a traditional coastal shrimp soup with potatoes and carrots.",
+      "price": "16.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 25,
+          "name": "Soups",
+          "slug": "soups"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Chicken Soup",
+      "slug": "chicken-soup",
+      "description": "A comforting bowl of soup, served with a slice of garlic bread. \nChicken soup blend of mushrooms, zucchini, corn, spinach, potatoes, and carrots.",
+      "price": "14.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 25,
+          "name": "Soups",
+          "slug": "soups"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Vegetable Soup",
+      "slug": "vegetable-soup",
+      "description": "A comforting bowl of soup, served with a slice of garlic bread.\nA savory blend of mushrooms, zucchini, corn, spinach, potatoes, and carrots.",
+      "price": "12.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 25,
+          "name": "Soups",
+          "slug": "soups"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Wings - 12 Piece",
+      "slug": "wings-12-piece",
+      "description": "Fried wings topped with your choice of buffalo, BBQ, or mango sauce. Served with french fries, carrots, and celery.",
+      "price": "17.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 29,
+          "name": "Chicken",
+          "slug": "chicken"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Wings - 6 Piece",
+      "slug": "wings-6-piece",
+      "description": "Fried wings topped with your choice of buffalo, BBQ, or mango sauce. Served with french fries, carrots, and celery.",
+      "price": "11.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 29,
+          "name": "Chicken",
+          "slug": "chicken"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Chori Pollo",
+      "slug": "chori-pollo",
+      "description": "Grilled chicken with chorizo and melted cheese, served with rice and beans.",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 29,
+          "name": "Chicken",
+          "slug": "chicken"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Rib Eye",
+      "slug": "rib-eye-2",
+      "description": "Juicy rib eye steak grilled (14 oz.)",
+      "price": "33.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 28,
+          "name": "Steaks",
+          "slug": "steaks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Arrachera",
+      "slug": "arrachera-2",
+      "description": "Grilled skirt steak \n",
+      "price": "28.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 28,
+          "name": "Steaks",
+          "slug": "steaks"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Grilled Pepito Sandwich - Birria",
+      "slug": "grilled-pepito-sandwich-birria",
+      "description": "A flavorful sandwich with your choice of protein, layered with melted cheese, creamy guacamole, lettuce, onions, tomatoes, and mayo, served on a grilled bun, served with french fries. \nServed with birria, slow-cooked beef (no sides included) ",
+      "price": "21.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Grilled Pepito Sandwich - Steak",
+      "slug": "grilled-pepito-sandwich-steak",
+      "description": "A flavorful sandwich with your choice of protein, layered with melted cheese, creamy guacamole, lettuce, onions, tomatoes, and mayo, served on a grilled bun, served with french fries. \nServed with sirloin steak.",
+      "price": "18.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Grilled Pepito Sandwich - Grilled Chicken",
+      "slug": "grilled-pepito-sandwich-grilled-chicken",
+      "description": "A flavorful sandwich with your choice of protein, layered with melted cheese, creamy guacamole, lettuce, onions, tomatoes, and mayo, served on a grilled bun, served with french fries. \nServed with grilled chicken.",
+      "price": "17.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Quesadillas - Veggie",
+      "slug": "quesadillas-veggie",
+      "description": "Flour tortillas filled with melted cheese, peppers, and onions, served with rice and beans. Classics cheese quesadillas. Served with mix vegetable quesadillas. ",
+      "price": "17.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Quesadillas - Steak",
+      "slug": "quesadillas-steak",
+      "description": "Flour tortillas filled with melted cheese, peppers, and onions, served with rice and beans. Classics cheese quesadillas. Served with sirloin steak.\n",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Quesadillas - Grilled Chicken",
+      "slug": "quesadillas-grilled-chicken",
+      "description": "Flour tortillas filled with melted cheese, peppers, and onions, served with rice and beans.\n",
+      "price": "17.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Quesadillas - Cheese",
+      "slug": "quesadillas-cheese",
+      "description": "Flour tortillas filled with melted cheese, peppers, and onions, served with rice and beans. Classics cheese quesdaillas.\n",
+      "price": "13.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Fajitas - Texanas",
+      "slug": "fajitas-texanas",
+      "description": "Savory meat served on a bed of red, green peppers, and onions, accompanied by tortillas, rice, an beans. Served with chicken, steak, and shrimp.",
+      "price": "26.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Fajitas - Mixtas",
+      "slug": "fajitas-mixtas",
+      "description": "Savory meat served on a bed of red, green peppers, and onions, accompanied by tortillas, rice, an beans. Served with chicken and steak.",
+      "price": "25.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Fajitas - Steak",
+      "slug": "fajitas-steak",
+      "description": "Savory meat served on a bed of red, green peppers, and onions, accompanied by tortillas, rice, an beans. Served with sirloin steak.",
+      "price": "25.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Fajitas - Grilles Chicken",
+      "slug": "fajitas-grilles-chicken",
+      "description": "Savory meat served on a bed of red, green peppers, and onions, accompanied by tortillas, rice, an beans.",
+      "price": "25.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Birria Tacos",
+      "slug": "birria-tacos",
+      "description": "Three tacos per order, made with handmade tortillas, served with beans and rice. Topped with fresh cilantro and onions.\nSpiced slow-cooked beef (no sides included.)",
+      "price": "19.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Gobernador Tacos",
+      "slug": "gobernador-tacos",
+      "description": "Three tacos per order, made with handmade tortillas, served with beans and rice. Topped with fresh cilantro and onions.\nShrimp with cheese, peppers, and onions.",
+      "price": "19.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Asada House Tacos",
+      "slug": "asada-house-tacos",
+      "description": "Three tacos per order, made with handmade tortillas, served with beans and rice. Topped with fresh cilantro and onions.\nGrilled sirloin steak.",
+      "price": "19.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Fish Tacos",
+      "slug": "fish-tacos",
+      "description": "Three tacos per order, made with handmade tortillas, served with beans and rice. Topped with fresh cilantro and onions. \nTacos come with lettuce and tomato.",
+      "price": "18.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Grilled Chick Tacos",
+      "slug": "grilled-chick-tacos",
+      "description": "Three tacos per order, made with handmade tortillas, served with beans and rice. Topped with fresh cilantro and onions.",
+      "price": "18.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Mahi-Mahi Chicharron",
+      "slug": "mahi-mahi-chicharron",
+      "description": "Crispy fried Mahi-mahi fish pieces served with out chef's special sauce.",
+      "price": "13.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Cheese Dip Shrimp",
+      "slug": "cheese-dip-shrimp",
+      "description": "Our delicious melted cheese, prefect for dipping and sharing. Served with your choice of protein: \n*Beans \n*Chorizo\n*Shrimp\n",
+      "price": "13.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Cheese Dip Chorizo",
+      "slug": "cheese-dip-chorizo",
+      "description": "Our delicious melted cheese, prefect for dipping and sharing. Served with your choice of protein: \n*Beans \n*Chorizo\n*Shrimp\n",
+      "price": "12.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Cheese Dip Beans",
+      "slug": "cheese-dip-beans",
+      "description": "Our delicious melted cheese, prefect for dipping and sharing. Served with your choice of protein: \n*Beans \n*Chorizo\n*Shrimp\n",
+      "price": "13.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Fried Seafood Mix",
+      "slug": "fried-seafood-mix-2",
+      "description": "A crispy, golden blend of battered shrimp, calamari, and tender octopus, served with our signature chipotle sauce and tangy tartar sauce on the side.",
+      "price": "17.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Traditional Green Aguachile",
+      "slug": "traditional-green-aguachile",
+      "description": "Shrimp cooked in lime juice with your choice of sauce:\r\nTraditional Green / Mango / Red / Mixed",
+      "price": "20.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 27,
+          "name": "Seafood",
+          "slug": "seafood"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/aguachile2-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Seafood Tostada",
+      "slug": "seafood-tostada",
+      "description": "Crispy corn tortilla topped with fresh seafood marinated in lime juice and served with our house-made pico de gallo. Choose from:\r\n\r\n*Shrimp\r\n*Fish\r\n*Octopus\r\n*Mixed: Octopus, shrimp, fish",
+      "price": "13.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/TOSTADA-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Shrimp Bisque",
+      "slug": "shrimp-bisque",
+      "description": "A comforting bowl of soup, served with a slice of garlic bread.",
+      "price": "16.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 25,
+          "name": "Soups",
+          "slug": "soups"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/SOPA-DE-CAMARON-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Grilled Pepito Steak Sandwich",
+      "slug": "grilled-pepito-steak-sandwich",
+      "description": "A flavorful sandwich with your choice of protein, layered with melted cheese, creamy guacamole, lettuce, onions, tomatoes, and mayo, served on a grilled bun, served with french fries.",
+      "price": "18.5",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 24,
+          "name": "Mexican Classics",
+          "slug": "mexican-classics"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/sandwich-1-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Fried Seafood Mix",
+      "slug": "fried-seafood-mix",
+      "description": "A crispy, golden blend of battered shrimp, calamari, and tender octopus, served with our signature chipotle sauce and tangy tartar sauce on the side.",
+      "price": "17",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Fritura-Marina-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Langosta",
+      "slug": "langosta",
+      "description": "Succulent lobster topped with a seafood mix, served with rice and salad. Choose your sauce:\r\n\r\n*A la Crema: Alfredo style\r\n*Al Ajillo: Sauteed with garlic",
+      "price": "45",
+      "is_featured": true,
+      "categories": [
+        {
+          "id": 20,
+          "name": "House Specials",
+          "slug": "house-specials"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/langosta-1-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Grand Molcajete Guacamole",
+      "slug": "grand-molcajete-guacamole",
+      "description": "Fresh made guacamole with pico de gallo and mexican spices, served in a traditional molcajete.\r\nPerfect for sharing for the whole family.",
+      "price": "13",
+      "is_featured": true,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/guacamole-1-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Mexican Shrimp Tempura",
+      "slug": "mexican-shrimp-tempura",
+      "description": "Tempura-battered shrimp served with a side of sweet and sour sauce.",
+      "price": "15",
+      "is_featured": true,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/DSC08041123-1-1.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Molcajete House",
+      "slug": "molcajete-house",
+      "description": "Grilled steak, chicken, shrimp, nopal, cambray onions, chorizo, and panela cheese, all covered in our signature molcajete house sauce.",
+      "price": "39",
+      "is_featured": true,
+      "categories": [
+        {
+          "id": 20,
+          "name": "House Specials",
+          "slug": "house-specials"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Molcajete-House-1.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Huachinango House",
+      "slug": "huachinango-house-2",
+      "description": "Grilled shrimp, tilapia, mojarra frita, octopus, and seafood mix topped with chef's sauce. (Portion for two people)",
+      "price": "48.00",
+      "is_featured": true,
+      "categories": [
+        {
+          "id": 20,
+          "name": "House Specials",
+          "slug": "house-specials"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Huachimango-House-1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Huachimango-House-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Fried Fish Red Snapper",
+      "slug": "fried-fish-red-snapper",
+      "description": "Choose your fish and have ut fried or upgrade with house spicy sauce.",
+      "price": "35.00",
+      "is_featured": true,
+      "categories": [
+        {
+          "id": 23,
+          "name": "Fish",
+          "slug": "fish"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Fried-Fish-Red-Snapper-123-1.jpg",
+          "alt": ""
+        },
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Fried-Fish-Red-Snapper-123-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Camarones Botaneros",
+      "slug": "camarones-botaneros",
+      "description": "Fried whole Shrimp topped with our chef's specialty spicy sauce.\r\nChoose from:\r\n*Kora: huichol sauce, butter, chile, and garlic\r\n*Huichol: huichol sauce with chef's seasoning\r\n*Salsa Negra: chilipitin sauce with chef's seasoning",
+      "price": "30",
+      "is_featured": true,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Camarones-Botaneros-1.png",
+          "alt": ""
+        },
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Camarones-Botaneros-1.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Pitcher",
+      "slug": "pitcher",
+      "description": "Desserts - Pitcher",
+      "price": "21.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 22,
+          "name": "Desserts",
+          "slug": "desserts"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "jalapeño margarita",
+      "slug": "jalapeno-margarita",
+      "description": "Desserts - jalapeño margarita",
+      "price": "14.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 22,
+          "name": "Desserts",
+          "slug": "desserts"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "cheese quesadilla & fries",
+      "slug": "cheese-quesadilla-fries",
+      "description": "Appetizers - cheese quesadilla & fries",
+      "price": "7.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Veggie",
+      "slug": "veggie",
+      "description": "Appetizers - Veggie",
+      "price": "17.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Mixta meat",
+      "slug": "mixta-meat",
+      "description": "Appetizers - Mixta meat",
+      "price": "21.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Mixta chicken",
+      "slug": "mixta-chicken",
+      "description": "Appetizers - Mixta chicken",
+      "price": "16.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Queso",
+      "slug": "queso",
+      "description": "Appetizers - Queso",
+      "price": "13.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "arrachera",
+      "slug": "arrachera",
+      "description": "Appetizers - arrachera",
+      "price": "32.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "rib eye",
+      "slug": "rib-eye",
+      "description": "Appetizers - rib eye",
+      "price": "31.50",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Las costillas del patron",
+      "slug": "las-costillas-del-patron",
+      "description": "Pork ribs topped with you choice of BBQ or mango sauce, served with golden potatoes.",
+      "price": "32.00",
+      "is_featured": true,
+      "categories": [
+        {
+          "id": 20,
+          "name": "House Specials",
+          "slug": "house-specials"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Las-Costillas-del-Patron-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Breaded ajo o ajillo",
+      "slug": "breaded-ajo-o-ajillo",
+      "description": "Appetizers - Breaded ajo o ajillo",
+      "price": "21.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "salmon a la carta",
+      "slug": "salmon-a-la-carta",
+      "description": "Appetizers - salmon a la carta",
+      "price": "2499",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Aguachile Ribeye",
+      "slug": "aguachile-ribeye",
+      "description": "Grilled ribeye steak covered in our chef's aguachile sauce.",
+      "price": "25",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 20,
+          "name": "House Specials",
+          "slug": "house-specials"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/DSC08046123-1-1.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Filete fish 123",
+      "slug": "filete-fish-123",
+      "description": "Appetizers - Filete fish 123",
+      "price": "21.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Filete Agave Grilled and filled with",
+      "slug": "filete-agave-grilled-and-filled-with",
+      "description": "Appetizers - Filete Agave Grilled and filled with",
+      "price": "2199",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Filete Puerto Cooked with butter and",
+      "slug": "filete-puerto-cooked-with-butter-and",
+      "description": "Appetizers - Filete Puerto Cooked with butter and",
+      "price": "21.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "filetes bacon bom",
+      "slug": "filetes-bacon-bom",
+      "description": "Appetizers - filetes bacon bom",
+      "price": "28.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Campechano (octopus and shrimp)",
+      "slug": "campechano-octopus-and-shrimp",
+      "description": "Appetizers - Campechano (octopus and shrimp)",
+      "price": "27.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Torre de mariscos",
+      "slug": "torre-de-mariscos",
+      "description": "Appetizers - Torre de mariscos",
+      "price": "29.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Octopus",
+      "slug": "octopus",
+      "description": "Appetizers - Octopus",
+      "price": "2400",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Shrimp",
+      "slug": "shrimp",
+      "description": "Appetizers - Shrimp",
+      "price": "22.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "cucumber and cilantro) main mexico",
+      "slug": "cucumber-and-cilantro-main-mexico",
+      "description": "Appetizers - cucumber and cilantro) main mexico",
+      "price": "24.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "zarandeados",
+      "slug": "zarandeados",
+      "description": "Appetizers - zarandeados",
+      "price": "24.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Playero (habanero sauce)",
+      "slug": "playero-habanero-sauce",
+      "description": "Appetizers - Playero (habanero sauce)",
+      "price": "21.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Chef ceviche (black sauce)",
+      "slug": "chef-ceviche-black-sauce",
+      "description": "Appetizers - Chef ceviche (black sauce)",
+      "price": "17.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Especial  (clamato sauce)",
+      "slug": "especial-clamato-sauce",
+      "description": "Appetizers - Especial  (clamato sauce)",
+      "price": "17.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Aguachile (green sauce)",
+      "slug": "aguachile-green-sauce",
+      "description": "Appetizers - Aguachile (green sauce)",
+      "price": "17.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Gratinados grilled with garlic, butter,",
+      "slug": "gratinados-grilled-with-garlic-butter",
+      "description": "Appetizers - Gratinados grilled with garlic, butter,",
+      "price": "32.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Zarandeados grilled with garlic,",
+      "slug": "zarandeados-grilled-with-garlic",
+      "description": "Appetizers - Zarandeados grilled with garlic,",
+      "price": "32.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Natural raw oyster with lime and soya",
+      "slug": "natural-raw-oyster-with-lime-and-soya",
+      "description": "Appetizers - Natural raw oyster with lime and soya",
+      "price": "29.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Prepared fresh ceviche on top",
+      "slug": "prepared-fresh-ceviche-on-top",
+      "description": "Appetizers - Prepared fresh ceviche on top",
+      "price": "32.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Corn tortilla crisp topped with seafood",
+      "slug": "corn-tortilla-crisp-topped-with-seafood",
+      "description": "Appetizers - Corn tortilla crisp topped with seafood",
+      "price": "12.99",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Huachinango house",
+      "slug": "huachinango-house",
+      "description": "Seafood - Huachinango house",
+      "price": "48.00",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 20,
+          "name": "House Specials",
+          "slug": "house-specials"
+        }
+      ],
+      "images": [
+        
+      ]
+    },
+    {
+      "name": "Shrimp Empanadas",
+      "slug": "shrimp-empanadas",
+      "description": "Cripsy empanda dough stuffed with shrimp, sauteed onions, and peppers. Served with fresh avocado, chipotle sauce, and a side of zesty green aguachile sauce.",
+      "price": "15",
+      "is_featured": false,
+      "categories": [
+        {
+          "id": 21,
+          "name": "Appetizers",
+          "slug": "appetizers"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/02-EMPANADAS-1-1.jpg",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Molcajete del mar",
+      "slug": "molcajete-del-mar",
+      "description": "Grilled shrimo, tilapia, mojarra frita, octupus, and seafood mix topped with chef's sauce. (Portions for two people)",
+      "price": "44",
+      "is_featured": true,
+      "categories": [
+        {
+          "id": 20,
+          "name": "House Specials",
+          "slug": "house-specials"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Molcajete-del-mar-1.jpg",
+          "alt": ""
+        }
+      ]
     }
-]
+  ]

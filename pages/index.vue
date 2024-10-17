@@ -14,7 +14,7 @@
             <div class="row g-24 align-items-center">
                 <div class="col-lg-6">
                     <div class="about-our-company__media wow clip-a-z">
-                        <img class="img-fluid" src="/images/Best-Mexican-Restoruant-in-Pineville.png" alt="About 123 Main Mexic">
+                        <img style="aspect-ratio: 1 / 1;object-fit: cover;" class="img-fluid" src="https://123.espanglishmarketing.com/wp-content/uploads/2024/09/langosta-1-1.jpg" alt="About 123 Main Mexic">
                     </div>
                 </div>
                 <div class="col-lg-6">

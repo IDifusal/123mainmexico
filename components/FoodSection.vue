@@ -3,8 +3,8 @@
     <div class="">
       <div class="container">
         <div class="row g-24 mb-55 mb-sm-50 mb-xs-40 align-items-lg-end align-items-center">
-          <div class="col-xl-6">
-            <div class="section__title-wrapper text-center text-xl-start">
+          <div class="col-xl-12">
+            <div class="section__title-wrapper text-center">
               <span class="section__subtitle justify-content-start mb-10 mb-xs-5 wow clip-a-z">Food Menu</span>
               <h2 class="section__title mb-0 title-animation">Our Delicious Dishes</h2>
             </div>

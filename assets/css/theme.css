@@ -11097,8 +11097,8 @@ body .ui-tooltip {
           justify-content: space-between;
 }
 .food-menu__price-nav__list li:not(:last-child) {
-  padding-bottom: 21px;
-  margin-bottom: 25px;
+  padding-bottom: 15px;
+  margin-bottom: 12px;
   border-bottom: 1px solid #D9D9D9;
 }
 .food-menu__price-nav__list li .text h6 {

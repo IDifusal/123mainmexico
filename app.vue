@@ -64,13 +64,14 @@ const productsStore = useProductsStore();
 const blogStore = useBlogStore();
 onMounted(() => {
   // productsStore.fetchProducts();
+  productsStore.fetchCategories()
   blogStore.fetchPosts();
 });
 
 // Fetch blog posts using useAsyncData
 const { data: blogData, pending: blogLoading, error: blogError } = await useAsyncData('blog', async () => {
   await blogStore.fetchPosts();
-  await productsStore.fetchCategories();
+  // await productsStore.fetchCategories();
   return blogStore.posts;
 });
 

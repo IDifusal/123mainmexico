@@ -44,6 +44,7 @@ export const useProductsStore = defineStore({
     async fetchCategories() {
       this.loading = true;
       this.categories = []; 
+      let allCategories = [];
       try {
         const pagesToFetch = 2; 
         const perPage = 10; 
@@ -57,11 +58,11 @@ export const useProductsStore = defineStore({
               },
             }
           );
-    
           const filteredCategories = response.data.filter(category => category.name !== 'Uncategorized');
-          
-          this.categories = [...this.categories, ...filteredCategories]; 
+          allCategories = [...allCategories, ...filteredCategories]; 
         }
+
+        this.categories = allCategories.sort((a, b) => a.menu_order - b.menu_order);        
       } catch (error) {
         console.error('Error fetching categories:', error);
       } finally {

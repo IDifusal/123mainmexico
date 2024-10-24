@@ -144,9 +144,6 @@
                                     </nuxt-link>
 
                                     <div class="food-menu__item-text">
-                                        <ul class="rating">
-                                            <li v-for="i in 5" :key="i"><i class="fa-solid fa-star"></i></li>
-                                        </ul>
                                         <h6>{{ item.name }}</h6>
                                         <!-- <p>{{ item.description }}</p> -->
                                         <span class="price">${{ item.price }}</span>

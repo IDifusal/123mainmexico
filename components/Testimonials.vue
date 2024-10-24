@@ -24,6 +24,7 @@
                 delay: 2000,
                 disableOnInteraction: false,
               }"
+              :breakpoints="breakpoints"
               class="client-testimonial__slider"
             >
               <SwiperSlide v-for="(testimonial, index) in testimonials" :key="index">
@@ -55,7 +56,20 @@
   
   <script setup>
   import { ref } from 'vue';
-  
+  const breakpoints = {
+  320: {
+    slidesPerView: 1,
+    spaceBetween: 10,
+  },
+  480: {
+    slidesPerView: 1,
+    spaceBetween: 20,
+  },
+  640: {
+    slidesPerView: 2,
+    spaceBetween: 20,
+  },
+}
   const testimonials = ref([
     {
       name: 'David Blumberg',

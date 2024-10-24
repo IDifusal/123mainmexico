@@ -33,7 +33,7 @@
                 <div class="row g-24 mb-minus-24">
                     <div class="col-sm-12 col-lg-3">
                         <h3 class="display-2" style="font-weight: 500;">Categories </h3>
-                        <ul>
+                        <ul class="list-two-columns-mobile">
                             <li>
                                 <nuxt-link :to="{ path: '/shop/', query: { category: 'all' } }">
                                     All Products
@@ -61,14 +61,6 @@
                                         class="img-fluid img-shop" :alt="product.name">
                                 </nuxt-link>
                                 <div class="food-menu-tab__item-text">
-                                    <ul class="rating">
-                                        <li> <i class="fa-solid fa-star"></i></li>
-                                        <li> <i class="fa-solid fa-star"></i></li>
-                                        <li> <i class="fa-solid fa-star"></i></li>
-                                        <li> <i class="fa-solid fa-star"></i></li>
-                                        <li> <i class="fa-solid fa-star"></i></li>
-                                        <li> <i class="fa-solid fa-star"></i></li>
-                                    </ul>
                                     <h6 class="food-menu-tab__item-text-title">
                                         <nuxt-link :to="`/shop/${product.slug}`">
                                             {{ product.name }}

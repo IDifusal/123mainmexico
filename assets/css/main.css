@@ -55,3 +55,9 @@ background-color: var(--rr-common-white);
     line-height: 1.5;
     font-weight: 500;
 }
+@media (max-width: 768px){
+    .list-two-columns-mobile{
+        columns: 2;
+        margin-bottom: 2rem;
+    } 
+}

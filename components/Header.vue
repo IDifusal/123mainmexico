@@ -139,8 +139,10 @@
                         <div class="col-xxl-6 col-4">
                             <div class="last_no_bullet">
                                 <ul class="header__top-menu d-flex">
-                                    <li>Sunday - Thursday: 10:00 AM - 10:00 PM</li>
-                                    <li>Friday - Saturday: 10:00 AM - 12:00 AM</li>
+                                    <li>Mon-Thu: 4 PM - 10 PM</li>
+                                    <li>Fri-Sat: 11 AM - 12 AM</li>
+                                    <li>Sun: 11 AM - 10 PM</li>
+
                                 </ul>
                             </div>
                         </div>

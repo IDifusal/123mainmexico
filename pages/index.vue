@@ -8,8 +8,7 @@
     <section id="about-us" class="about-our-company section-space overflow-hidden">
         <div class="container">
             <div class="about-our-company_shape">
-                <div class="about-our-company_shape-common about-our-company_shape-1 leftRight" v-background data-background="https://html.rrdevs.net/delish/assets/imgs/about-our-company/about-our-company__shap-1.png"></div>
-                <div class="about-our-company_shape-common about-our-company_shape-2 rightLeft" v-background data-background="https://html.rrdevs.net/delish/assets/imgs/about-our-company/about-our-company__shap-2.png"></div>
+                <div class="about-our-company_shape-common about-our-company_shape-2 rightLeft" v-background data-background="https://123.espanglishmarketing.com/wp-content/uploads/2024/10/about-our-company__shap-2.png"></div>
             </div>
             <div class="row g-24 align-items-center">
                 <div class="col-lg-6">

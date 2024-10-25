@@ -465,26 +465,6 @@
     "images": []
   },
   {
-    "name": "Aguachile",
-    "slug": "aguachile",
-    "description": "Shrimp cooked in lime juice with your choice of sauce:\n*Traditional Green \n*Mango\n*Red\n*Mixed",
-    "price": "20.00",
-    "is_featured": false,
-    "categories": [
-      {
-        "id": 27,
-        "name": "Seafood",
-        "slug": "seafood"
-      }
-    ],
-    "images": [
-      {
-        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Traditional-Green-Aguachile-500x500-1.jpg",
-        "alt": ""
-      }
-    ]
-  },
-  {
     "name": "Salmon A La Carta",
     "slug": "salmon-a-la-carta-2",
     "description": "Grilled salmon filet covered with you choice of sauce or ajillo (garlic) sauce.",
@@ -580,27 +560,7 @@
     "images": []
   },
   {
-    "name": "Red Snapper",
-    "slug": "red-snapper",
-    "description": "Fried red snapper includes two sides and upgrade with house spicy sauce.",
-    "price": "35.00",
-    "is_featured": false,
-    "categories": [
-      {
-        "id": 23,
-        "name": "Fish",
-        "slug": "fish"
-      }
-    ],
-    "images": [
-      {
-        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Fried-Fish-Red-Snapper-500x500-1.jpg",
-        "alt": ""
-      }
-    ]
-  },
-  {
-    "name": "Mojarra",
+    "name": "Fried Fish Mojarra",
     "slug": "mojarra",
     "description": "Fried mojarra includes two sides and upgrade with house spicy sauce.",
     "price": "22.00",
@@ -695,7 +655,7 @@
     "images": []
   },
   {
-    "name": "Campechano Cocketels",
+    "name": "Campechano Cocktail",
     "slug": "campechano-cocketels",
     "description": "Fresh seafood selection of your choice, prepared Mexican-style with lime juice, onions, tomato, cucumber, and cilantro. Served with campechano.",
     "price": "28.00",
@@ -703,14 +663,14 @@
     "categories": [
       {
         "id": 33,
-        "name": "Cocketels",
-        "slug": "cocketels"
+        "name": "Cocktails",
+        "slug": "cocktails"
       }
     ],
     "images": []
   },
   {
-    "name": "Octopus Cocketels",
+    "name": "Octopus Cocktail",
     "slug": "octopus-cocketels",
     "description": "Fresh seafood selection of your choice, prepared Mexican-style with lime juice, onions, tomato, cucumber, and cilantro. Served with octopus.",
     "price": "24.00",
@@ -718,14 +678,14 @@
     "categories": [
       {
         "id": 33,
-        "name": "Cocketels",
-        "slug": "cocketels"
+        "name": "Cocktails",
+        "slug": "cocktails"
       }
     ],
     "images": []
   },
   {
-    "name": "Shrimp Cocketels",
+    "name": "Shrimp Cocktail",
     "slug": "shrimp-cocketels",
     "description": "Fresh seafood selection of your choice, prepared Mexican-style with lime juice, onions, tomato, cucumber, and cilantro. Served with shrimp.",
     "price": "22.00",
@@ -733,8 +693,8 @@
     "categories": [
       {
         "id": 33,
-        "name": "Cocketels",
-        "slug": "cocketels"
+        "name": "Cocktails",
+        "slug": "cocktails"
       }
     ],
     "images": []
@@ -800,7 +760,7 @@
     "images": []
   },
   {
-    "name": "Gratinandos Oysters",
+    "name": "Gratinados Oysters",
     "slug": "gratinandos-6-pieces",
     "description": "Grilled with garlic, butter, chef's seasoning, and melted cheese. Served with half a dozen oysters.",
     "price": "17.50",
@@ -1435,26 +1395,6 @@
     ]
   },
   {
-    "name": "Grilled Pepito Steak Sandwich",
-    "slug": "grilled-pepito-steak-sandwich",
-    "description": "A flavorful sandwich with your choice of protein, layered with melted cheese, creamy guacamole, lettuce, onions, tomatoes, and mayo, served on a grilled bun, served with french fries.",
-    "price": "18.5",
-    "is_featured": false,
-    "categories": [
-      {
-        "id": 24,
-        "name": "Mexican Classics",
-        "slug": "mexican-classics"
-      }
-    ],
-    "images": [
-      {
-        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/sandwich-1-1.jpg",
-        "alt": ""
-      }
-    ]
-  },
-  {
     "name": "Fried Seafood Mix",
     "slug": "fried-seafood-mix",
     "description": "A crispy, golden blend of battered shrimp, calamari, and tender octopus, served with our signature chipotle sauce and tangy tartar sauce on the side.",
@@ -1560,7 +1500,7 @@
     ]
   },
   {
-    "name": "Huachinango House",
+    "name": "Huachinango House ( Red Snapper)",
     "slug": "huachinango-house-2",
     "description": "Grilled shrimp, tilapia, mojarra frita, octopus, and seafood mix topped with chef's sauce. (Portion for two people)",
     "price": "48.00",
@@ -1632,7 +1572,7 @@
     ]
   },
   {
-    "name": "Las costillas del patron",
+    "name": "Las costillas del patron (Pork Ribs)",
     "slug": "las-costillas-del-patron",
     "description": "Pork ribs topped with you choice of BBQ or mango sauce, served with golden potatoes.",
     "price": "32.00",
@@ -1670,21 +1610,6 @@
         "alt": ""
       }
     ]
-  },
-  {
-    "name": "Huachinango house",
-    "slug": "huachinango-house",
-    "description": "Seafood - Huachinango house",
-    "price": "48.00",
-    "is_featured": false,
-    "categories": [
-      {
-        "id": 20,
-        "name": "House Specials",
-        "slug": "house-specials"
-      }
-    ],
-    "images": []
   },
   {
     "name": "Shrimp Empanadas",

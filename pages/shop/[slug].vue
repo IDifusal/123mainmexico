@@ -61,15 +61,6 @@
                                 <h3 class="title mb-20" style="font-size: 24px;">
                                     {{ product?.name }}
                                 </h3>
-                                <div class="shop-details__rating mb-10">
-                                    <ul class="shop-details__rating-list">
-                                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                        <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                    </ul>
-                                </div>
                                 <h6 class="price">
                                     <span class="old-price">$ {{ product?.price }}</span>
                                 </h6>
@@ -294,6 +285,19 @@ onBeforeUnmount(() => {
     position: absolute;
     top: 10px;
     right: 10px;
+}
+@media (min-width: 768px) {
+    .food-menu__item-media img {
+    height: 315px !important;
+    width: 315px !important;
+    object-fit: cover;
+}
+}
+.food-menu__item-media img {
+    min-height: 150px !important;
+    height: 150px !important;    
+    width: 100% !important;
+    object-fit: cover;
 }
 
 </style>

@@ -62,27 +62,27 @@
 
   const images = ref([
     {
-      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-1.jpeg',
+      src: 'https://123.espanglishmarketing.com/wp-content/uploads/2024/09/langosta-1-1.jpg',
       altText: 'Project 1',
     },
     {
-      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-2.jpeg',
+      src: 'https://123.espanglishmarketing.com/wp-content/uploads/2024/09/guacamole-1-1.jpg',
       altText: 'Project 2',
     },
     {
-      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-3.jpeg',
+      src: 'https://123.espanglishmarketing.com/wp-content/uploads/2024/09/DSC08041123-1-1.png',
       altText: 'Project 3',
     },
     {
-      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-4.jpeg',
+      src: 'https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Molcajete-House-1.png',
       altText: 'Project 4',
     },
     {
-      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/galery-5.jpeg',
+      src: 'https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Huachimango-House-1.jpg',
       altText: 'Project 1',
     },    
     {
-      src: 'http://api.123mainmexico.com/wp-content/uploads/2024/08/gallery-6.jpeg',
+      src: 'https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Fried-Fish-Red-Snapper-123-1.jpg',
       altText: 'Project 2',
     },    
   
@@ -134,6 +134,9 @@
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+  }
+  .food-gallery__item-media{
+    aspect-ratio: 1/1;
   }
   </style>
   

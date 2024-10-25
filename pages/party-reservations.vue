@@ -104,14 +104,12 @@
               <div
                 class="blog__details-bottom mt-25 mb-xs-20 d-flex flex-column flex-md-row align-items-md-center justify-content-md-between">
                 <div class="blog__details-bottom-tags_wapper d-flex align-items-center">
-                  <span>Tags</span>
                   <div class="blog__details-bottom-tags">
                     <!-- <a v-for="tag in post.tags" :key="tag.id" :href="'/tag/' + tag.slug">{{ tag.name }}</a> -->
                   </div>
                 </div>
 
                 <div class="share-social-media_wrapper">
-                  <span>Social Icon</span>
 
                   <div class="share-social-media">
                     <a href="http://www.facebook.com/123mainmexico"><i class="fa-brands fa-facebook-f"></i></a>
@@ -140,48 +138,7 @@
                   </div>
                 </div>
                 <recent-posts/>
-                <div class="sidebar__widget section-bg-2">
-                  <h4 class="sidebar__widget-title">Gallery</h4>
-                  <div class="sidebar__widget-gallery">
-                    <div class="gallery-photo">
-                      <a class="popup-image"
-                        href="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/big/gallery-1.png">
-                        <img src="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/gallery-1.png"
-                          class="img-fluid" alt="image not found">
-                      </a>
-
-                      <a class="popup-image"
-                        href="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/big/gallery-2.png">
-                        <img src="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/gallery-2.png"
-                          class="img-fluid" alt="image not found">
-                      </a>
-
-                      <a class="popup-image"
-                        href="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/big/gallery-3.png">
-                        <img src="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/gallery-3.png"
-                          class="img-fluid" alt="image not found">
-                      </a>
-
-                      <a class="popup-image"
-                        href="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/big/gallery-4.png">
-                        <img src="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/gallery-4.png"
-                          class="img-fluid" alt="image not found">
-                      </a>
-
-                      <a class="popup-image"
-                        href="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/big/gallery-5.png">
-                        <img src="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/gallery-5.png"
-                          class="img-fluid" alt="image not found">
-                      </a>
-
-                      <a class="popup-image"
-                        href="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/big/gallery-6.png">
-                        <img src="https://html.rrdevs.net/delish/assets/imgs/blog-4/gallery/gallery-6.png"
-                          class="img-fluid" alt="image not found">
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <small-gallery/>
               </div>
             </div>
           </div>

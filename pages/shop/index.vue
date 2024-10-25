@@ -140,9 +140,16 @@ watch(
 </script>
 
 <style>
-.img-shop {
+@media (min-width: 768px) {
+    .img-shop {
     height: 315px !important;
     width: 315px !important;
+    object-fit: cover;
+}
+}
+.img-shop {
+    height: 200px !important;
+    width: 100% !important;
     object-fit: cover;
 }
 </style>

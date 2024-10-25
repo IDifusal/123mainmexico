@@ -20,7 +20,7 @@
                                     <p class="mb-0"> (704) 889-1236</p>
                                     <br>
                                     <p class="mb-0">
-                                    <a href="mailto:reservations@123mainmexico.com">    reservations@123mainmexico.com </a>
+                                    <a href="mailto:mainmexico123@gmail.com">    mainmexico123@gmail.com </a>
                                     </p>
                             </div>
 

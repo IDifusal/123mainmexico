@@ -117,7 +117,7 @@ Sunday - Thursday 10:00 am - 10:00 pm</li>
                             <ul>
                                 <li><a href="https://maps.app.goo.gl/1N77c8d8zieLRaot7">123 Main St, Pineville, NC 28134</a></li>
                                 <li><a href="tel:(704) 889-1236">(704) 889-1236</a></li>
-                                <li><a href="mailto:reservations@123mainmexico.com">reservations@123mainmexico.com</a></li>
+                                <li><a href="mailto:mainmexico123@gmail.com">mainmexico123@gmail.com</a></li>
                             </ul>
                         </div>
                     </div>

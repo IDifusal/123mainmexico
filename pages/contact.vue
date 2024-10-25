@@ -52,7 +52,7 @@
                         <div class="text">
                             <span>Phone Number & Email</span>
                             <a href="tel:(704) 889-1236">(704) 889-1236</a>
-                            <a href="mailto:reservations@123mainmexico.com">reservations@123mainmexico.com</a>
+                            <a href="mailto:mainmexico123@gmail.com">mainmexico123@gmail.com</a>
                         </div>
                     </div>
                     <div class="contact-us__information__item">

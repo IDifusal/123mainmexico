@@ -89,7 +89,7 @@ const restaurant = {
     addressCountry: 'US',
   },
   telephone: '(704) 889-1236',
-  email: 'reservations@123mainmexico.com',
+  email: 'mainmexico123@gmail.com',
   openingHours: [
     'Su-Th 10:00-22:00',
     'Fr-Sa 10:00-00:00'

@@ -150,7 +150,7 @@
                             <div class="last_no_bullet">
                                 <ul class="header__top-menu d-flex justify-content-end">
                                     <li><a
-                                            href="mailto:reservations@123mainmexico.com">reservations@123mainmexico.com</a>
+                                            href="mailto:mainmexico123@gmail.com">mainmexico123@gmail.com</a>
                                     </li>
                                     <li><a href="tel:(704)889-1236">(704) 889-1236</a></li>
                                     <li><a href="https://maps.app.goo.gl/DUPQZVP1dsFNFwph6">123 Main St, Pineville, NC

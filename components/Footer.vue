@@ -99,8 +99,9 @@
                                 <p class="mb-0">Subscribe us & receive our offers and updates your inbox directly</p>
 
                                 <div class="footer-2__subscribe d-flex mt-30 mt-xs-25">
-                                    <input type="text" placeholder="Email Address">
-                                    <button type="submit" class="footer-2__subscribe-btn"><img src="https://html.rrdevs.net/delish/assets/imgs/icon/plane.svg" alt="not found"></button>
+                                    <input      v-model="email" type="text" placeholder="Email Address">
+                                    <button  @click.prevent="subscribe" type="submit" class="footer-2__subscribe-btn"><img src="https://html.rrdevs.net/delish/assets/imgs/icon/plane.svg" alt="not found"></button>
+
                                 </div>
                             </div>
                         </div>
@@ -137,9 +138,49 @@
     </section>
 </template>
 
-<script setup>
-
+<script>
+export default {
+  data() {
+    return {
+      email: null,
+      message: '',
+      success: false,
+    };
+  },
+  methods: {
+    async subscribe() {
+            console.log('subscribed',this.email);
+      this.message = '';
+      this.success = false;
+        if (!this.email) {
+          this.message = 'Please enter your email address.';
+        } else if (!this.email.includes('@')) {
+        this.message = 'Please enter a valid email address.';
+        }
+      alert('You have subscribed successfully');
+      try {
+        const response = await this.$axios.post(
+          'https://123.espanglishmarketing.com/wp-json/newsletter/v1/subscribe',
+          {
+            email: this.email,
+          }
+        );
+        this.message = response.data.message;
+        this.success = true;
+        this.email = ''; // Clear the input field
+      } catch (error) {
+        if (error.response && error.response.data) {
+          this.message = error.response.data.message;
+        } else {
+          this.message = 'An error occurred. Please try again.';
+        }
+        this.success = false;
+      }
+    },
+  },
+};
 </script>
+
 <style>
 .copy-espan{
     color:#ffffff !important

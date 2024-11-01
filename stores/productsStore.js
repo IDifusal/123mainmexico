@@ -61,11 +61,7 @@ export const useProductsStore = defineStore({
           );
     
           // Clean the response data if necessary
-          const cleanedData = Array.isArray(response.data) ? response.data : 
-                               response.data.startsWith('l') ? JSON.parse(response.data.slice(1)) : 
-                               JSON.parse(response.data);
-    
-          const filteredCategories = cleanedData.filter(category => category.name !== 'Uncategorized');
+          const filteredCategories = response.data.filter(category => category.name !== 'Uncategorized');
           allCategories = [...allCategories, ...filteredCategories]; 
         }
     

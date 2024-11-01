@@ -16,11 +16,9 @@ export const useBlogStore = defineStore({
       try {
         const response = await axios.get('https://123.espanglishmarketing.com/wp-json/wp/v2/posts?_embed');
 
-        // Clean up the response data
-        const cleanedData = response.data.startsWith('l') ? response.data.slice(1) : response.data;
         
         // Parse the cleaned data
-        this.blogs = JSON.parse(cleanedData).map(post => ({
+        this.blogs = response.data.map(post => ({
           ...post,
           featured_image_src: post._embedded['wp:featuredmedia'] ? post._embedded['wp:featuredmedia'][0].source_url : 'https://via.placeholder.com/600',
           author_name: post._embedded.author[0].name,
@@ -85,13 +83,10 @@ export const useBlogStore = defineStore({
     async fetchPost(slug) {
       try {
         const response = await axios.get(`https://123.espanglishmarketing.com/wp-json/wp/v2/posts?slug=${slug}&_embed`);
-        
-        // Clean the response data if necessary
-        const cleanedData = Array.isArray(response.data) ? response.data : 
-                             response.data.startsWith('l') ? JSON.parse(response.data.slice(1)) : 
-                             JSON.parse(response.data);
     
-        const postData = cleanedData[0];
+        // Use response.data directly
+        const postData = Array.isArray(response.data) ? response.data[0] : response.data;
+    
         if (postData) {
           this.currentPost = {
             ...postData,
@@ -106,7 +101,8 @@ export const useBlogStore = defineStore({
       } catch (error) {
         console.error('Error fetching post:', error);
       }
-    },
+    }
+    
     
   },
 });

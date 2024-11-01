@@ -14,7 +14,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/lava-cake-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/lava-cake-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -34,7 +34,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/tres-leches-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/tres-leches-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -52,7 +52,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Dr. Pepper",
@@ -67,7 +69,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Fanta",
@@ -82,7 +86,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Sprite",
@@ -97,7 +103,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Cherry Coke",
@@ -112,7 +120,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Coke Zero",
@@ -127,7 +137,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Diet Coke",
@@ -142,7 +154,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Coke",
@@ -157,7 +171,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Unsweet Tea",
@@ -172,7 +188,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Sweet Tea",
@@ -187,7 +205,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Peach",
@@ -202,7 +222,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Papaya",
@@ -217,7 +239,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Melon",
@@ -232,7 +256,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Berry",
@@ -247,7 +273,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Mango",
@@ -262,7 +290,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Hibiscus",
@@ -277,7 +307,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Horchata",
@@ -292,7 +324,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Pineapple",
@@ -307,7 +341,9 @@
         "slug": "drinks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Pizza Mexicana - Steak",
@@ -322,7 +358,9 @@
         "slug": "kids-menu"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Pizza Mexicana - Chicken",
@@ -337,7 +375,9 @@
         "slug": "kids-menu"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Chicken Tenders & Fries",
@@ -352,7 +392,9 @@
         "slug": "kids-menu"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Cheese Quesadilla & Fries",
@@ -367,7 +409,9 @@
         "slug": "kids-menu"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Guacamole",
@@ -382,7 +426,9 @@
         "slug": "sides"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Mar Y Tierra",
@@ -397,7 +443,9 @@
         "slug": "house-specials"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Crab Legs",
@@ -412,7 +460,9 @@
         "slug": "seafood"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Langostino",
@@ -427,7 +477,9 @@
         "slug": "seafood"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Octopus",
@@ -444,7 +496,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Octopus-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Octopus-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -462,7 +514,9 @@
         "slug": "seafood"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Salmon A La Carta",
@@ -477,7 +531,9 @@
         "slug": "fish"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Filete A La Carta - Ajillo",
@@ -492,7 +548,9 @@
         "slug": "fish"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Filete A La Carta - Empanizado",
@@ -507,7 +565,9 @@
         "slug": "fish"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "FIlete 123",
@@ -524,7 +584,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/FIlete-123-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/FIlete-123-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -542,7 +602,9 @@
         "slug": "fish"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Filete Poblano",
@@ -557,7 +619,9 @@
         "slug": "fish"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Fried Fish Mojarra",
@@ -572,7 +636,9 @@
         "slug": "fish"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Bacon Bomb Shrimps",
@@ -587,7 +653,9 @@
         "slug": "shrimps"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Rebosados Shrimps",
@@ -604,7 +672,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Rebosados-Shrimps.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Rebosados-Shrimps.jpg",
         "alt": ""
       }
     ]
@@ -622,7 +690,9 @@
         "slug": "shrimps"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Main Mexico Shrimps",
@@ -637,7 +707,9 @@
         "slug": "shrimps"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Zarandeados Shrimps",
@@ -652,7 +724,9 @@
         "slug": "shrimps"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Campechano Cocktail",
@@ -667,7 +741,9 @@
         "slug": "cocktails"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Octopus Cocktail",
@@ -682,7 +758,9 @@
         "slug": "cocktails"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Shrimp Cocktail",
@@ -697,7 +775,9 @@
         "slug": "cocktails"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Torre de Mariscos Ceviche",
@@ -712,7 +792,9 @@
         "slug": "ceviche"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Playero Ceviche",
@@ -727,7 +809,9 @@
         "slug": "ceviche"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Especial Ceviche",
@@ -742,7 +826,9 @@
         "slug": "ceviche"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Chef Ceviche",
@@ -757,7 +843,9 @@
         "slug": "ceviche"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Gratinados Oysters",
@@ -772,7 +860,9 @@
         "slug": "oysters"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Zarandeados Oysters",
@@ -787,7 +877,9 @@
         "slug": "oysters"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Ceviche Oysters",
@@ -802,7 +894,9 @@
         "slug": "oysters"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Natural Oysters - 12 Pieces",
@@ -817,7 +911,9 @@
         "slug": "oysters"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Natural Oysters - 6 Pieces",
@@ -832,7 +928,9 @@
         "slug": "oysters"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Shrimp Alfredo Pasta",
@@ -847,7 +945,9 @@
         "slug": "pasta"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Chicken Alfredo Pasta",
@@ -864,7 +964,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Chicken-Pasta-500x500-2.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Chicken-Pasta-500x500-2.jpg",
         "alt": ""
       }
     ]
@@ -884,7 +984,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Seafood-Soup-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Seafood-Soup-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -904,7 +1004,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Shrimp-Bisque-500X500.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Shrimp-Bisque-500X500.jpg",
         "alt": ""
       }
     ]
@@ -922,7 +1022,9 @@
         "slug": "soups"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Vegetable Soup",
@@ -937,7 +1039,9 @@
         "slug": "soups"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Wings - 12 Piece",
@@ -952,7 +1056,9 @@
         "slug": "chicken"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Wings - 6 Piece",
@@ -967,7 +1073,9 @@
         "slug": "chicken"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Chori Pollo",
@@ -984,7 +1092,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Chori-Pollo-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Chori-Pollo-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -1004,7 +1112,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Rib-Eye-500x500-1-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Rib-Eye-500x500-1-1.jpg",
         "alt": ""
       }
     ]
@@ -1022,7 +1130,9 @@
         "slug": "steaks"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Grilled Pepito Sandwich - Birria",
@@ -1037,7 +1147,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Grilled Pepito Sandwich - Steak",
@@ -1054,7 +1166,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Grilled-Pepito-Steak-Sandwich-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Grilled-Pepito-Steak-Sandwich-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -1072,7 +1184,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Quesadillas - Veggie",
@@ -1087,7 +1201,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Quesadillas - Steak",
@@ -1102,7 +1218,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Quesadillas - Grilled Chicken",
@@ -1119,7 +1237,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Quesadillas-Grilled-Chicken-500x500-1-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Quesadillas-Grilled-Chicken-500x500-1-1.jpg",
         "alt": ""
       }
     ]
@@ -1137,7 +1255,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Fajitas - Texanas",
@@ -1154,7 +1274,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Fajitas-Texanas-500x500-2.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Fajitas-Texanas-500x500-2.jpg",
         "alt": ""
       }
     ]
@@ -1172,7 +1292,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Fajitas - Steak",
@@ -1187,7 +1309,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Fajitas - Grilled Chicken",
@@ -1202,7 +1326,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Birria Tacos",
@@ -1217,7 +1343,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Gobernador Tacos",
@@ -1234,7 +1362,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Gobernador-Tacos-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Gobernador-Tacos-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -1254,7 +1382,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Asada-House-Tacos-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Asada-House-Tacos-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -1272,7 +1400,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Grilled Chicken Tacos",
@@ -1287,7 +1417,9 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Mahi-Mahi Chicharron",
@@ -1304,7 +1436,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Mahi-Mahi-Chicharron-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Mahi-Mahi-Chicharron-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -1322,7 +1454,9 @@
         "slug": "appetizers"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Cheese Dip Chorizo",
@@ -1337,7 +1471,9 @@
         "slug": "appetizers"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Cheese Dip Beans",
@@ -1352,12 +1488,14 @@
         "slug": "appetizers"
       }
     ],
-    "images": []
+    "images": [
+      
+    ]
   },
   {
     "name": "Traditional Green Aguachile",
     "slug": "traditional-green-aguachile",
-    "description": "Shrimp cooked in lime juice with your choice of sauce:\r\nTraditional Green \/ Mango \/ Red \/ Mixed",
+    "description": "Shrimp cooked in lime juice with your choice of sauce:\r\nTraditional Green / Mango / Red / Mixed",
     "price": "20.00",
     "is_featured": false,
     "categories": [
@@ -1369,7 +1507,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/aguachile2-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/aguachile2-1.jpg",
         "alt": ""
       }
     ]
@@ -1389,7 +1527,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/TOSTADA-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/TOSTADA-1.jpg",
         "alt": ""
       }
     ]
@@ -1409,7 +1547,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Fried-Seafood-Mix-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Fried-Seafood-Mix-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -1434,7 +1572,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/langosta-1-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/langosta-1-1.jpg",
         "alt": ""
       }
     ]
@@ -1454,7 +1592,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/guacamole-1-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/guacamole-1-1.jpg",
         "alt": ""
       }
     ]
@@ -1474,7 +1612,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/DSC08041123-1-1.png",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/DSC08041123-1-1.png",
         "alt": ""
       }
     ]
@@ -1494,7 +1632,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Molcajete-House-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Molcajete-House-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -1514,11 +1652,11 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/Huachimango-House-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Huachimango-House-1.jpg",
         "alt": ""
       },
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/Huachimango-House-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Huachimango-House-1.jpg",
         "alt": ""
       }
     ]
@@ -1538,11 +1676,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/Fried-Fish-Red-Snapper-123-1.jpg",
-        "alt": ""
-      },
-      {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Fried-Fish-Red-Snapper-500x500-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Fried-Fish-Red-Snapper-500x500-1.jpg",
         "alt": ""
       }
     ]
@@ -1562,11 +1696,11 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/Camarones-Botaneros-1.png",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Camarones-Botaneros-1.png",
         "alt": ""
       },
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/Camarones-Botaneros-1.png",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Camarones-Botaneros-1.png",
         "alt": ""
       }
     ]
@@ -1586,7 +1720,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/10\/Las-Costillas-del-Patron-500x500-2.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/10/Las-Costillas-del-Patron-500x500-2.jpg",
         "alt": ""
       }
     ]
@@ -1606,7 +1740,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/DSC08046123-1-1.png",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/DSC08046123-1-1.png",
         "alt": ""
       }
     ]
@@ -1626,7 +1760,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/02-EMPANADAS-1-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/02-EMPANADAS-1-1.jpg",
         "alt": ""
       }
     ]
@@ -1646,7 +1780,7 @@
     ],
     "images": [
       {
-        "src": "https:\/\/123.espanglishmarketing.com\/wp-content\/uploads\/2024\/09\/Molcajete-del-mar-1.jpg",
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Molcajete-del-mar-1.jpg",
         "alt": ""
       }
     ]

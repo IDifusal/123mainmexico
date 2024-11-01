@@ -1,5 +1,39 @@
 [
   {
+    "name": "Soft Drinks",
+    "slug": "soft-drinks",
+    "description": "16 Oz",
+    "price": "3.5",
+    "is_featured": false,
+    "categories": [
+      {
+        "id": 37,
+        "name": "Drinks",
+        "slug": "drinks"
+      }
+    ],
+    "images": [
+      
+    ]
+  },
+  {
+    "name": "Fresh Juices",
+    "slug": "fresh-juices",
+    "description": "32 Oz",
+    "price": "6.50",
+    "is_featured": false,
+    "categories": [
+      {
+        "id": 37,
+        "name": "Drinks",
+        "slug": "drinks"
+      }
+    ],
+    "images": [
+      
+    ]
+  },
+  {
     "name": "Lava Cake",
     "slug": "lava-cake",
     "description": "",

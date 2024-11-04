@@ -16,10 +16,18 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-swiper',
     'nuxt-gtag',
-    'nuxt-jsonld'
+    'nuxt-jsonld',
+    'nuxt-meta-pixel'
   ],
   ssr: true,
   gtag: {
     id: 'G-R7WKZHKB4Q'
-  }
+  },
+  runtimeConfig: {
+    public: {
+      metapixel: {
+        default: { id: '1108586520840585', autoconfig: true },
+
+      }
+    }}
 })

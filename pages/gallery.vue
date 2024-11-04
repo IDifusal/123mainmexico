@@ -101,6 +101,21 @@
     lightboxOpen.value = false;
     lightboxImage.value = '';
   }
+
+  function handleKeydown(event) {
+  if (event.key === 'Escape' && lightboxOpen.value) {
+    closeLightbox();
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('keydown', handleKeydown);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('keydown', handleKeydown);
+});
+
   </script>
   
   <style scoped>

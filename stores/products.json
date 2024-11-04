@@ -12,9 +12,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Fresh Juices",
@@ -29,9 +27,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Lava Cake",
@@ -86,9 +82,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Dr. Pepper",
@@ -103,9 +97,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Fanta",
@@ -120,9 +112,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Sprite",
@@ -137,9 +127,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Cherry Coke",
@@ -154,9 +142,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Coke Zero",
@@ -171,9 +157,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Diet Coke",
@@ -188,9 +172,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Coke",
@@ -205,9 +187,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Unsweet Tea",
@@ -222,9 +202,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Sweet Tea",
@@ -239,9 +217,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Peach",
@@ -256,9 +232,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Papaya",
@@ -273,9 +247,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Melon",
@@ -290,9 +262,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Berry",
@@ -307,9 +277,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Mango",
@@ -324,9 +292,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Hibiscus",
@@ -341,9 +307,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Horchata",
@@ -358,9 +322,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Pineapple",
@@ -375,9 +337,7 @@
         "slug": "drinks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Pizza Mexicana - Steak",
@@ -392,9 +352,7 @@
         "slug": "kids-menu"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Pizza Mexicana - Chicken",
@@ -409,9 +367,7 @@
         "slug": "kids-menu"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Chicken Tenders & Fries",
@@ -426,9 +382,7 @@
         "slug": "kids-menu"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Cheese Quesadilla & Fries",
@@ -443,9 +397,7 @@
         "slug": "kids-menu"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Guacamole",
@@ -460,9 +412,7 @@
         "slug": "sides"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Mar Y Tierra",
@@ -477,9 +427,7 @@
         "slug": "house-specials"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Crab Legs",
@@ -494,9 +442,7 @@
         "slug": "seafood"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Langostino",
@@ -511,9 +457,7 @@
         "slug": "seafood"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Octopus",
@@ -548,9 +492,7 @@
         "slug": "seafood"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Salmon A La Carta",
@@ -565,9 +507,7 @@
         "slug": "fish"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Filete A La Carta - Ajillo",
@@ -582,9 +522,7 @@
         "slug": "fish"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Filete A La Carta - Empanizado",
@@ -599,9 +537,7 @@
         "slug": "fish"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "FIlete 123",
@@ -636,9 +572,7 @@
         "slug": "fish"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Filete Poblano",
@@ -653,9 +587,7 @@
         "slug": "fish"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Fried Fish Mojarra",
@@ -670,9 +602,7 @@
         "slug": "fish"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Bacon Bomb Shrimps",
@@ -687,9 +617,7 @@
         "slug": "shrimps"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Rebosados Shrimps",
@@ -724,9 +652,7 @@
         "slug": "shrimps"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Main Mexico Shrimps",
@@ -741,9 +667,7 @@
         "slug": "shrimps"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Zarandeados Shrimps",
@@ -758,9 +682,7 @@
         "slug": "shrimps"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Campechano Cocktail",
@@ -775,9 +697,7 @@
         "slug": "cocktails"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Octopus Cocktail",
@@ -792,9 +712,7 @@
         "slug": "cocktails"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Shrimp Cocktail",
@@ -810,7 +728,10 @@
       }
     ],
     "images": [
-      
+      {
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Shrimp-Cocketels-500x500-1.jpg",
+        "alt": ""
+      }
     ]
   },
   {
@@ -827,7 +748,10 @@
       }
     ],
     "images": [
-      
+      {
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Torre-de-Mariscos-Ceviche-500x500-1.jpg",
+        "alt": ""
+      }
     ]
   },
   {
@@ -843,9 +767,7 @@
         "slug": "ceviche"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Especial Ceviche",
@@ -860,9 +782,7 @@
         "slug": "ceviche"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Chef Ceviche",
@@ -878,13 +798,16 @@
       }
     ],
     "images": [
-      
+      {
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Chef-Ceviche-500x500-1.jpg",
+        "alt": ""
+      }
     ]
   },
   {
     "name": "Gratinados Oysters",
     "slug": "gratinandos-6-pieces",
-    "description": "Grilled with garlic, butter, chef's seasoning, and melted cheese. Served with half a dozen oysters.",
+    "description": "Grilled with garlic, butter, chef's seasoning, and melted cheese, served with either a dozen oysters or a half dozen oysters.",
     "price": "17.50",
     "is_featured": false,
     "categories": [
@@ -894,14 +817,12 @@
         "slug": "oysters"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Zarandeados Oysters",
     "slug": "zarandeados-6-pieces",
-    "description": "Grilled with garlic, butter, and chef's adobo seasoning. Served with half a dozen oysters.",
+    "description": "Grilled with garlic, butter, and chef's adobo seasoning, served with either a dozen oysters or a half dozen oysters.",
     "price": "17.50",
     "is_featured": false,
     "categories": [
@@ -911,14 +832,12 @@
         "slug": "oysters"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Ceviche Oysters",
     "slug": "ceviche-12-pieces",
-    "description": "Freshly prepared ceviche served on top. Served with a dozen oysters.",
+    "description": "Freshly prepared ceviche served on top, accompanied by either a dozen oysters or a half dozen oysters.",
     "price": "32.00",
     "is_featured": false,
     "categories": [
@@ -928,9 +847,7 @@
         "slug": "oysters"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Natural Oysters - 12 Pieces",
@@ -946,7 +863,10 @@
       }
     ],
     "images": [
-      
+      {
+        "src": "https://123.espanglishmarketing.com/wp-content/uploads/2024/09/Natural-Oysters-12-Pieces-500x500-1.jpg",
+        "alt": ""
+      }
     ]
   },
   {
@@ -962,9 +882,7 @@
         "slug": "oysters"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Shrimp Alfredo Pasta",
@@ -979,9 +897,7 @@
         "slug": "pasta"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Chicken Alfredo Pasta",
@@ -1056,9 +972,7 @@
         "slug": "soups"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Vegetable Soup",
@@ -1073,9 +987,7 @@
         "slug": "soups"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Wings - 12 Piece",
@@ -1090,9 +1002,7 @@
         "slug": "chicken"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Wings - 6 Piece",
@@ -1107,9 +1017,7 @@
         "slug": "chicken"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Chori Pollo",
@@ -1164,9 +1072,7 @@
         "slug": "steaks"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Grilled Pepito Sandwich - Birria",
@@ -1181,9 +1087,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Grilled Pepito Sandwich - Steak",
@@ -1218,9 +1122,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Quesadillas - Veggie",
@@ -1235,9 +1137,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Quesadillas - Steak",
@@ -1252,9 +1152,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Quesadillas - Grilled Chicken",
@@ -1289,9 +1187,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Fajitas - Texanas",
@@ -1326,9 +1222,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Fajitas - Steak",
@@ -1343,9 +1237,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Fajitas - Grilled Chicken",
@@ -1360,9 +1252,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Birria Tacos",
@@ -1377,9 +1267,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Gobernador Tacos",
@@ -1434,9 +1322,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Grilled Chicken Tacos",
@@ -1451,9 +1337,7 @@
         "slug": "mexican-classics"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Mahi-Mahi Chicharron",
@@ -1488,9 +1372,7 @@
         "slug": "appetizers"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Cheese Dip Chorizo",
@@ -1505,9 +1387,7 @@
         "slug": "appetizers"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Cheese Dip Beans",
@@ -1522,9 +1402,7 @@
         "slug": "appetizers"
       }
     ],
-    "images": [
-      
-    ]
+    "images": []
   },
   {
     "name": "Traditional Green Aguachile",
